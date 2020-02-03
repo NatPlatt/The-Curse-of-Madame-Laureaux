@@ -30,5 +30,9 @@ public class CharController : MonoBehaviour
         {
             moveDirection.y = jumpSpeed;
         }
+
+        moveDirection.y -= gravity * Time.deltaTime;
+
+        charController.Move(moveDirection * Time.deltaTime);
     }
 }
