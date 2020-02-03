@@ -4,5 +4,7 @@ using UnityEngine;
 
 public class CharController : MonoBehaviour
 {
-    
+    private CharacterController charController;
+
+    public float speed = 6.0f;
 }
