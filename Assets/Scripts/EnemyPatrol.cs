@@ -5,6 +5,8 @@ using UnityEngine;
 public class EnemyPatrol : MonoBehaviour
 {
     public float speed = 1f;
+    private float waitTime;
+    public float startWaitTime;
 
     public Transform[] moveSpots;
     private int randomSpot;
@@ -18,5 +20,17 @@ public class EnemyPatrol : MonoBehaviour
     {
         transform.position =
             Vector3.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
+
+        if (Vector3.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f)
+        {
+            if (waitTime <= 0)
+            {
+                randomSpot = Random.Range(0, moveSpots.Length);
+            }
+            else
+            {
+                waitTime -= Time.deltaTime;
+            }
+        }
     }
 }
