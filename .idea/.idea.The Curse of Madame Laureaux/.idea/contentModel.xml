@@ -11,6 +11,8 @@
           <e p="CameraController.cs" t="Include" />
           <e p="CharController.cs" t="Include" />
           <e p="EnemyPatrol.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+          <e p="PlayerStats.cs" t="Include" />
           <e p="Testing.cs" t="Include" />
         </e>
       </e>
