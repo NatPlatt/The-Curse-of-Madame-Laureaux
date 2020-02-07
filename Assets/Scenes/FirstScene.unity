@@ -16359,6 +16359,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1018918625}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1020088452 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3389897126606002860, guid: e37ed5eb72e9c6b4093a09bae33350f4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6827742455738942679}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eda566bae571d44883790a8610b86d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1024263503
 GameObject:
   m_ObjectHideFlags: 0
@@ -33107,6 +33119,7 @@ GameObject:
   - component: {fileID: 2135568157}
   - component: {fileID: 2135568158}
   - component: {fileID: 2135568159}
+  - component: {fileID: 2135568160}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -33213,7 +33226,7 @@ CharacterController:
   m_GameObject: {fileID: 2135568150}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Height: 2
   m_Radius: 0.5
@@ -33229,7 +33242,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2135568150}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9069b96ffd30be44bb6219e0e1a94cb0, type: 3}
   m_Name: 
@@ -33258,7 +33271,7 @@ NavMeshAgent:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2135568150}
-  m_Enabled: 1
+  m_Enabled: 0
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 3.5
@@ -33273,6 +33286,19 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &2135568160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135568150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e122835063637584b9304fdd6279a4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  focus: {fileID: 1020088452}
 --- !u!1001 &6827742455738942679
 PrefabInstance:
   m_ObjectHideFlags: 0
