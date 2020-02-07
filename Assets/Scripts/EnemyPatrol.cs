@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class EnemyPatrol : MonoBehaviour
 {
     public float speed = 1f;
