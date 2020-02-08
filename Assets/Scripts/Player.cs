@@ -4,15 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public ScriptableObject playerStats;
-    void Start()
-    {
-        
-    }
-
+    public static Color killedColor = Color.black;
     
-    void Update()
-    {
-        
-    }
+    
 }

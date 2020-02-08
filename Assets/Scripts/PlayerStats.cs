@@ -6,13 +6,14 @@ using UnityEngine;
 public class PlayerStats : CharStats
 {
     public EnemyStats enemyStat;
-   
+    public Color deadColor = Color.black;
     
     public override void Die()
     {
         base.Die();
         //kill the player somehow
-        PlayerManager.instance.KillPlayer();
+        gameObject.GetComponent<Renderer>().material.color = deadColor;
+            PlayerManager.instance.KillPlayer();
     }
 
    /* private void OnTriggerEnter(Collider other)
