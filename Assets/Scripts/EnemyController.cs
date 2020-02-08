@@ -11,7 +11,7 @@ public class EnemyController : MonoBehaviour
     private NavMeshAgent agent;
     void Start()
     {
-        target = PlayerManager.instance.player.transform; //why can't I make a gameobject reference in this script
+        target = PlayerManager.instance.player.transform; //put it on the player manager so it can be saved between scenes
         agent = GetComponent<NavMeshAgent>();
     }
 
@@ -24,8 +24,21 @@ public class EnemyController : MonoBehaviour
         {
             agent.SetDestination(target.position);
         }
+
+        if (distance <= agent.stoppingDistance)
+        {
+            //Attack!
+            FaceTarget();
+        }
     }
 
+    private void FaceTarget()
+    {
+        Vector3 direction = (target.position - transform.position).normalized; //direction to the target
+        Quaternion lookRotation =
+            Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z)); //rotation to point to target
+        transform.rotation = lookRotation; //now update the current rotation value based on above values
+    }
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
