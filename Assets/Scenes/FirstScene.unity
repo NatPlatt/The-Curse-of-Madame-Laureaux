@@ -9811,7 +9811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6eed053a29e27e348972e811bb74363d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackSpeed: 1
+  attackSpeed: 0.5
   attackDelay: 0.5
 --- !u!114 &344071780
 MonoBehaviour:
@@ -9827,7 +9827,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 50
   damage:
-    baseValue: 50
+    baseValue: 10
   friendColor: {r: 0, g: 1, b: 0, a: 1}
   enemyParticles: {fileID: 0}
 --- !u!114 &344071781
