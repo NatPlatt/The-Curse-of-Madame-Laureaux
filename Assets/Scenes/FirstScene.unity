@@ -9823,9 +9823,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17db04b94322c2e499e8a72daa4c7f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  maxHP: 50
   damage:
-    baseValue: 0
+    baseValue: 10
 --- !u!1 &348638643
 GameObject:
   m_ObjectHideFlags: 0
@@ -38140,7 +38140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 100
   damage:
-    baseValue: 0
+    baseValue: 10
 --- !u!1001 &6827742455738942679
 PrefabInstance:
   m_ObjectHideFlags: 0
