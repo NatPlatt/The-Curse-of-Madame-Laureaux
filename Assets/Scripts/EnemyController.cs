@@ -9,10 +9,12 @@ public class EnemyController : MonoBehaviour
     public float lookRadius = 10f;
     private Transform target;
     private NavMeshAgent agent;
+    private CharCombat combat;
     void Start()
     {
         target = PlayerManager.instance.player.transform; //put it on the player manager so it can be saved between scenes
         agent = GetComponent<NavMeshAgent>();
+        combat = GetComponent<CharCombat>();
     }
 
     
@@ -27,7 +29,13 @@ public class EnemyController : MonoBehaviour
 
         if (distance <= agent.stoppingDistance)
         {
-            //Attack!
+            CharStats targetStats = target.GetComponent<CharStats>();
+
+            if (targetStats != null)
+            {
+                combat.Attack(targetStats);
+            }
+            
             FaceTarget();
         }
     }

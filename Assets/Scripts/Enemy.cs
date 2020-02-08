@@ -1,12 +1,27 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(CharStats))]
 public class Enemy : Interactable
 {
+    private PlayerManager playerManager;
+    private CharStats myStats;
+    private void Start()
+    {
+        playerManager = PlayerManager.instance;
+    }
+
     public override void Interact()
     {
         base.Interact();
-        //attack the enemy
+        CharCombat playerCombat = playerManager.player.GetComponent<CharCombat>();
+
+        if (playerCombat != null)
+        {
+            playerCombat.Attack(myStats);
+        }
+        
     }
 }

@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class EnemyStats : CharStats
 {
+    public Color friendColor = Color.green;
+    
+    
     public override void Die()
     {
         base.Die();
         
-        //add death animation or curse transforming animation
-        //change look of character to friend
+        gameObject.GetComponent<Renderer>().material.color = friendColor;
         
     }
 }

@@ -17,4 +17,9 @@ public class PlayerManager : MonoBehaviour
     #endregion
 
     public GameObject player;
+
+    public void KillPlayer()
+    {
+        //translate player back to starting position
+    }
 }
