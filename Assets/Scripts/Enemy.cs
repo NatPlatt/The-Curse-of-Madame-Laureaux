@@ -22,6 +22,6 @@ public class Enemy : Interactable
         {
             playerCombat.Attack(myStats);
         }
-        
+        Debug.Log("you are attacking the enemy");
     }
 }
