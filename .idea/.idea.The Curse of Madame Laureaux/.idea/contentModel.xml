@@ -16,6 +16,7 @@
           <e p="Interactable.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="PlayerManager.cs" t="Include" />
           <e p="Stats.cs" t="Include" />
           <e p="Testing.cs" t="Include" />
         </e>

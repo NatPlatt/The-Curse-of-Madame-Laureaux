@@ -14,4 +14,24 @@ public class CharStats : MonoBehaviour
     {
         currentHP = maxHP;
     }
+
+    public void TakeDamage(int damage)
+    {
+        damage = Mathf.Clamp(damage, 0, int.MaxValue); //damage can never go below 0
+        
+        currentHP -= damage;
+        Debug.Log(transform.name + " takes " + damage + " damage.");
+
+        if (currentHP <= 0)
+        {
+            Die();
+        }
+    }
+
+    public virtual void Die()
+    {
+        //die in some way, run animation, start back at starting position, etc.
+        //this will later be changed depending on who is dying
+        Debug.Log(transform.name + " died.");
+    }
 }
