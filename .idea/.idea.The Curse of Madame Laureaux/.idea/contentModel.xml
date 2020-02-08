@@ -10,12 +10,13 @@
           <e p="AddEnemyPoint.cs" t="Include" />
           <e p="CameraController.cs" t="Include" />
           <e p="CharController.cs" t="Include" />
+          <e p="CharStats.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
           <e p="EnemyPatrol.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
-          <e p="PlayerStats.cs" t="Include" />
+          <e p="Stats.cs" t="Include" />
           <e p="Testing.cs" t="Include" />
         </e>
       </e>
