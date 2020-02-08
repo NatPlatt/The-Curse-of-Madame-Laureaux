@@ -5,13 +5,22 @@ using UnityEngine;
 public class EnemyStats : CharStats
 {
     public Color friendColor = Color.green;
-    
+    public ClickParticles enemyParticles;
     
     public override void Die()
     {
         base.Die();
         
         gameObject.GetComponent<Renderer>().material.color = friendColor;
-        
+        enemyParticles.ghostPlasm.emissionRate = 0f;
+
     }
+
+    /*public void Update()
+    {
+         if (Input.GetMouseButtonDown(0))
+         {
+             TakeDamage(5);
+         }
+    }*/
 }

@@ -5,9 +5,10 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
-    public float radius = 3f;
+    public float radius = 3f; //range of interaction
 
-    private bool isFocus;
+    private bool isFocus = false;
+    
     private Transform player;
 
     private bool hasInteracted = false;
@@ -24,7 +25,8 @@ public class Interactable : MonoBehaviour
             float distance = Vector3.Distance(player.position, transform.position);
             if (distance <= radius)
             {
-                Debug.Log("I am a hidden clue");
+                Interact();
+                Debug.Log("I am interacting");
                 hasInteracted = true;
             }
         }

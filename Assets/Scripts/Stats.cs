@@ -9,6 +9,7 @@ public class Stats
 
    public int GetValue()
    {
-      return baseValue;
+      int finalValue = baseValue;
+      return finalValue;
    }
 }

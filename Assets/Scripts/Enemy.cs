@@ -3,14 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//handles interaction with the Enemy
+
 [RequireComponent(typeof(CharStats))]
 public class Enemy : Interactable
 {
     private PlayerManager playerManager;
-    private CharStats myStats;
+    private CharStats myStats; //referencing the stats of the enemy
     private void Start()
     {
         playerManager = PlayerManager.instance;
+        myStats = GetComponent<CharStats>();
     }
 
     public override void Interact()
@@ -21,7 +24,8 @@ public class Enemy : Interactable
         if (playerCombat != null)
         {
             playerCombat.Attack(myStats);
+            Debug.Log("you are attacking the enemy");
         }
-        Debug.Log("you are attacking the enemy");
+        
     }
 }

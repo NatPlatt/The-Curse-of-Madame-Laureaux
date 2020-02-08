@@ -15,6 +15,14 @@ public class CharStats : MonoBehaviour
         currentHP = maxHP;
     }
 
+   /* private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            TakeDamage(5);
+        }
+    }*/
+
     public void TakeDamage(int damage)
     {
         damage = Mathf.Clamp(damage, 0, int.MaxValue); //damage can never go below 0

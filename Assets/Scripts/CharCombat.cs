@@ -8,8 +8,11 @@ public class CharCombat : MonoBehaviour
 {
     public float attackSpeed = 1f;
     private float attackCoolDown = 0f; //slows down the attacks to once per frame so the enemy doesn't die too quickly
+    public float attackDelay = 0.5f;
     
     private CharStats myStats;
+
+    public event System.Action OnAttack;
     void Start()
     {
         myStats = GetComponent<CharStats>();
@@ -24,9 +27,18 @@ public class CharCombat : MonoBehaviour
     {
         if (attackCoolDown <= 0f)
         {
-             targetStats.TakeDamage(myStats.damage.GetValue());
-             attackCoolDown = 1f / attackSpeed;
+            StartCoroutine(DoDamage(targetStats, attackDelay));
+            if (OnAttack != null)
+                OnAttack();
+            
+            attackCoolDown = 1f / attackSpeed;
         }
        
+    }
+
+    IEnumerator DoDamage(CharStats stats, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        stats.TakeDamage(myStats.damage.GetValue());
     }
 }
