@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(CharStats))]
 public class CharCombat : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private CharStats myStats;
     void Start()
     {
-        
+        myStats = GetComponent<CharStats>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Attack(CharStats targetStats)
     {
-        
+        targetStats.TakeDamage(20);
     }
 }
