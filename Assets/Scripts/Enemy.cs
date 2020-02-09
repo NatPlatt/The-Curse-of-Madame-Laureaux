@@ -5,7 +5,10 @@ using UnityEngine;
 
 //handles interaction with the Enemy
 
-[RequireComponent(typeof(CharStats))]
+[RequireComponent(typeof(EnemyStats))]
+[RequireComponent(typeof(EnemyController))]
+[RequireComponent(typeof(CharCombat))]
+[RequireComponent(typeof(ClickParticles))]
 public class Enemy : Interactable
 {
     private PlayerManager playerManager;
