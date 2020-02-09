@@ -15,6 +15,7 @@ public class Interactable : MonoBehaviour
     private Transform player;
 
     private bool hasInteracted = false;
+    private bool clicked = false;
 
     public virtual void Interact()
     {
@@ -23,18 +24,39 @@ public class Interactable : MonoBehaviour
     }
     private void Update()
     {
+        
         if (isFocus && !hasInteracted)
         {
             float distance = Vector3.Distance(player.position, transform.position);
             if (distance <= radius)
             {
+                
                 Interact();
                 Debug.Log("I am interacting");
                 hasInteracted = true;
             }
         }
+        ColorClickChange();
     }
 
+    public void ColorClickChange()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (clicked)
+            {
+                gameObject.GetComponent<Renderer>().material.color = clickedColor;
+                Debug.Log("I have been clicked");
+            }
+
+            if (!clicked)
+            {
+                gameObject.GetComponent<Renderer>().material.color = restingColor;
+                Debug.Log("I am not being clicked");
+            }
+        }
+        
+    }
     public void OnFocused(Transform playerTransform)
     {
         isFocus = true;
