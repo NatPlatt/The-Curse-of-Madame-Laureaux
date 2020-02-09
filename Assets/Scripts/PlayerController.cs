@@ -6,9 +6,11 @@ public class PlayerController : MonoBehaviour
 {
     public Interactable focus;
     private Camera cam;
+   
     void Start()
     {
         cam = Camera.main;
+        
     }
     
     void Update()
@@ -21,6 +23,7 @@ public class PlayerController : MonoBehaviour
             if (Physics.Raycast(ray, out hit, 100))
             {
                 Interactable interactable = hit.collider.GetComponent<Interactable>();
+
                 if (interactable != null)
                 {
                     //write function for what to do here when you click

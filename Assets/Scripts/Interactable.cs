@@ -7,6 +7,9 @@ public class Interactable : MonoBehaviour
 {
     public float radius = 3f; //range of interaction
 
+    public Color clickedColor;
+    public Color restingColor;
+
     private bool isFocus = false;
     
     private Transform player;

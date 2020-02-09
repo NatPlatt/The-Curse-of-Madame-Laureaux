@@ -8,11 +8,13 @@ using UnityEngine;
 [RequireComponent(typeof(EnemyStats))]
 [RequireComponent(typeof(EnemyController))]
 [RequireComponent(typeof(CharCombat))]
-[RequireComponent(typeof(ClickParticles))]
+
 public class Enemy : Interactable
 {
     private PlayerManager playerManager;
     private CharStats myStats; //referencing the stats of the enemy
+    
+    
     private void Start()
     {
         playerManager = PlayerManager.instance;
@@ -28,6 +30,7 @@ public class Enemy : Interactable
         {
             playerCombat.Attack(myStats);
             Debug.Log("you are attacking the enemy");
+            
         }
         
     }
