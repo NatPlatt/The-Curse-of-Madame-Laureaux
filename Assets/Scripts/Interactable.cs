@@ -34,29 +34,22 @@ public class Interactable : MonoBehaviour
                 Interact();
                 Debug.Log("I am interacting");
                 hasInteracted = true;
+                OnMouseDown();
             }
         }
-        ColorClickChange();
     }
 
-    public void ColorClickChange()
+    private void FixedUpdate()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (clicked)
-            {
-                gameObject.GetComponent<Renderer>().material.color = clickedColor;
-                Debug.Log("I have been clicked");
-            }
-
-            if (!clicked)
-            {
-                gameObject.GetComponent<Renderer>().material.color = restingColor;
-                Debug.Log("I am not being clicked");
-            }
-        }
-        
+        gameObject.GetComponent<Renderer>().material.color = restingColor;
     }
+
+    public void OnMouseDown()
+    {
+        gameObject.GetComponent<Renderer>().material.color = clickedColor;
+        Debug.Log("I am clicked");
+    }
+
     public void OnFocused(Transform playerTransform)
     {
         isFocus = true;
