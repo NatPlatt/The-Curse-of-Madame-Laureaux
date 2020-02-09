@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
                 if (interactable != null)
                 {
                     //write function for what to do here when you click
-                    Debug.Log("the player is interacting");
+                    //Debug.Log("the player is interacting");
                     SetFocus(interactable);
                 }
             }

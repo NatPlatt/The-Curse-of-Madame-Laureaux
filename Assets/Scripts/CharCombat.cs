@@ -8,7 +8,7 @@ public class CharCombat : MonoBehaviour
 {
     public float attackSpeed = 1f;
     private float attackCoolDown = 0f; //slows down the attacks to once per frame so the enemy doesn't die too quickly
-    public float attackDelay = 0.5f;
+    public float attackDelay = 0f;
     
     private CharStats myStats;
 
@@ -27,7 +27,7 @@ public class CharCombat : MonoBehaviour
     {
         if (attackCoolDown <= 0f)
         {
-            StartCoroutine(DoDamage(targetStats, attackDelay));
+            StartCoroutine(DoDamage(targetStats, attackDelay ));
             if (OnAttack != null)
                 OnAttack();
             
