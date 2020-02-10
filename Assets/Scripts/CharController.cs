@@ -1,17 +1,21 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class CharController : MonoBehaviour
 {
     private CharacterController charController;
     private Vector3 position;
+    private Vector3 movement;
 
     public float speed = 6.0f;
     public float jumpSpeed = 8.0f;
     public float rotateSpeed = 2.0f;
     public float gravity = 20.0f;
+
+    private bool goHorizontal = false;
     
     private Vector3 moveDirection = Vector3.zero;
 
@@ -26,11 +30,7 @@ public class CharController : MonoBehaviour
         {
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
             moveDirection *= speed;
-            
-            if (position != Vector3.zero)
-            {
-                charController.transform.forward = position;
-            }
+           
         }
 
         if (Input.GetButton("Jump"))
@@ -38,13 +38,22 @@ public class CharController : MonoBehaviour
             moveDirection.y = jumpSpeed;
         }
 
-        
+        if (moveDirection != Vector3.zero)
+        {
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation( moveDirection),0.15f );
+        }
+
 
         moveDirection.y -= gravity * Time.deltaTime;
 
         charController.Move(moveDirection * Time.deltaTime);
         
         
+    }
+
+    void Rotate()
+    {
+        transform.Rotate(0, 90, 0);
     }
 
     
