@@ -33953,7 +33953,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   jumpSpeed: 8
-  rotateSpeed: 10
+  rotateSpeed: 1
   gravity: 20
 --- !u!143 &2135568156
 CharacterController:
