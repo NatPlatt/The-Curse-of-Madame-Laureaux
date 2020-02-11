@@ -691,9 +691,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3eca0d642b9bd4bbb3c44945e58315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  maxHP: 50
   damage:
-    baseValue: 0
+    baseValue: 10
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &48225119
 MonoBehaviour:
@@ -3733,7 +3733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b702258dcb2f11544a2ac285fe61897c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookRadius: 10
+  lookRadius: 5
 --- !u!114 &231492023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3746,9 +3746,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3eca0d642b9bd4bbb3c44945e58315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  maxHP: 50
   damage:
-    baseValue: 0
+    baseValue: 10
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &231492024
 MonoBehaviour:
@@ -3762,7 +3762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 594d956f02ac4664987e813f457573bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 3
+  radius: 4.5
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
   restingColor: {r: 1, g: 0.78354603, b: 0, a: 0}
 --- !u!1 &247729643
@@ -12946,7 +12946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b702258dcb2f11544a2ac285fe61897c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookRadius: 10
+  lookRadius: 5
 --- !u!114 &752052357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12959,9 +12959,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3eca0d642b9bd4bbb3c44945e58315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  maxHP: 50
   damage:
-    baseValue: 0
+    baseValue: 10
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &752052358
 MonoBehaviour:
@@ -12975,7 +12975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 594d956f02ac4664987e813f457573bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 3
+  radius: 4.5
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
   restingColor: {r: 1, g: 0.78583395, b: 0, a: 0}
 --- !u!1 &767212553
@@ -15846,7 +15846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b702258dcb2f11544a2ac285fe61897c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookRadius: 10
+  lookRadius: 5
 --- !u!114 &979727888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15859,9 +15859,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3eca0d642b9bd4bbb3c44945e58315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  maxHP: 50
   damage:
-    baseValue: 0
+    baseValue: 10
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &979727889
 MonoBehaviour:
@@ -15875,7 +15875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 594d956f02ac4664987e813f457573bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 3
+  radius: 4.5
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
   restingColor: {r: 1, g: 0.7469096, b: 0, a: 0}
 --- !u!1 &981213500
@@ -24236,7 +24236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b702258dcb2f11544a2ac285fe61897c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookRadius: 10
+  lookRadius: 5
 --- !u!114 &1518574317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24249,9 +24249,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3eca0d642b9bd4bbb3c44945e58315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  maxHP: 50
   damage:
-    baseValue: 0
+    baseValue: 10
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &1518574318
 MonoBehaviour:
@@ -24265,7 +24265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 594d956f02ac4664987e813f457573bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 3
+  radius: 4.5
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
   restingColor: {r: 1, g: 0.8101982, b: 0, a: 0}
 --- !u!1 &1522164239
@@ -24963,7 +24963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b702258dcb2f11544a2ac285fe61897c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookRadius: 10
+  lookRadius: 5
 --- !u!114 &1547719707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24976,9 +24976,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3eca0d642b9bd4bbb3c44945e58315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  maxHP: 50
   damage:
-    baseValue: 0
+    baseValue: 10
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &1547719708
 MonoBehaviour:
@@ -24992,7 +24992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 594d956f02ac4664987e813f457573bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 3
+  radius: 4.5
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
   restingColor: {r: 1, g: 0.77835596, b: 0, a: 0}
 --- !u!1 &1549373174
@@ -29343,7 +29343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b702258dcb2f11544a2ac285fe61897c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookRadius: 10
+  lookRadius: 5
 --- !u!114 &1771447219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29356,9 +29356,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3eca0d642b9bd4bbb3c44945e58315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  maxHP: 50
   damage:
-    baseValue: 0
+    baseValue: 10
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &1771447220
 MonoBehaviour:
@@ -29372,7 +29372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 594d956f02ac4664987e813f457573bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 3
+  radius: 4.5
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
   restingColor: {r: 1, g: 0.6961241, b: 0, a: 0}
 --- !u!1 &1783790891
@@ -29635,7 +29635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b702258dcb2f11544a2ac285fe61897c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookRadius: 10
+  lookRadius: 5
 --- !u!114 &1791384437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29648,9 +29648,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3eca0d642b9bd4bbb3c44945e58315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  maxHP: 50
   damage:
-    baseValue: 0
+    baseValue: 10
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &1791384438
 MonoBehaviour:
@@ -29664,7 +29664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 594d956f02ac4664987e813f457573bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 3
+  radius: 4.5
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
   restingColor: {r: 1, g: 0.7596457, b: 0, a: 0}
 --- !u!1 &1793625437
@@ -31556,7 +31556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b702258dcb2f11544a2ac285fe61897c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookRadius: 10
+  lookRadius: 5
 --- !u!114 &1934990395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31569,9 +31569,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3eca0d642b9bd4bbb3c44945e58315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  maxHP: 50
   damage:
-    baseValue: 0
+    baseValue: 10
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &1934990396
 MonoBehaviour:
@@ -31585,7 +31585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 594d956f02ac4664987e813f457573bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 3
+  radius: 4.5
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
   restingColor: {r: 1, g: 0.75964546, b: 0, a: 0}
 --- !u!1 &1942686116
