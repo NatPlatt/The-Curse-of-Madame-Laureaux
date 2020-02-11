@@ -676,7 +676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 594d956f02ac4664987e813f457573bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 3
+  radius: 4.5
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
   restingColor: {r: 1, g: 0.7978472, b: 0, a: 0}
 --- !u!114 &48225118
@@ -707,7 +707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b702258dcb2f11544a2ac285fe61897c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookRadius: 10
+  lookRadius: 5
 --- !u!1 &48993155
 GameObject:
   m_ObjectHideFlags: 0
@@ -12977,7 +12977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 3
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
-  restingColor: {r: 0, g: 0, b: 0, a: 0}
+  restingColor: {r: 1, g: 0.78583395, b: 0, a: 0}
 --- !u!1 &767212553
 GameObject:
   m_ObjectHideFlags: 0
@@ -15877,7 +15877,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 3
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
-  restingColor: {r: 0, g: 0, b: 0, a: 0}
+  restingColor: {r: 1, g: 0.7469096, b: 0, a: 0}
 --- !u!1 &981213500
 GameObject:
   m_ObjectHideFlags: 0
@@ -24994,7 +24994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 3
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
-  restingColor: {r: 0, g: 0, b: 0, a: 0}
+  restingColor: {r: 1, g: 0.77835596, b: 0, a: 0}
 --- !u!1 &1549373174
 GameObject:
   m_ObjectHideFlags: 0
@@ -29374,7 +29374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 3
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
-  restingColor: {r: 0, g: 0, b: 0, a: 0}
+  restingColor: {r: 1, g: 0.6961241, b: 0, a: 0}
 --- !u!1 &1783790891
 GameObject:
   m_ObjectHideFlags: 0
@@ -31587,7 +31587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 3
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
-  restingColor: {r: 0, g: 0, b: 0, a: 0}
+  restingColor: {r: 1, g: 0.75964546, b: 0, a: 0}
 --- !u!1 &1942686116
 GameObject:
   m_ObjectHideFlags: 0
