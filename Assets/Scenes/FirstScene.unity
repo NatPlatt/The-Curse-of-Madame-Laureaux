@@ -678,7 +678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 3
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
-  restingColor: {r: 0, g: 0, b: 0, a: 0}
+  restingColor: {r: 1, g: 0.7978472, b: 0, a: 0}
 --- !u!114 &48225118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3764,7 +3764,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 3
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
-  restingColor: {r: 0, g: 0, b: 0, a: 0}
+  restingColor: {r: 1, g: 0.78354603, b: 0, a: 0}
 --- !u!1 &247729643
 GameObject:
   m_ObjectHideFlags: 0
@@ -24267,7 +24267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 3
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
-  restingColor: {r: 0, g: 0, b: 0, a: 0}
+  restingColor: {r: 1, g: 0.8101982, b: 0, a: 0}
 --- !u!1 &1522164239
 GameObject:
   m_ObjectHideFlags: 0
@@ -29666,7 +29666,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 3
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
-  restingColor: {r: 0, g: 0, b: 0, a: 0}
+  restingColor: {r: 1, g: 0.7596457, b: 0, a: 0}
 --- !u!1 &1793625437
 GameObject:
   m_ObjectHideFlags: 0
