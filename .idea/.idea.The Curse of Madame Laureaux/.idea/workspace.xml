@@ -27,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CrystalBallSwitches.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyStats.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -49,6 +50,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CrystalBallSwitches.cs" />
       </list>
     </option>
   </component>
@@ -112,6 +114,7 @@
       <workItem from="1581189992477" duration="20093000" />
       <workItem from="1581376640574" duration="2164000" />
       <workItem from="1581455270310" duration="666000" />
+      <workItem from="1581543892179" duration="911000" />
     </task>
     <servers />
   </component>
