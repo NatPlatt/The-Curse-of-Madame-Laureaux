@@ -20,6 +20,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPatrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddEnemyPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharStats.cs" root0="FORCE_HIGHLIGHTING" />
@@ -51,6 +52,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CrystalBallSwitches.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" />
       </list>
     </option>
   </component>
@@ -114,7 +116,7 @@
       <workItem from="1581189992477" duration="20093000" />
       <workItem from="1581376640574" duration="2164000" />
       <workItem from="1581455270310" duration="666000" />
-      <workItem from="1581543892179" duration="911000" />
+      <workItem from="1581543892179" duration="1174000" />
     </task>
     <servers />
   </component>
