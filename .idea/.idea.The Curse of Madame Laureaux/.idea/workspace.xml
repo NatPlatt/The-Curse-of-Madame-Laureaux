@@ -49,10 +49,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ClickColor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CrystalBallSwitches.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" />
       </list>
     </option>
   </component>
@@ -117,6 +117,7 @@
       <workItem from="1581376640574" duration="2164000" />
       <workItem from="1581455270310" duration="666000" />
       <workItem from="1581543892179" duration="1253000" />
+      <workItem from="1581634478118" duration="333000" />
     </task>
     <servers />
   </component>
