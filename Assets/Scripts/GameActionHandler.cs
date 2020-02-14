@@ -1,18 +1,18 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GameActionHandler : MonoBehaviour
 {
-    public GameAction gameAction;
+    public GameAction gameActionObj;
     void Start()
     {
-        game
+        //gameActionObj += Action;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Action()
     {
-        
+        //handlerEvent.Invoke();
     }
 }
