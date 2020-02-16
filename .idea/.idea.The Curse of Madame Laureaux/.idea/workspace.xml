@@ -39,7 +39,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AddEnemyPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyPatrol.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" />
@@ -57,6 +56,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharStats.cs" />
       </list>
     </option>
   </component>
@@ -123,7 +123,7 @@
       <workItem from="1581543892179" duration="1253000" />
       <workItem from="1581634478118" duration="1027000" />
       <workItem from="1581701237845" duration="2078000" />
-      <workItem from="1581876126875" duration="1674000" />
+      <workItem from="1581876126875" duration="1961000" />
     </task>
     <servers />
   </component>

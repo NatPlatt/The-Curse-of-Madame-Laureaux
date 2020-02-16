@@ -9,19 +9,17 @@ public class CharStats : MonoBehaviour
     public int currentHP { get; private set; }
     
     public Stats damage;
+    
+    public Color hitColor = Color.red;
 
     private void Awake()
     {
         currentHP = maxHP;
     }
 
-   /* private void Update()
+    private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            TakeDamage(5);
-        }
-    }*/
+    }
 
     public void TakeDamage(int damage)
     {
@@ -30,12 +28,14 @@ public class CharStats : MonoBehaviour
         currentHP -= damage;
         Debug.Log(transform.name + " takes " + damage + " damage.");
 
+        GetComponent<Renderer>().material.color = hitColor;
+
         if (currentHP <= 0)
         {
             Die();
         }
     }
-
+    
     public virtual void Die()
     {
         //die in some way, run animation, start back at starting position, etc.
