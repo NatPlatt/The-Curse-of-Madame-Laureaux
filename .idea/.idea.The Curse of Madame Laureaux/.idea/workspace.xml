@@ -24,6 +24,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPatrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Billboard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddEnemyPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharStats.cs" root0="FORCE_HIGHLIGHTING" />
@@ -63,6 +64,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Billboard.cs" />
       </list>
     </option>
   </component>
@@ -129,7 +131,7 @@
       <workItem from="1581543892179" duration="1253000" />
       <workItem from="1581634478118" duration="1027000" />
       <workItem from="1581701237845" duration="2078000" />
-      <workItem from="1581876126875" duration="6291000" />
+      <workItem from="1581876126875" duration="7161000" />
     </task>
     <servers />
   </component>
