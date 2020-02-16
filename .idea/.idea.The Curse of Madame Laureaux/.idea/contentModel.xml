@@ -18,8 +18,10 @@
           <e p="EnemyController.cs" t="Include" />
           <e p="EnemyPatrol.cs" t="Include" />
           <e p="EnemyStats.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
           <e p="GameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
+          <e p="ImageController.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
