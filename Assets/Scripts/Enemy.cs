@@ -14,6 +14,7 @@ public class Enemy : Interactable
     private PlayerManager playerManager;
     private CharStats myStats; //referencing the stats of the enemy
     
+    public Color restingColor;
     
     private void Start()
     {
@@ -34,4 +35,10 @@ public class Enemy : Interactable
         }
         
     }
+    private void FixedUpdate()
+    {
+        gameObject.GetComponent<Renderer>().material.color = restingColor;
+    }
+
+    
 }

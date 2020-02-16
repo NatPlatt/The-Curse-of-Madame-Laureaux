@@ -5,8 +5,8 @@ public class Interactable : MonoBehaviour
 {
     public float radius = 3f; //range of interaction
 
-    public Color clickedColor;
-    public Color restingColor;
+    //public Color clickedColor;
+   // public Color restingColor;
 
     private bool isFocus = false;
     
@@ -15,6 +15,7 @@ public class Interactable : MonoBehaviour
     private bool hasInteracted = false;
     private bool clicked = false;
 
+    public Color clickedColor;
     public virtual void Interact()
     {
         //this method is meant to change depending on who it's used on
@@ -35,11 +36,6 @@ public class Interactable : MonoBehaviour
                 OnMouseDown();
             }
         }
-    }
-
-    private void FixedUpdate()
-    {
-        gameObject.GetComponent<Renderer>().material.color = restingColor;
     }
 
     public void OnMouseDown()

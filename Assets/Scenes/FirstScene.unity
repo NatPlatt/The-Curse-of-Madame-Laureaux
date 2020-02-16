@@ -39560,6 +39560,7 @@ GameObject:
   - component: {fileID: 2135568156}
   - component: {fileID: 2135568160}
   - component: {fileID: 2135568161}
+  - component: {fileID: 2135568157}
   - component: {fileID: 2135568162}
   m_Layer: 0
   m_Name: player
@@ -39677,6 +39678,22 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2135568157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135568150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9069b96ffd30be44bb6219e0e1a94cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 3
+  clickedColor: {r: 1, g: 1, b: 1, a: 0}
+  enemy: {fileID: 344071768}
+  dangerColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!114 &2135568160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39723,7 +39740,6 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   enemyStat: {fileID: 0}
   deadColor: {r: 0, g: 0, b: 0, a: 1}
-  dangerColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!1001 &6827742455738942679
 PrefabInstance:
   m_ObjectHideFlags: 0
