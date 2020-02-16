@@ -7,6 +7,7 @@ public class PlayerStats : CharStats
 {
     public EnemyStats enemyStat;
     public Color deadColor = Color.black;
+    public Color dangerColor = Color.yellow;
     
     public override void Die()
     {
@@ -16,11 +17,14 @@ public class PlayerStats : CharStats
             PlayerManager.instance.KillPlayer();
     }
 
-   /* private void OnTriggerEnter(Collider other)
-    {
-        if (enemyStat.maxHP >= 0)
-        {
-            TakeDamage(5);
-        }
-    }*/
+   private void OnTriggerEnter(Collider other)
+   {
+       gameObject.GetComponent<Renderer>().material.color = dangerColor;
+       Debug.Log("You are in danger Player");
+   }
+
+   private void OnTriggerExit(Collider other)
+   {
+       gameObject.GetComponent<Renderer>().material.color = Color.white;
+   }
 }
