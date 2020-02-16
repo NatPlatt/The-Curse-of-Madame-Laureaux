@@ -5,10 +5,12 @@ using UnityEngine;
 
 public class CharStats : MonoBehaviour
 {
-    public float maxHP = 100;
-    public float currentHP { get; private set; }
+    public int maxHP = 100;
+    private int currentHP { get; set; }
     
     public Stats damage;
+
+    public HealthBar healthbar;
 
     //public FloatData damage;
     
@@ -23,7 +25,7 @@ public class CharStats : MonoBehaviour
     {
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(int damage)
     {
         damage = Mathf.Clamp(damage, 0, int.MaxValue); //damage can never go below 0
         
@@ -36,6 +38,7 @@ public class CharStats : MonoBehaviour
         {
             Die();
         }
+        healthbar.SetHealth(currentHP);
     }
     
     public virtual void Die()
