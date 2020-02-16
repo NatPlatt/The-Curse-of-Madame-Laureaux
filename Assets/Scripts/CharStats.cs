@@ -22,7 +22,7 @@ public class CharStats : MonoBehaviour
     }
     private void Start()
     {
-        healthbar.SetMaxHealth(maxHP);
+        if (healthbar != null) healthbar.SetMaxHealth(maxHP);
     }
 
     private void Update()
