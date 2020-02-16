@@ -5,10 +5,12 @@ using UnityEngine;
 
 public class CharStats : MonoBehaviour
 {
-    public int maxHP = 100;
-    public int currentHP { get; private set; }
+    public float maxHP = 100;
+    public float currentHP { get; private set; }
     
     public Stats damage;
+
+    //public FloatData damage;
     
     public Color hitColor = Color.red;
 
@@ -21,7 +23,7 @@ public class CharStats : MonoBehaviour
     {
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         damage = Mathf.Clamp(damage, 0, int.MaxValue); //damage can never go below 0
         

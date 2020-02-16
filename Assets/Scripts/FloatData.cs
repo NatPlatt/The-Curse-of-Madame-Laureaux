@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.AnimatedValues;
 using UnityEngine;
 
 [CreateAssetMenu]
@@ -41,5 +42,11 @@ public class FloatData : ScriptableObject
     public void ChangeAmount(float amount)
     {
         value = amount;
+    }
+
+    public float GetValue()
+    {
+        float finalValue = value;
+        return finalValue;
     }
 }

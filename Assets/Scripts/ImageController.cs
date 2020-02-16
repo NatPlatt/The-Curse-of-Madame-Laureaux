@@ -7,7 +7,8 @@ using UnityEngine.UI;
 public class ImageController : MonoBehaviour
 {
     private Image image;
-    public Stats statObj;
+    public Stats currentAmount;
+    
     void Start()
     {
         image = GetComponent<Image>();
@@ -15,6 +16,6 @@ public class ImageController : MonoBehaviour
     
     void UpdateImageComponent()
     {
-        image.fillAmount = statObj.GetValue();
+        image.fillAmount = currentAmount.GetValue() ;
     }
 }

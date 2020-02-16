@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Stats
+[CreateAssetMenu]
+public class Stats :ScriptableObject
 {
-   [SerializeField] private int baseValue;
+   [SerializeField] private float baseValue;
 
-   public int GetValue()
+   public float GetValue()
    {
-      int finalValue = baseValue;
+      float finalValue = baseValue;
       return finalValue;
    }
 }
