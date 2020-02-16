@@ -60,8 +60,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharCombat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharStats.cs" />
       </list>
     </option>
@@ -129,7 +129,7 @@
       <workItem from="1581543892179" duration="1253000" />
       <workItem from="1581634478118" duration="1027000" />
       <workItem from="1581701237845" duration="2078000" />
-      <workItem from="1581876126875" duration="5871000" />
+      <workItem from="1581876126875" duration="6291000" />
     </task>
     <servers />
   </component>
