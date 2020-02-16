@@ -8,13 +8,7 @@ public class PlayerStats : CharStats
     public EnemyStats enemyStat;
     public Color deadColor = Color.black;
     public Color dangerColor = Color.yellow;
-
-    public HealthBar healthBar;
-
-    private void Start()
-    {
-        healthBar.SetMaxHealth(maxHP);
-    }
+    
 
     public override void Die()
     {

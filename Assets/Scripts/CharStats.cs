@@ -20,6 +20,10 @@ public class CharStats : MonoBehaviour
     {
         currentHP = maxHP;
     }
+    private void Start()
+    {
+        healthbar.SetMaxHealth(maxHP);
+    }
 
     private void Update()
     {
