@@ -35,6 +35,11 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
+
+        if (Input.GetMouseButtonUp(0))
+        {
+            anim.SetTrigger("notActive");
+        }
     }
 
     void SetFocus(Interactable newFocus)
