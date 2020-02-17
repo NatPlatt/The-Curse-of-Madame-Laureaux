@@ -25,6 +25,7 @@
           <e p="HealthBar.cs" t="Include" />
           <e p="ImageController.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
+          <e p="ParticleController.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerManager.cs" t="Include" />
