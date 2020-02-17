@@ -6,11 +6,12 @@ public class PlayerController : MonoBehaviour
 {
     public Interactable focus;
     private Camera cam;
+    public Animator anim;
    
     void Start()
     {
         cam = Camera.main;
-        
+        anim = gameObject.GetComponent<Animator>();
     }
     
     void Update()
@@ -19,6 +20,8 @@ public class PlayerController : MonoBehaviour
         {
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
+            
+            anim.SetTrigger("Active");
 
             if (Physics.Raycast(ray, out hit, 100))
             {
