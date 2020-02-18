@@ -697,6 +697,7 @@ MonoBehaviour:
     baseValue: 10
   healthbar: {fileID: 1032122806}
   hitColor: {r: 1, g: 0, b: 0, a: 1}
+  restColor: {r: 0, g: 0, b: 0, a: 0}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &48225119
 MonoBehaviour:
@@ -3833,6 +3834,7 @@ MonoBehaviour:
     baseValue: 0
   healthbar: {fileID: 0}
   hitColor: {r: 1, g: 0, b: 0, a: 1}
+  restColor: {r: 0, g: 0, b: 0, a: 0}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &231492024
 MonoBehaviour:
@@ -5575,6 +5577,7 @@ MonoBehaviour:
     baseValue: 10
   healthbar: {fileID: 1787352099}
   hitColor: {r: 1, g: 0, b: 0, a: 1}
+  restColor: {r: 1, g: 0.927191, b: 0, a: 1}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &344071781
 MonoBehaviour:
@@ -13486,6 +13489,7 @@ MonoBehaviour:
     baseValue: 0
   healthbar: {fileID: 0}
   hitColor: {r: 1, g: 0, b: 0, a: 1}
+  restColor: {r: 0, g: 0, b: 0, a: 0}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &752052358
 MonoBehaviour:
@@ -16571,6 +16575,7 @@ MonoBehaviour:
     baseValue: 0
   healthbar: {fileID: 0}
   hitColor: {r: 1, g: 0, b: 0, a: 1}
+  restColor: {r: 0, g: 0, b: 0, a: 0}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &979727889
 MonoBehaviour:
@@ -25343,6 +25348,7 @@ MonoBehaviour:
     baseValue: 0
   healthbar: {fileID: 293800020}
   hitColor: {r: 1, g: 0, b: 0, a: 1}
+  restColor: {r: 0, g: 0, b: 0, a: 0}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &1518574318
 MonoBehaviour:
@@ -26072,6 +26078,7 @@ MonoBehaviour:
     baseValue: 0
   healthbar: {fileID: 0}
   hitColor: {r: 1, g: 0, b: 0, a: 1}
+  restColor: {r: 0, g: 0, b: 0, a: 0}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &1547719708
 MonoBehaviour:
@@ -35467,6 +35474,7 @@ MonoBehaviour:
     baseValue: 0
   healthbar: {fileID: 0}
   hitColor: {r: 1, g: 0, b: 0, a: 1}
+  restColor: {r: 0, g: 0, b: 0, a: 0}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &1771447220
 MonoBehaviour:
@@ -35863,6 +35871,7 @@ MonoBehaviour:
     baseValue: 0
   healthbar: {fileID: 0}
   hitColor: {r: 1, g: 0, b: 0, a: 1}
+  restColor: {r: 0, g: 0, b: 0, a: 0}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &1791384438
 MonoBehaviour:
@@ -37882,6 +37891,7 @@ MonoBehaviour:
     baseValue: 0
   healthbar: {fileID: 0}
   hitColor: {r: 1, g: 0, b: 0, a: 1}
+  restColor: {r: 0, g: 0, b: 0, a: 0}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &1934990396
 MonoBehaviour:
@@ -40563,6 +40573,7 @@ MonoBehaviour:
     baseValue: 10
   healthbar: {fileID: 244785326}
   hitColor: {r: 1, g: 0, b: 0, a: 1}
+  restColor: {r: 1, g: 1, b: 1, a: 1}
   enemyStat: {fileID: 0}
   deadColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1001 &6827742455738942679

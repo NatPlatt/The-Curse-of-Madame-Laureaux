@@ -15,6 +15,7 @@ public class CharStats : MonoBehaviour
     //public FloatData damage;
     
     public Color hitColor = Color.red;
+    public Color restColor;
 
     private void Awake()
     {
@@ -25,8 +26,9 @@ public class CharStats : MonoBehaviour
         if (healthbar != null) healthbar.SetMaxHealth(maxHP);
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
+        GetComponent<Renderer>().material.color = restColor;
     }
 
     public void TakeDamage(int damage)

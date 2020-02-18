@@ -61,7 +61,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Billboard.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
@@ -69,6 +68,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ParticleController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObjects.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharStats.cs" />
       </list>
     </option>
   </component>
@@ -137,7 +137,7 @@
       <workItem from="1581701237845" duration="2078000" />
       <workItem from="1581876126875" duration="8603000" />
       <workItem from="1581974004124" duration="2870000" />
-      <workItem from="1582046460613" duration="1784000" />
+      <workItem from="1582046460613" duration="2487000" />
     </task>
     <servers />
   </component>
