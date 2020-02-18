@@ -39629,26 +39629,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &2093714326 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6827742455281030313, guid: e37ed5eb72e9c6b4093a09bae33350f4,
-    type: 3}
-  m_PrefabInstance: {fileID: 6827742455738942679}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2093714327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2093714326}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d22886962f55a644fb9f063bceb6b8d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 3
-  clickedColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2106629523
 GameObject:
   m_ObjectHideFlags: 0
@@ -40652,6 +40632,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: hiddenClue1
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3389897126606002860, guid: e37ed5eb72e9c6b4093a09bae33350f4, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e37ed5eb72e9c6b4093a09bae33350f4, type: 3}
