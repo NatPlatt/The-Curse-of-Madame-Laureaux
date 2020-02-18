@@ -25341,7 +25341,7 @@ MonoBehaviour:
   maxHP: 100
   damage:
     baseValue: 0
-  healthbar: {fileID: 0}
+  healthbar: {fileID: 293800020}
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!114 &1518574318
