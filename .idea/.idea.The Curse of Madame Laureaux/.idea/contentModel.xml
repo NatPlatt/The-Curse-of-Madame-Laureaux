@@ -24,6 +24,7 @@
           <e p="GameActionHandler.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="HiddenObjects.cs" t="Include" />
+          <e p="IdBehavior.cs" t="Include" />
           <e p="ImageController.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
           <e p="ParticleController.cs" t="Include" />
