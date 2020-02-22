@@ -14,7 +14,14 @@ public class MatchID : MonoBehaviour
     {
         var otherId = other.GetComponent<MatchID>();
         if (otherId == null) return;
-        
-        
+
+        if (otherId.id == id || otherId.MatchMade)
+        {
+            onMatch.Invoke();
+        }
+        else
+        {
+            noMatch.Invoke();
+        }
     }
 }
