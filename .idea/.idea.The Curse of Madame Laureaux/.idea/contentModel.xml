@@ -27,6 +27,7 @@
           <e p="IdBehavior.cs" t="Include" />
           <e p="ImageController.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
+          <e p="MatchID.cs" t="Include" />
           <e p="NameId.cs" t="Include" />
           <e p="ParticleController.cs" t="Include" />
           <e p="Player.cs" t="Include" />
