@@ -39,6 +39,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchID.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CrystalBallSwitches.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HiddenObjects.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -75,6 +76,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IdBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NameId.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatchID.cs" />
       </list>
     </option>
   </component>
@@ -145,7 +147,7 @@
       <workItem from="1581974004124" duration="2870000" />
       <workItem from="1582046460613" duration="2487000" />
       <workItem from="1582233726669" duration="650000" />
-      <workItem from="1582327659880" duration="728000" />
+      <workItem from="1582327659880" duration="939000" />
     </task>
     <servers />
   </component>

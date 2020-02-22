@@ -9,4 +9,9 @@ public class MatchID : MonoBehaviour
     public UnityEvent onMatch;
     public UnityEvent noMatch;
     public bool MatchMade { private get; set; }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        
+    }
 }
