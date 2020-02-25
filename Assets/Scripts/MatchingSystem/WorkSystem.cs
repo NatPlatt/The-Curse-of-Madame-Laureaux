@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class WorkSystem : ScriptableObject
+public abstract class WorkSystem : ScriptableObject
 {
     public NameId NameIdObj { get; set; }
+    public UnityEvent workEvent;
+    public abstract void Work();
 }
