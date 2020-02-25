@@ -27,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/WorkSystemManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClickParticles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ObjectID.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -41,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/WorkSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/FloatMathSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CrystalBallSwitches.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HiddenObjects.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -78,9 +80,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IdBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NameId.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchID.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ObjectID.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/WorkSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/WorkSystemManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" />
       </list>
     </option>
   </component>
@@ -152,7 +155,7 @@
       <workItem from="1582046460613" duration="2487000" />
       <workItem from="1582233726669" duration="650000" />
       <workItem from="1582327659880" duration="1388000" />
-      <workItem from="1582591702233" duration="828000" />
+      <workItem from="1582591702233" duration="1093000" />
     </task>
     <servers />
   </component>

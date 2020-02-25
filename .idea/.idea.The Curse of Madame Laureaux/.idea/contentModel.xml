@@ -27,6 +27,7 @@
           <e p="ImageController.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
           <e p="MatchingSystem" t="Include">
+            <e p="FloatMathSystem.cs" t="Include" />
             <e p="IdBehavior.cs" t="Include" />
             <e p="MatchID.cs" t="Include" />
             <e p="MatchIDBehavior.cs" t="Include" />
