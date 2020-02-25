@@ -4,8 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MatchIDBehavior : IdBehavior
-{
-    // public WorkSystemManager WorkSystemManagerObj; write script for this
+{ 
+    public WorkSystemManager workSystemManagerObj; 
 
     private NameId otherIdObj;
 
