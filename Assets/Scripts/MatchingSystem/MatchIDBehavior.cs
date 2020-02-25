@@ -2,17 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MatchIDBehavior : MonoBehaviour
+public class MatchIDBehavior : IdBehavior
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // public WorkSystemManager WorkSystemManagerObj; write script for this
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    private NameId otherIdObj;
 }
