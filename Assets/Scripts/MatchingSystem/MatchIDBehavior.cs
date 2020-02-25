@@ -14,6 +14,15 @@ public class MatchIDBehavior : IdBehavior
         otherIdObj = other.GetComponent<IdBehavior>().nameIdObj;
         CheckID();
     }
-    
-    
+
+    private void CheckID()
+    {
+        foreach (var obj in workSystemManagerObj.workIdList)
+        {
+            if (otherIdObj == obj.nameIdObj)
+            {
+                obj.workSystemObj.Work();
+            }
+        }
+    }
 }
