@@ -42,7 +42,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/WorkSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/FloatMathSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/FloatMathSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CrystalBallSwitches.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HiddenObjects.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -84,6 +84,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/WorkSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/WorkSystemManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/FloatMathSystem.cs" />
       </list>
     </option>
   </component>
@@ -155,7 +156,7 @@
       <workItem from="1582046460613" duration="2487000" />
       <workItem from="1582233726669" duration="650000" />
       <workItem from="1582327659880" duration="1388000" />
-      <workItem from="1582591702233" duration="1093000" />
+      <workItem from="1582591702233" duration="1849000" />
     </task>
     <servers />
   </component>

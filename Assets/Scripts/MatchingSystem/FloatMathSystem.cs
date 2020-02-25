@@ -14,4 +14,9 @@ public class FloatMathSystem : WorkSystem
         fromNameId = NameIdObj as FloatData;
         workEvent.Invoke();
     }
+
+    public void UpdateValue()
+    {
+        dataObj.UpdateValue(fromNameId.value);
+    }
 }
