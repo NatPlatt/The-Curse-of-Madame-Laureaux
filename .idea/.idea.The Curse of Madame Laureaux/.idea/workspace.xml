@@ -85,6 +85,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/WorkSystemManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/FloatMathSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchID.cs" />
       </list>
     </option>
   </component>
@@ -157,6 +158,7 @@
       <workItem from="1582233726669" duration="650000" />
       <workItem from="1582327659880" duration="1388000" />
       <workItem from="1582591702233" duration="2188000" />
+      <workItem from="1582665681555" duration="480000" />
     </task>
     <servers />
   </component>
