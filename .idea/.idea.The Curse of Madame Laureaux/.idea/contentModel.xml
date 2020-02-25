@@ -33,6 +33,7 @@
             <e p="NameId.cs" t="Include" />
             <e p="ObjectID.cs" t="Include" />
             <e p="WorkSystem.cs" t="Include" />
+            <e p="WorkSystemManager.cs" t="Include" />
           </e>
           <e p="ParticleController.cs" t="Include" />
           <e p="Player.cs" t="Include" />
