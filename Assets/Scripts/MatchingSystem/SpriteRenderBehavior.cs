@@ -14,8 +14,5 @@ public class SpriteRenderBehavior : MonoBehaviour
         startEvent.Invoke();
     }
     
-    void Update()
-    {
-        
-    }
+    
 }
