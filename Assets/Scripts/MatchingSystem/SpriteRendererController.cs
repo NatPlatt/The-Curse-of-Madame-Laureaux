@@ -9,6 +9,6 @@ public class SpriteRendererController : ScriptableObject
 
     public void StoreSpriteRender(SpriteRenderer spriteRenderer)
     {
-        
+        spriteRendererObj = spriteRenderer;
     }
 }
