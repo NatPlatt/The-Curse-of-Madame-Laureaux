@@ -6,4 +6,9 @@ using UnityEngine;
 public class SpriteRendererController : ScriptableObject
 {
     [HideInInspector] public SpriteRenderer spriteRendererObj;
+
+    public void StoreSpriteRender(SpriteRenderer spriteRenderer)
+    {
+        
+    }
 }
