@@ -43,6 +43,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddEnemyPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/WorkSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/IdBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/FloatMathSystem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -165,7 +166,7 @@
       <workItem from="1582327659880" duration="1388000" />
       <workItem from="1582591702233" duration="2188000" />
       <workItem from="1582665681555" duration="480000" />
-      <workItem from="1582775190496" duration="1092000" />
+      <workItem from="1582775190496" duration="1205000" />
     </task>
     <servers />
   </component>
