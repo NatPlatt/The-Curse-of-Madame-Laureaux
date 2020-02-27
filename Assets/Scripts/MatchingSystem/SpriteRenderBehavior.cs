@@ -11,9 +11,9 @@ public class SpriteRenderBehavior : MonoBehaviour
     void Start()
     {
         spriteRendererObj = GetComponent<SpriteRenderer>();
+        startEvent.Invoke();
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         
