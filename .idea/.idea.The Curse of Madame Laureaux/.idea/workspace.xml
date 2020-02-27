@@ -35,6 +35,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharCombat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/SpriteRenderBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchID.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
@@ -88,6 +89,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/WorkSystemManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/SpriteRendererController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/SpriteRenderBehavior.cs" />
       </list>
     </option>
   </component>
@@ -161,7 +163,7 @@
       <workItem from="1582327659880" duration="1388000" />
       <workItem from="1582591702233" duration="2188000" />
       <workItem from="1582665681555" duration="480000" />
-      <workItem from="1582775190496" duration="575000" />
+      <workItem from="1582775190496" duration="827000" />
     </task>
     <servers />
   </component>
