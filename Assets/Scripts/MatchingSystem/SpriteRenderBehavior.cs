@@ -13,6 +13,9 @@ public class SpriteRenderBehavior : MonoBehaviour
         spriteRendererObj = GetComponent<SpriteRenderer>();
         startEvent.Invoke();
     }
-    
-    
+
+    public void ChangeSpriteColor(ColorData colorDataObj)
+    {
+        spriteRendererObj.color = colorDataObj.value;
+    }
 }
