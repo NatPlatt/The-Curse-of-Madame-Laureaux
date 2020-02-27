@@ -7,11 +7,12 @@ using UnityEngine;
 public class WorkSystemManager : ScriptableObject
 {
     [Serializable]
-    public struct possibleMatches
+    public struct possibleWork
     {
         public NameId nameIdObj;
         public WorkSystem workSystemObj;
+        public UnityEvent workEvent;
     }
 
-    public List<possibleMatches> workIdList;
+    public List<possibleWork> workIdList;
 }
