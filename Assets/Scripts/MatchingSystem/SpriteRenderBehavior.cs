@@ -10,7 +10,7 @@ public class SpriteRenderBehavior : MonoBehaviour
     public UnityEvent startEvent;
     void Start()
     {
-        
+        spriteRendererObj = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
