@@ -6,4 +6,9 @@ using UnityEngine.Serialization;
 public class ColorData : NameId
 {
    public Color value = Color.blue;
+
+   public void ChangeSpriteRenderColor(SpriteRenderer spriteRendererObj)
+   {
+      spriteRendererObj.color = value;
+   }
 }
