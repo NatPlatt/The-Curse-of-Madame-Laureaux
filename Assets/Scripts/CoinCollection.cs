@@ -27,6 +27,11 @@ public class CoinCollection : ScriptableObject
         for (var i = 0; i < coinList.Count; i++)
         {
             var coin = coinList[i];
+            if (coin.value > number)
+            {
+                coin.Spend();
+                coinList.Remove(coin);
+            }
         }
     }
 
