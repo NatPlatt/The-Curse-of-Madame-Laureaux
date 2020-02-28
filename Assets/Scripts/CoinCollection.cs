@@ -46,6 +46,9 @@ public class CoinCollection : ScriptableObject
 
     public void UpgradeAllCoins(int value)
     {
-        
+        foreach (var coin in coinList)
+        {
+            coin.value = value;
+        }
     }
 }
