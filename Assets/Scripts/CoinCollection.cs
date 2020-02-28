@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CoinCollection : MonoBehaviour
+[CreateAssetMenu]
+public class CoinCollection : ScriptableObject
 {
     // Start is called before the first frame update
     void Start()

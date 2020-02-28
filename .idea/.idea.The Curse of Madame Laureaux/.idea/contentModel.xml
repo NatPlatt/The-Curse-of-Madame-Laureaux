@@ -14,6 +14,8 @@
           <e p="CharController.cs" t="Include" />
           <e p="CharStats.cs" t="Include" />
           <e p="ClickParticles.cs" t="Include" />
+          <e p="CoinCollection.cs" t="Include" />
+          <e p="Coins.cs" t="Include" />
           <e p="CrystalBallSwitches.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
@@ -27,7 +29,6 @@
           <e p="ImageController.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
           <e p="MatchingSystem" t="Include">
-            <e p="Coins.cs" t="Include" />
             <e p="ColorData.cs" t="Include" />
             <e p="FloatBase.cs" t="Include" />
             <e p="FloatMathSystem.cs" t="Include" />
