@@ -16,4 +16,14 @@ public class CoinCollection : ScriptableObject
     {
         
     }
+
+    public void UseCoinWithValue(int value)
+    {
+        
+    }
+
+    public void UseAllCoins()
+    {
+        
+    }
 }
