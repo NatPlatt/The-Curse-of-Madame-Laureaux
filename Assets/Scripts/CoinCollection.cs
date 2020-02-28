@@ -23,7 +23,11 @@ public class CoinCollection : ScriptableObject
 
     public void UseCoinWithValue(int value)
     {
-        
+        var number = 5;
+        for (var i = 0; i < coinList.Count; i++)
+        {
+            var coin = coinList[i];
+        }
     }
 
     public void UseAllCoins()
