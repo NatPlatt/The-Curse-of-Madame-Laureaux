@@ -37,7 +37,11 @@ public class CoinCollection : ScriptableObject
 
     public void UseAllCoins()
     {
-        
+        foreach (var coin in coinList)
+        {
+            coin.Spend();
+        }
+        coinList.Clear();
     }
 
     public void UpgradeAllCoins(int value)
