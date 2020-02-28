@@ -11,4 +11,9 @@ public class CoinCollection : ScriptableObject
     {
         
     }
+
+    public void UseCoin()
+    {
+        
+    }
 }
