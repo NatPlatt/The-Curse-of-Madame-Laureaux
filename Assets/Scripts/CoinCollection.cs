@@ -26,4 +26,9 @@ public class CoinCollection : ScriptableObject
     {
         
     }
+
+    public void UpgradeAllCoins(int value)
+    {
+        
+    }
 }
