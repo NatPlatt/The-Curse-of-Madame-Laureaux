@@ -9,7 +9,10 @@ public class CoinCollection : ScriptableObject
 
     public void AddCoin(Coins coinObj)
     {
-        
+        if (!coinList.Contains(coinObj))
+        {
+            coinList.Add(coinObj);
+        }
     }
 
     public void UseCoin()
