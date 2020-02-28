@@ -27,6 +27,7 @@
           <e p="ImageController.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
           <e p="MatchingSystem" t="Include">
+            <e p="Coins.cs" t="Include" />
             <e p="ColorData.cs" t="Include" />
             <e p="FloatBase.cs" t="Include" />
             <e p="FloatMathSystem.cs" t="Include" />
