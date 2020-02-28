@@ -17,7 +17,8 @@ public class CoinCollection : ScriptableObject
 
     public void UseCoin()
     {
-        
+        coinList[0].Spend();
+        coinList.RemoveAt(0);
     }
 
     public void UseCoinWithValue(int value)
