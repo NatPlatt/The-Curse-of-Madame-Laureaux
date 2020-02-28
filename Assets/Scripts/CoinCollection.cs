@@ -5,5 +5,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class CoinCollection : ScriptableObject
 {
+    public List<Coins> coinList;
+    
     
 }
