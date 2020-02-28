@@ -6,6 +6,9 @@ using UnityEngine;
 public class CoinCollection : ScriptableObject
 {
     public List<Coins> coinList;
-    
-    
+
+    public void AddCoin(Coins coinObj)
+    {
+        
+    }
 }
