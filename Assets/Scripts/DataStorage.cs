@@ -10,7 +10,8 @@ public class DataStorage : ScriptableObject
 
     public void SetData()
     {
-        
+        if (data == null) return;
+        PlayerPrefs.SetString(data.name, JsonUtility.ToJson(data));
     }
 
     public void GetData()
