@@ -16,6 +16,7 @@ public class DataStorage : ScriptableObject
 
     public void GetData()
     {
-        
+        if (data == null) return;
+        if (!string.IsNullOrEmpty(PlayerPrefs.GetString(data.name))) JsonUtility.FromJsonOverwrite(PlayerPrefs.GetString(data.name), data);
     }
 }
