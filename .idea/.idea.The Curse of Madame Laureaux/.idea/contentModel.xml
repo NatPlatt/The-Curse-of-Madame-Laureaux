@@ -51,6 +51,7 @@
           <e p="SceneChange.cs" t="Include" />
           <e p="Stats.cs" t="Include" />
           <e p="Testing.cs" t="Include" />
+          <e p="ToggleEvent.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
         </e>
       </e>
