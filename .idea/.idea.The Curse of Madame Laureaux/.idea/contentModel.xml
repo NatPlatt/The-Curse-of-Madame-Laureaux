@@ -25,6 +25,7 @@
           <e p="FloatData.cs" t="Include" />
           <e p="GameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
+          <e p="GameData.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="HiddenObjects.cs" t="Include" />
           <e p="ImageController.cs" t="Include" />
