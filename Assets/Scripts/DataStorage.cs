@@ -3,17 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class DataStorage : MonoBehaviour
+[CreateAssetMenu(fileName = "DataStorage", menuName = "Data Storage/Data Storage Object")]
+public class DataStorage : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
