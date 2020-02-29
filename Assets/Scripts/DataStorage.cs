@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
-public class ActionHandler : MonoBehaviour
+public class DataStorage : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
