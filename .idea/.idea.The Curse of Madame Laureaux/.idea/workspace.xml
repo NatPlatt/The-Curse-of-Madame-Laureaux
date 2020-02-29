@@ -37,6 +37,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ObjectID.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InstanceObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharCombat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/SpriteRenderBehavior.cs" root0="FORCE_HIGHLIGHTING" />
@@ -102,6 +103,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinCollection.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataStorage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ToggleEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InstanceObject.cs" />
       </list>
     </option>
   </component>
@@ -179,6 +181,7 @@
       <workItem from="1582776411406" duration="199000" />
       <workItem from="1582852386096" duration="1091000" />
       <workItem from="1582936968978" duration="1198000" />
+      <workItem from="1583005357813" duration="246000" />
     </task>
     <servers />
   </component>
