@@ -28,6 +28,7 @@
           <e p="HealthBar.cs" t="Include" />
           <e p="HiddenObjects.cs" t="Include" />
           <e p="ImageController.cs" t="Include" />
+          <e p="InstanceObject.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
           <e p="MatchingSystem" t="Include">
             <e p="ColorData.cs" t="Include" />
