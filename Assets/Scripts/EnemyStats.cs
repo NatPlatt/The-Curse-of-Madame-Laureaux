@@ -18,7 +18,7 @@ public class EnemyStats : CharStats
         
         Destroy(gameObject);
        // enemyParticles.ghostPlasm.emissionRate = 0f;
-       Instantiate(coin);
+       //Instantiate(coin);
 
     }
 
