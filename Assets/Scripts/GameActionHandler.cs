@@ -14,8 +14,14 @@ public class GameActionHandler : MonoBehaviour
         gameActionObj.action += Action;
     }
 
+    private void OnDisable()
+    {
+        gameActionObj.action -= Action;
+    }
     private void Action()
     {
         handlerEvent.Invoke();
     }
+
+    
 }

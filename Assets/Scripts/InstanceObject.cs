@@ -5,11 +5,15 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Instancing/Instance Object")]
 public class InstanceObject : ScriptableObject
 {
-    public float instanceAmount; 
+    public int instanceAmount = 4; 
     
     public void CreateInstance(GameObject instance)
     {
-        Instantiate(instance);
+        for (int i = 0; i < instanceAmount; i++)
+        {
+           Instantiate(instance); 
+        }
+        
     }
 }
 
