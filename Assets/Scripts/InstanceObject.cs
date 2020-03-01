@@ -5,7 +5,9 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Instancing/Instance Object")]
 public class InstanceObject : ScriptableObject
 {
-    public int instanceAmount = 4; 
+    public int instanceAmount = 4;
+    public Vector3 instanceAtLocation;
+    public GameAction gameActionObj;
     
     public void CreateInstance(GameObject instance)
     {
@@ -13,7 +15,12 @@ public class InstanceObject : ScriptableObject
         {
            Instantiate(instance); 
         }
-        
+    }
+
+    public void InstanceSomething(GameObject obj)
+    {
+        var newObj = Instantiate(obj, instanceAtLocation, Quaternion.identity);
+        gameActionObj.transformAction(newObj.transform);
     }
 }
 

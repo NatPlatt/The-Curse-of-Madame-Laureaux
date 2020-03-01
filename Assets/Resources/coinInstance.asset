@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f2b1aac5485e246ba6b43e64c3ef9b, type: 3}
   m_Name: coinInstance
   m_EditorClassIdentifier: 
+  instanceAmount: 5
+  instanceAtLocation: {x: 0, y: 0, z: 0}
+  gameActionObj: {fileID: 0}
