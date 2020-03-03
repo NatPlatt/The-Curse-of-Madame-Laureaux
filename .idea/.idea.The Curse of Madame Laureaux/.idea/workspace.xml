@@ -22,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Billboard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StringListData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/FloatBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
@@ -54,6 +55,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinCollection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CrystalBallSwitches.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HiddenObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/TextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -104,6 +106,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstanceObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/TextBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StringListData.cs" />
       </list>
     </option>
   </component>
@@ -182,6 +186,7 @@
       <workItem from="1582852386096" duration="1091000" />
       <workItem from="1582936968978" duration="1198000" />
       <workItem from="1583005357813" duration="3441000" />
+      <workItem from="1583264242349" duration="838000" />
     </task>
     <servers />
   </component>
