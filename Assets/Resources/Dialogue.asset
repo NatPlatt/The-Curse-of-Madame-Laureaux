@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29f1151de4fe6ce4e98d8c75a00f0793, type: 3}
   m_Name: Dialogue
   m_EditorClassIdentifier: 
-  stringListObj: []
+  stringListObj:
+  - Hey you
+  - Yeah i'm talking to you
+  - Look at meeee
+  - Fine i'll leave
+  currentLineNumber: 4
