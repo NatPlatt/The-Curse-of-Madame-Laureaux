@@ -6,13 +6,13 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Text))]
 public class TextBehavior : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Text textObj;
+    
+    void Awake()
     {
-        
+        textObj = GetComponent<Text>();
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         
