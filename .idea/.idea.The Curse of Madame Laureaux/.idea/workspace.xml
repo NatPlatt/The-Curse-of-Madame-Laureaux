@@ -106,8 +106,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstanceObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/TextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StringListData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/TextBehavior.cs" />
       </list>
     </option>
   </component>
@@ -186,7 +186,7 @@
       <workItem from="1582852386096" duration="1091000" />
       <workItem from="1582936968978" duration="1198000" />
       <workItem from="1583005357813" duration="3441000" />
-      <workItem from="1583264242349" duration="1091000" />
+      <workItem from="1583264242349" duration="1387000" />
     </task>
     <servers />
   </component>
