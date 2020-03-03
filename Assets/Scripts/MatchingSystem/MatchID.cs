@@ -15,7 +15,8 @@ public class MatchID : MonoBehaviour
     [Serializable]
     public struct possibleWork
     {
-        
+        public NameId nameIdObj;
+        public UnityEvent enterEvent, exitEvent;
     }
 
     private void OnTriggerEnter(Collider other)
