@@ -14,7 +14,7 @@ public class StringListData : ScriptableObject
       return stringListObj[currentLineNumber];
    }
 
-   public void IncrementLineNumber()
+   public void IncrementLineNumber() //this can be called in any event system like TriggerEnter or MouseButton etc.
    {
       if (currentLineNumber < stringListObj.Count)
       {
