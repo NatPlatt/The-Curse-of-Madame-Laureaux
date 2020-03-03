@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class TextBehavior : MonoBehaviour
 {
     private Text textObj;
+    public StringListData stringListDataObj;
     
     void Awake()
     {
@@ -15,6 +16,6 @@ public class TextBehavior : MonoBehaviour
     
     void Update()
     {
-        
+        textObj.text = stringListDataObj.ReturnCurrentLine();
     }
 }
