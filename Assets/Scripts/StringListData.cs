@@ -9,8 +9,20 @@ public class StringListData : ScriptableObject
 
    public int currentLineNumber;
 
-   public string returnCurrentLine()
+   public string ReturnCurrentLine()
    {
       return stringListObj[currentLineNumber];
+   }
+
+   public void IncrementLineNumber()
+   {
+      if (currentLineNumber < stringListObj.Count)
+      {
+         currentLineNumber++;
+      }
+      else
+      {
+         currentLineNumber = 0;
+      }
    }
 }
