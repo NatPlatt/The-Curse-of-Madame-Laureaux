@@ -5,7 +5,11 @@ using UnityEngine;
 
 public class MatchIDBehavior : IdBehavior
 { 
-    public WorkSystemManager workSystemManagerObj; 
+   [Serializable]
+   public struct PossibleWork
+   {
+       
+   }
 
     private NameId otherIdObj;
 
