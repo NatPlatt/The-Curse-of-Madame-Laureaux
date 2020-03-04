@@ -27,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/FloatBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SwitchPlayerControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ToggleEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -108,6 +109,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/TextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchID.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SwitchPlayerControl.cs" />
       </list>
     </option>
   </component>
@@ -189,6 +191,7 @@
       <workItem from="1583264242349" duration="1969000" />
       <workItem from="1583266292823" duration="117000" />
       <workItem from="1583269763635" duration="2037000" />
+      <workItem from="1583346132277" duration="294000" />
     </task>
     <servers />
   </component>

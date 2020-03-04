@@ -14,4 +14,19 @@ public class SwitchPlayerControl : MonoBehaviour
         avatar1.gameObject.SetActive(true);
         avatar2.gameObject.SetActive(false);
     }
+
+    public void SwitchControl()
+    {
+        switch (activeAvatar)
+        {
+            case 1:
+                activeAvatar = 2;
+                
+                avatar1.gameObject.SetActive(false);
+                avatar2.gameObject.SetActive(true);
+                break;
+            
+            
+        }
+    }
 }
