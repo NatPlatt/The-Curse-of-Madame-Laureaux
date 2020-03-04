@@ -7,6 +7,8 @@ public class SwitchPlayerControl : MonoBehaviour
 {
     public GameObject avatarActive1, avatarActive2, avatarInactive1, avatarInactive2;
 
+    public Transform currentPlayerPosition, currentEnemyPosition;
+
     private int activeAvatar = 1;
 
     private void Start()
@@ -16,6 +18,9 @@ public class SwitchPlayerControl : MonoBehaviour
         
         avatarInactive1.gameObject.SetActive(false);
         avatarInactive2.gameObject.SetActive(true);
+
+        currentPlayerPosition = avatarActive1.transform;
+        currentEnemyPosition = avatarActive2.transform;
     }
 
     public void SwitchControl()
