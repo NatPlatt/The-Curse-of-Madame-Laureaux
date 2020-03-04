@@ -36,7 +36,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ColorData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/WorkSystemManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClickParticles.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ObjectID.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InstanceObject.cs" root0="FORCE_HIGHLIGHTING" />
@@ -90,7 +89,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IdBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NameId.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchID.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ObjectID.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/WorkSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/FloatMathSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/WorkSystemManager.cs" />
@@ -109,6 +107,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/TextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchID.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SwitchPlayerControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ObjectID.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" />
       </list>
     </option>
@@ -191,7 +190,7 @@
       <workItem from="1583264242349" duration="1969000" />
       <workItem from="1583266292823" duration="117000" />
       <workItem from="1583269763635" duration="2037000" />
-      <workItem from="1583346132277" duration="4033000" />
+      <workItem from="1583346132277" duration="4298000" />
     </task>
     <servers />
   </component>
