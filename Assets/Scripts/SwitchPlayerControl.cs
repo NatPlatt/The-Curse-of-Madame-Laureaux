@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class SwitchPlayerControl : MonoBehaviour
 {
-    public GameObject avatarActive1, avatarActive2;
+    public GameObject avatarActive1, avatarActive2, avatarInactive1, avatarInactive2;
 
     private int activeAvatar = 1;
 
@@ -13,6 +13,9 @@ public class SwitchPlayerControl : MonoBehaviour
     {
         avatarActive1.gameObject.SetActive(true);
         avatarActive2.gameObject.SetActive(false);
+        
+        avatarInactive1.gameObject.SetActive(false);
+        avatarInactive2.gameObject.SetActive(true);
     }
 
     public void SwitchControl()
