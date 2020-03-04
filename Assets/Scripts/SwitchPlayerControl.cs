@@ -27,6 +27,9 @@ public class SwitchPlayerControl : MonoBehaviour
                 
                 avatarActive1.gameObject.SetActive(false);
                 avatarActive2.gameObject.SetActive(true);
+                
+                avatarInactive1.gameObject.SetActive(true);
+                avatarInactive2.gameObject.SetActive(false);
                 break;
             
             case 2:
