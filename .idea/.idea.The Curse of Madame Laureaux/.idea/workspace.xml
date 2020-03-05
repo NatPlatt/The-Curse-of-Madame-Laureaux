@@ -109,8 +109,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ObjectID.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstanceObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/TextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/TextBehavior.cs" />
       </list>
     </option>
   </component>
@@ -193,7 +193,7 @@
       <workItem from="1583266292823" duration="117000" />
       <workItem from="1583269763635" duration="2037000" />
       <workItem from="1583346132277" duration="8111000" />
-      <workItem from="1583433642700" duration="1664000" />
+      <workItem from="1583433642700" duration="2156000" />
     </task>
     <servers />
   </component>
