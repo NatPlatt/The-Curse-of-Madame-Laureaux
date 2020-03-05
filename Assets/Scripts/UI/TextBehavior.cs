@@ -24,6 +24,6 @@ public class TextBehavior : MonoBehaviour //this is controlled by a gameAction o
 
     public void UpdateText(IntData intDataObj)
     {
-        
+        textObj.text = intDataObj.value.ToString();
     }
 }
