@@ -16,4 +16,15 @@ public class IntData : NameId
    {
       value += amount;
    }
+
+   public void IncrementValue()
+   {
+      value++;
+   }
+
+   public void UpdateValue(Object data)
+   {
+      var newData = data as IntData;
+      if (newData != null) value += newData.value;
+   }
 }
