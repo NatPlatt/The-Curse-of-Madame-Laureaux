@@ -14,6 +14,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/SpriteRendererController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" root0="FORCE_HIGHLIGHTING" />
@@ -109,6 +110,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstanceObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/TextBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
       </list>
     </option>
   </component>
@@ -191,7 +193,7 @@
       <workItem from="1583266292823" duration="117000" />
       <workItem from="1583269763635" duration="2037000" />
       <workItem from="1583346132277" duration="8111000" />
-      <workItem from="1583433642700" duration="1360000" />
+      <workItem from="1583433642700" duration="1664000" />
     </task>
     <servers />
   </component>
