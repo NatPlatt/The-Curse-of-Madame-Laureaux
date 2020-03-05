@@ -16,7 +16,7 @@ public class InstanceObject : ScriptableObject
         for (int i = 0; i < instanceAmount; i++)
         {
            InstanceSomething(instanceObj);
-           instanceAtLocation = new Vector3(Random.Range( 1f, 10f),0.2f, Random.Range(1f, 10f));
+           instanceAtLocation = new Vector3(Random.Range( -10f, 10f),0f, Random.Range(-10f, 10f));
         }
     }
 
