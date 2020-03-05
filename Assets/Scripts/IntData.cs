@@ -27,4 +27,11 @@ public class IntData : NameId
       var newData = data as IntData;
       if (newData != null) value += newData.value;
    }
+
+   public void SetValue(Object data)
+   {
+      var newData = data as IntData;
+      if (newData == null) return;
+      value = newData.value;
+   }
 }
