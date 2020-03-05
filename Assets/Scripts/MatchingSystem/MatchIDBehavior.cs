@@ -14,22 +14,43 @@ public class MatchIDBehavior : IdBehavior
    }
 
     private NameId otherIdObj;
-    private IdBehavior otherBehaviorObj; 
+    private IdBehavior otherBehaviorObj;
+    public List<PossibleWork> workIdList;
 
     private void OnTriggerEnter(Collider other)
     {
-        otherIdObj = other.GetComponent<IdBehavior>().nameIdObj;
-        CheckID();
+        otherBehaviorObj = other.GetComponent<IdBehavior>();
+        if (otherBehaviorObj == null) return;
+        
+        otherIdObj = otherBehaviorObj.nameIdObj;
+        CheckID(1);
     }
 
-    private void CheckID()
+    private void OnTriggerExit(Collider other)
     {
-        foreach (var obj in workSystemManagerObj.workIdList)
+        otherBehaviorObj = other.GetComponent<IdBehavior>();
+        if (otherBehaviorObj == null) return;
+        otherIdObj = otherBehaviorObj.nameIdObj;
+        CheckID(2);
+    }
+
+    private void CheckID(int stateNumber)
+    {
+        foreach (var obj in workIdList)
         {
             if (otherIdObj == obj.nameIdObj)
             {
-                obj.workSystemObj.Work();
-                obj.workEvent.Invoke();
+                switch (stateNumber)
+                {
+                    case 1: 
+                        obj.EnterEvent.Invoke();
+                        break;
+                    case 2:
+                        obj.ExitEvent.Invoke();
+                        break;
+                }
+                
+                
             }
         }
     }
