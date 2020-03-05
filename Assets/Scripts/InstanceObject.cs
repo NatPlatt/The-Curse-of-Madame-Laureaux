@@ -15,7 +15,7 @@ public class InstanceObject : ScriptableObject
     {
         for (int i = 0; i < instanceAmount; i++)
         {
-           Instantiate(instance); 
+           InstanceSomething(instanceObj);
         }
     }
 
