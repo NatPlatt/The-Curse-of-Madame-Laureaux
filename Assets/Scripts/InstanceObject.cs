@@ -10,23 +10,22 @@ public class InstanceObject : ScriptableObject
     public Vector3 instanceAtLocation;
     public GameAction gameActionObj;
     public GameObject instanceObj;
-    public Transform instanceHere;
     
     public void CreateInstance(GameObject instance)
     {
         for (int i = 0; i < instanceAmount; i++)
         {
-           InstanceSomething(instanceHere);
-           instanceAtLocation = Vector3.one;
+           InstanceSomething(instanceObj);
+           instanceAtLocation = new Vector3(Random.Range( 1f, 10f),0.2f, Random.Range(1f, 10f));
         }
     }
 
-    public void InstanceSomething(Transform location)
+    public void InstanceSomething(GameObject obj)
     {
         //var newObj = Instantiate(obj, instanceAtLocation, Quaternion.identity);
         //gameActionObj.transformAction(newObj.transform);
 
-        Instantiate(instanceObj, instanceAtLocation, location.rotation);
+        Instantiate(instanceObj, instanceAtLocation, Quaternion.identity);
     }
 }
 

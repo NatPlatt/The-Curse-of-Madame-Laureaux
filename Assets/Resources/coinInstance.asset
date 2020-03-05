@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: coinInstance
   m_EditorClassIdentifier: 
   instanceAmount: 5
-  instanceAtLocation: {x: 0, y: 0, z: 0}
+  instanceAtLocation: {x: 1, y: 1, z: 1}
   gameActionObj: {fileID: 11400000, guid: 4b014d443b387764bb5db334c49e5dc0, type: 2}
+  instanceObj: {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785,
+    type: 3}
