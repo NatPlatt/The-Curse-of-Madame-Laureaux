@@ -7,14 +7,14 @@ using UnityEngine.UI;
 public class TextBehavior : MonoBehaviour
 {
     private Text textObj;
-    public StringListData stringListDataObj;
+    //public StringListData stringListDataObj;
     
     void Awake()
     {
         textObj = GetComponent<Text>();
     }
     
-    void Update()
+    void UpdateStringData(StringListData stringListDataObj)
     {
         textObj.text = stringListDataObj.ReturnCurrentLine();
     }
