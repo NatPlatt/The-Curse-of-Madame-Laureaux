@@ -102,13 +102,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ToggleEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InstanceObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/TextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchID.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SwitchPlayerControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ObjectID.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InstanceObject.cs" />
       </list>
     </option>
   </component>
@@ -190,7 +190,7 @@
       <workItem from="1583264242349" duration="1969000" />
       <workItem from="1583266292823" duration="117000" />
       <workItem from="1583269763635" duration="2037000" />
-      <workItem from="1583346132277" duration="4603000" />
+      <workItem from="1583346132277" duration="5274000" />
     </task>
     <servers />
   </component>
