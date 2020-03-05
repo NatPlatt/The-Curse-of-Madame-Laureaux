@@ -13,11 +13,7 @@ public class SwitchPlayerControl : MonoBehaviour
 
     private void Start()
     {
-        avatarActive1.gameObject.SetActive(true);
-        avatarActive2.gameObject.SetActive(false);
-        
-        avatarInactive1.gameObject.SetActive(false);
-        avatarInactive2.gameObject.SetActive(true);
+       
 
         currentPlayerPosition = avatarActive1.transform;
         currentEnemyPosition = avatarActive2.transform;
@@ -29,24 +25,24 @@ public class SwitchPlayerControl : MonoBehaviour
         {
             case 1:
                 activeAvatar = 2;
-                
-                avatarActive1.gameObject.SetActive(false);
-                avatarActive2.gameObject.SetActive(true);
+
+                avatarActive1.GetComponent<CharController>().enabled = false;
+                avatarActive2.GetComponent<CharController>().enabled = true;
 
                 //avatarInactive1.gameObject.transform = currentEnemyPosition;
 
-                avatarInactive1.gameObject.SetActive(true);
-                avatarInactive2.gameObject.SetActive(false);
+               //avatarInactive1.gameObject.SetActive(true);
+                //avatarInactive2.gameObject.SetActive(false);
                 break;
             
             case 2:
                 activeAvatar = 1;
                 
-                avatarActive1.gameObject.SetActive(true);
-                avatarActive2.gameObject.SetActive(false);
+                avatarActive1.GetComponent<CharController>().enabled = true;
+                avatarActive2.GetComponent<CharController>().enabled = false;
                 
-                avatarInactive1.gameObject.SetActive(false);
-                avatarInactive2.gameObject.SetActive(true);
+                //avatarInactive1.gameObject.SetActive(false);
+               // avatarInactive2.gameObject.SetActive(true);
                 break;
         }
     }
