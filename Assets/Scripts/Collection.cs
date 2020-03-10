@@ -10,6 +10,8 @@ public class Collection : ScriptableObject
     //could use in an ontriggerenter event
     public void AddToCollection(Collectable collectableObj)
     {
+        if (collectablesList.Contains(collectableObj))
+            return;
         collectablesList.Add(collectableObj);
     }
 

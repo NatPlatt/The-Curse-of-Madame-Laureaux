@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Collectable : ScriptableObject
+public abstract class Collectable : NameId // or could be ScriptableObject
 {
     //this is a template
 }
