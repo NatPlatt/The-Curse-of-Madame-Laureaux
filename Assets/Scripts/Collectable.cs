@@ -4,5 +4,5 @@ using UnityEngine;
 
 public abstract class Collectable : ScriptableObject
 {
-    
+    //this is a template
 }
