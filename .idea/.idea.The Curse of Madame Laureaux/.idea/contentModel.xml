@@ -16,6 +16,7 @@
           <e p="ClickParticles.cs" t="Include" />
           <e p="CoinCollection.cs" t="Include" />
           <e p="Coins.cs" t="Include" />
+          <e p="Collection.cs" t="Include" />
           <e p="CrystalBallSwitches.cs" t="Include" />
           <e p="DataStorage.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
