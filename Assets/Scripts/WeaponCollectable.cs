@@ -15,7 +15,7 @@ public class WeaponCollectable : Collectable
 
     public void Attack()
     {
-        
+        Debug.Log("attack already");
     }
 
     public void Equip()
