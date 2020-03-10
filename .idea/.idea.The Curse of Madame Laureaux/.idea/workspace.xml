@@ -112,9 +112,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/TextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SwitchPlayerControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WeaponCollectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collection.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WeaponCollectable.cs" />
       </list>
     </option>
   </component>
@@ -198,7 +198,7 @@
       <workItem from="1583269763635" duration="2037000" />
       <workItem from="1583346132277" duration="8111000" />
       <workItem from="1583433642700" duration="4298000" />
-      <workItem from="1583862844503" duration="2086000" />
+      <workItem from="1583862844503" duration="2553000" />
     </task>
     <servers />
   </component>
