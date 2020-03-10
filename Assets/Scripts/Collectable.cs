@@ -5,4 +5,5 @@ using UnityEngine;
 public abstract class Collectable : NameId // or could be ScriptableObject
 {
     //this is a template
+    public abstract void Use();
 }
