@@ -73,7 +73,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CrystalBallSwitches.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameAction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharCombat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
@@ -116,6 +115,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeaponCollectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
       </list>
     </option>
   </component>
@@ -200,7 +200,7 @@
       <workItem from="1583346132277" duration="8111000" />
       <workItem from="1583433642700" duration="4298000" />
       <workItem from="1583862844503" duration="3296000" />
-      <workItem from="1583955946499" duration="843000" />
+      <workItem from="1583955946499" duration="898000" />
     </task>
     <servers />
   </component>
