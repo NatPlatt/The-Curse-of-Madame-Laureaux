@@ -1168,7 +1168,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 72363114}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1785949787}
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &72363114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4340,7 +4351,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 269491411}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 0770daad979d441449de74e97168eed6, type: 2}
+        m_MethodName: LoadScene
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 102900000, guid: 0d376dbb5fb29914e8f248bec2e43e12,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &269491411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11329,7 +11352,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 621385101}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1026851354}
+        m_MethodName: Resume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &621385101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36626,6 +36660,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1785949786}
+  - component: {fileID: 1785949787}
   m_Layer: 0
   m_Name: PauseMenu
   m_TagString: Untagged
@@ -36651,6 +36686,18 @@ Transform:
   m_Father: {fileID: 1026851353}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1785949787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785949785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55aa6b7826860224e97cfdee9f79f4af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1787352097
 GameObject:
   m_ObjectHideFlags: 0
