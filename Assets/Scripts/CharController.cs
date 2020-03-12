@@ -10,11 +10,11 @@ public class CharController : CharBehavior
     {
         if (charController.isGrounded)
         {
-            moveDirection.Set(Input.GetAxis("Horizontal"), 0.0f, speed*Input.GetAxis("Vertical"));
-            rotateDirection.y = rotateSpeed * Input.GetAxis("Horizontal");
-            transform.Rotate(rotateDirection);
+            moveDirection.Set(Input.GetAxis("Horizontal") * speed, 0.0f, speed*Input.GetAxis("Vertical"));
+           
+            //transform.Rotate(rotateDirection);
+           
             moveDirection = transform.TransformDirection(moveDirection);
-            
         }
         moveDirection.y -= gravity * Time.deltaTime;
 
