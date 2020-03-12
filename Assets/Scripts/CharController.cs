@@ -4,14 +4,17 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class CharController : CharBehavior
 {
-
+    public Vector3 rotateDirection;
+    
     private void Update()
     {
         if (charController.isGrounded)
         {
-            moveDirection.Set(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical")); 
-            moveDirection *= speed;
-           
+            moveDirection.Set(Input.GetAxis("Horizontal"), 0.0f, speed*Input.GetAxis("Vertical"));
+            rotateDirection.y = rotateSpeed * Input.GetAxis("Horizontal");
+            transform.Rotate(rotateDirection);
+            moveDirection = transform.TransformDirection(moveDirection);
+            
         }
         moveDirection.y -= gravity * Time.deltaTime;
 
