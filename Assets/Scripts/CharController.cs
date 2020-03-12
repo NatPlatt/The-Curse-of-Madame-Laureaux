@@ -17,19 +17,20 @@ public class CharController : CharBehavior
         {
             horizontalInput = Input.GetAxis("Horizontal");
             verticalInput = Input.GetAxis("Vertical");
+            move = new Vector3(-horizontalInput, 0, -verticalInput);
             
             if (horizontalInput != 0 || verticalInput != 0)
             {
                 transform.rotation = Quaternion.LookRotation(move);
             }
-            moveDirection.x = Input.GetAxis("Horizontal");
-            moveDirection.z = Input.GetAxis("Vertical");
-
-
+            else
+            {
+                move = new Vector3(horizontalInput,0,verticalInput);
+            }
         }
         moveDirection.y -= gravity * Time.deltaTime;
 
-        charController.Move(moveDirection * speed * Time.deltaTime);
+        charController.Move(speed * Time.deltaTime * moveDirection );
     }
 
     public void Update() 
