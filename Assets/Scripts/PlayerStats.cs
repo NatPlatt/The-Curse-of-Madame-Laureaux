@@ -14,10 +14,7 @@ public class PlayerStats : CharStats
     public override void Die()
     {
         base.Die();
-        if (maxHP <= 0)
-        {
-            SceneManager.LoadScene("KillScreen");
-        }
+        SceneManager.LoadScene("KillScreen");
         gameObject.GetComponent<Renderer>().material.color = deadColor;
             PlayerManager.instance.KillPlayer();
     }
