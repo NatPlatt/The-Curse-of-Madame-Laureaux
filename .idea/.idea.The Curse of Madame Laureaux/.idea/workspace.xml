@@ -33,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharCombat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/SpriteRenderBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddEnemyPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/WorkSystem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -66,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ClickParticles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ClickColor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CrystalBallSwitches.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" />
@@ -111,12 +111,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstanceObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StringListData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharController.cs" />
       </list>
     </option>
   </component>
@@ -203,7 +204,7 @@
       <workItem from="1583862844503" duration="3296000" />
       <workItem from="1583955946499" duration="898000" />
       <workItem from="1583958671582" duration="3112000" />
-      <workItem from="1584026274704" duration="4021000" />
+      <workItem from="1584026274704" duration="5816000" />
     </task>
     <servers />
   </component>
