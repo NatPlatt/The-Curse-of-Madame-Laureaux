@@ -33,10 +33,10 @@ public class CharController : MonoBehaviour
            
         }
 
-        if (Input.GetButton("Jump"))
+        /*if (Input.GetButton("Jump"))
         {
             moveDirection.y = jumpSpeed;
-        }
+        }*/
 
         if (moveDirection != Vector3.zero)
         {
@@ -51,10 +51,10 @@ public class CharController : MonoBehaviour
         
     }
 
-    void Rotate()
+    /*void Rotate()
     {
         transform.Rotate(0, 90, 0);
-    }
+    }*/
 
     
 }
