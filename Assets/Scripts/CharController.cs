@@ -5,29 +5,47 @@ using UnityEngine;
 public class CharController : CharBehavior
 {
     public Vector3 rotateDirection;
-    
-    private void Update()
+    private float horizontalInput, verticalInput;
+
+    private void MoveChar()
     {
+        horizontalInput = Input.GetAxis("Horizontal");
+        verticalInput = Input.GetAxis("Vertical");
+
         if (charController.isGrounded)
         {
-            moveDirection.Set(Input.GetAxis("Horizontal") * speed, 0.0f, speed*Input.GetAxis("Vertical"));
-           
-            //transform.Rotate(rotateDirection);
-           
-            moveDirection = transform.TransformDirection(moveDirection);
+            if (horizontalInput != 0 && verticalInput != 0)
+            {
+                moveDirection.x = horizontalInput * speed;
+                moveDirection.z = verticalInput * speed;
+            }
+
+            if (moveDirection.x != 0 || moveDirection.z != 0)
+            {
+                charController.transform.forward = new Vector3(moveDirection.x, 0, moveDirection.z);
+            }
         }
         moveDirection.y -= gravity * Time.deltaTime;
 
         charController.Move(moveDirection * Time.deltaTime);
+    }
+
+    public void Update() 
+        {
+       
+            MoveChar();
+            
+           
+            //transform.Rotate(rotateDirection);
+
+            //moveDirection = transform.TransformDirection(moveDirection);
+        }
+        
 
         /*if (moveDirection != Vector3.zero)
         {
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation( moveDirection),0.15f );
         }*/
-
-
-        
-        
         
     }
 
@@ -37,4 +55,4 @@ public class CharController : CharBehavior
     }*/
 
     
-}
+
