@@ -4849,11 +4849,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 235597056765574806, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 1549636658}
     - target: {fileID: 235597056765574813, guid: 59d14c2b51d84be4dad5b49a7992c36e,
         type: 3}
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+        type: 3}
+      propertyPath: healthbar
+      value: 
+      objectReference: {fileID: 1736587776}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59d14c2b51d84be4dad5b49a7992c36e, type: 3}
 --- !u!1 &1517287787
