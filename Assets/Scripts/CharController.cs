@@ -11,32 +11,33 @@ public class CharController : CharBehavior
     Vector3 move = new Vector3(0,0,0);
     
 
-    private void MoveChar()
+    void Update()
     {
+        
+        float horizontalNum = Input.GetAxis("Horizontal");
+        float verticalNum = Input.GetAxis("Vertical");
+        Vector3 move = new Vector3(0,0,0);
+        
         if (charController.isGrounded)
         {
-            horizontalInput = Input.GetAxis("Horizontal");
-            verticalInput = Input.GetAxis("Vertical");
             move = new Vector3(-horizontalInput, 0, -verticalInput);
-            
-            if (horizontalInput != 0 || verticalInput != 0)
+            if (horizontalNum != 0 || verticalNum != 0)
             {
                 transform.rotation = Quaternion.LookRotation(move);
+                
             }
             else
             {
-                move = new Vector3(horizontalInput,0,verticalInput);
+                move = new Vector3(-horizontalInput,verticalInput,0);
             }
+            
         }
         moveDirection.y -= gravity * Time.deltaTime;
 
-        charController.Move(speed * Time.deltaTime * moveDirection );
+        charController.Move(move * speed * Time.deltaTime );
     }
 
-    public void Update() 
-        {
-            MoveChar();
-        }
+    
         
 
         /*if (moveDirection != Vector3.zero)
@@ -52,7 +53,7 @@ public class CharController : CharBehavior
 
         //moveDirection = transform.TransformDirection(moveDirection);*/
         
-    }
+}
 
     
 
