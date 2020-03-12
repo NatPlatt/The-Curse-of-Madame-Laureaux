@@ -66,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ClickParticles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ClickColor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CrystalBallSwitches.cs" />
@@ -117,6 +116,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
       </list>
     </option>
   </component>
@@ -203,7 +203,7 @@
       <workItem from="1583862844503" duration="3296000" />
       <workItem from="1583955946499" duration="898000" />
       <workItem from="1583958671582" duration="3112000" />
-      <workItem from="1584026274704" duration="3144000" />
+      <workItem from="1584026274704" duration="3977000" />
     </task>
     <servers />
   </component>
