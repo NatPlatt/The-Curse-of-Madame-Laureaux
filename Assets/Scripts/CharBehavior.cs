@@ -5,7 +5,7 @@ using UnityEngine;
 public class CharBehavior : MonoBehaviour
 {
     protected CharacterController charController;
-    private Vector3 position;
+    protected Vector3 position;
     private Vector3 movement;
 
     public float speed = 6.0f;
