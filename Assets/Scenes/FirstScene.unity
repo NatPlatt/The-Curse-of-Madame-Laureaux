@@ -3183,6 +3183,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 178156925}
   m_CullTransparentMesh: 0
+--- !u!1 &179375402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 179375403}
+  - component: {fileID: 179375404}
+  m_Layer: 0
+  m_Name: treeBox4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &179375403
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179375402}
+  m_LocalRotation: {x: 0, y: 0.2965416, z: 0, w: 0.95501995}
+  m_LocalPosition: {x: -6.33, y: 2.3000002, z: 7.58}
+  m_LocalScale: {x: 3.600324, y: 3.600324, z: 3.600324}
+  m_Children:
+  - {fileID: 1704575834}
+  m_Father: {fileID: 2009777592}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 34.5, z: 0}
+--- !u!65 &179375404
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179375402}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.57, z: 2.11}
+  m_Center: {x: 0, y: -0.3, z: 0}
 --- !u!1 &198244045
 GameObject:
   m_ObjectHideFlags: 0
@@ -14583,12 +14628,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 731913315}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.38, y: 2.3, z: 12.9}
-  m_LocalScale: {x: 2.9733636, y: 2.9324205, z: 2.9733636}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1991433310}
-  m_Father: {fileID: 2009777592}
-  m_RootOrder: 8
+  m_Father: {fileID: 763368190}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &731913317
 SphereCollider:
@@ -15040,6 +15085,51 @@ MonoBehaviour:
   radius: 4.5
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
   restingColor: {r: 1, g: 0.78583395, b: 0, a: 0}
+--- !u!1 &763368189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 763368190}
+  - component: {fileID: 763368191}
+  m_Layer: 0
+  m_Name: treeBox5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &763368190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763368189}
+  m_LocalRotation: {x: 0, y: -0.08941587, z: 0, w: 0.9959944}
+  m_LocalPosition: {x: 0.37999916, y: 1.5799999, z: 12.9}
+  m_LocalScale: {x: 2.9733636, y: 2.9324205, z: 2.9733636}
+  m_Children:
+  - {fileID: 731913316}
+  m_Father: {fileID: 2009777592}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: -10.26, z: 0}
+--- !u!65 &763368191
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763368189}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.84, y: 1.76, z: 1.14}
+  m_Center: {x: 0, y: -0.18, z: 0}
 --- !u!1 &766666316
 GameObject:
   m_ObjectHideFlags: 0
@@ -36904,12 +36994,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704575833}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.33, y: 2.3, z: 7.58}
-  m_LocalScale: {x: 3.600324, y: 3.600324, z: 3.600324}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 208121738}
-  m_Father: {fileID: 2009777592}
-  m_RootOrder: 6
+  m_Father: {fileID: 179375403}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1704575835
 SphereCollider:
@@ -42458,9 +42548,9 @@ Transform:
   - {fileID: 1217380714}
   - {fileID: 1054642775}
   - {fileID: 1366705230}
-  - {fileID: 1704575834}
+  - {fileID: 179375403}
   - {fileID: 1878299412}
-  - {fileID: 731913316}
+  - {fileID: 763368190}
   - {fileID: 1713861021}
   - {fileID: 858727166}
   - {fileID: 85582547}
