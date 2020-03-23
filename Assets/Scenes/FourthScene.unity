@@ -5036,6 +5036,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 178156925}
   m_CullTransparentMesh: 0
+--- !u!1 &178824758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 178824759}
+  - component: {fileID: 178824760}
+  m_Layer: 0
+  m_Name: treeBox8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &178824759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178824758}
+  m_LocalRotation: {x: 0, y: 0.3047812, z: 0, w: 0.95242244}
+  m_LocalPosition: {x: -38.58, y: 2.3000002, z: 39.66}
+  m_LocalScale: {x: 3.600324, y: 3.600324, z: 3.600324}
+  m_Children:
+  - {fileID: 396650478}
+  m_Father: {fileID: 2009777592}
+  m_RootOrder: 56
+  m_LocalEulerAnglesHint: {x: 0, y: 35.49, z: 0}
+--- !u!65 &178824760
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178824758}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.74, z: 4.84}
+  m_Center: {x: 0, y: -0.21, z: -1.61}
 --- !u!1 &189337111
 GameObject:
   m_ObjectHideFlags: 0
@@ -16443,12 +16488,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396650477}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -38.58, y: 2.3, z: 39.66}
-  m_LocalScale: {x: 3.600324, y: 3.600324, z: 3.600324}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 767212554}
-  m_Father: {fileID: 2009777592}
-  m_RootOrder: 56
+  m_Father: {fileID: 178824759}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &396650479
 SphereCollider:
@@ -18016,12 +18061,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466774157}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.77, y: 2.3, z: 59.02}
-  m_LocalScale: {x: 3.600324, y: 3.600324, z: 3.600324}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 667777783}
-  m_Father: {fileID: 2009777592}
-  m_RootOrder: 51
+  m_Father: {fileID: 718722336}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &466774159
 SphereCollider:
@@ -25518,6 +25563,51 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 717494590}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &718722335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 718722336}
+  - component: {fileID: 718722337}
+  m_Layer: 0
+  m_Name: treeBox7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &718722336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718722335}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -37.77, y: 2.3000002, z: 59.02}
+  m_LocalScale: {x: 3.600324, y: 3.600324, z: 3.600324}
+  m_Children:
+  - {fileID: 466774158}
+  m_Father: {fileID: 2009777592}
+  m_RootOrder: 51
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &718722337
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718722335}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.97, y: 1.78, z: 5.15}
+  m_Center: {x: 0.39, y: -0.21, z: -2.12}
 --- !u!1 &719049351
 GameObject:
   m_ObjectHideFlags: 0
@@ -71824,12 +71914,12 @@ Transform:
   - {fileID: 1095585950}
   - {fileID: 536267501}
   - {fileID: 1658352409}
-  - {fileID: 466774158}
+  - {fileID: 718722336}
   - {fileID: 913175413}
   - {fileID: 1948634406}
   - {fileID: 602094990}
   - {fileID: 111671676}
-  - {fileID: 396650478}
+  - {fileID: 178824759}
   - {fileID: 2052226348}
   - {fileID: 1550471237}
   - {fileID: 2111817052}
