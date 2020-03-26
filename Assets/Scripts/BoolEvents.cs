@@ -22,4 +22,9 @@ public class BoolEvents : MonoBehaviour
         }
     }
 
+    public void ToggleBoolCondition()
+    {
+        boolCondition = !boolCondition;
+    }
+
 }
