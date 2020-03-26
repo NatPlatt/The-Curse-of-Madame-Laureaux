@@ -24,6 +24,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SwitchPlayerControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoolEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ToggleEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/WorkSystemManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClickParticles.cs" root0="FORCE_HIGHLIGHTING" />
@@ -67,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ClickColor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CrystalBallSwitches.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameAction.cs" />
@@ -118,6 +118,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BoolEvents.cs" />
       </list>
     </option>
   </component>
@@ -206,6 +207,7 @@
       <workItem from="1583958671582" duration="3112000" />
       <workItem from="1584026274704" duration="17012000" />
       <workItem from="1584544262969" duration="971000" />
+      <workItem from="1585181620204" duration="271000" />
     </task>
     <servers />
   </component>
