@@ -51,6 +51,7 @@
           </e>
           <e p="ParticleController.cs" t="Include" />
           <e p="PauseMenu.cs" t="Include" />
+          <e p="PickUpObj.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerManager.cs" t="Include" />
