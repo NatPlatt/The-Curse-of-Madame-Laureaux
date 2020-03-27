@@ -6959,6 +6959,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 766666317}
     m_Modifications:
+    - target: {fileID: 2093714327, guid: e37ed5eb72e9c6b4093a09bae33350f4, type: 3}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 465071173}
     - target: {fileID: 6827742455281030228, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10134,6 +10138,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 766666317}
     m_Modifications:
+    - target: {fileID: 2093714327, guid: e37ed5eb72e9c6b4093a09bae33350f4, type: 3}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 465071173}
     - target: {fileID: 6827742455281030228, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17376,6 +17384,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 766666317}
     m_Modifications:
+    - target: {fileID: 2093714327, guid: e37ed5eb72e9c6b4093a09bae33350f4, type: 3}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 465071173}
     - target: {fileID: 6827742455281030228, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30274,6 +30286,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 766666317}
     m_Modifications:
+    - target: {fileID: 2093714327, guid: e37ed5eb72e9c6b4093a09bae33350f4, type: 3}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 465071173}
     - target: {fileID: 6827742455281030228, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30343,6 +30359,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 766666317}
     m_Modifications:
+    - target: {fileID: 2093714327, guid: e37ed5eb72e9c6b4093a09bae33350f4, type: 3}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 465071173}
     - target: {fileID: 6827742455281030228, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
       propertyPath: m_LocalPosition.x
