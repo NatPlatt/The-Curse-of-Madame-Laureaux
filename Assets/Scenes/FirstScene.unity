@@ -50339,6 +50339,14 @@ PrefabInstance:
       propertyPath: hiddenObj
       value: 
       objectReference: {fileID: 987105750}
+    - target: {fileID: 2093714327, guid: e37ed5eb72e9c6b4093a09bae33350f4, type: 3}
+      propertyPath: objText
+      value: 
+      objectReference: {fileID: 1619813626}
+    - target: {fileID: 2093714327, guid: e37ed5eb72e9c6b4093a09bae33350f4, type: 3}
+      propertyPath: radius
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6827742455281030228, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -50397,12 +50405,12 @@ PrefabInstance:
     - target: {fileID: 6827742455281030231, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
       propertyPath: m_Radius
-      value: 2.77
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6827742455281030231, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
       propertyPath: m_Height
-      value: 3.04
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6827742455281030231, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
@@ -50412,12 +50420,17 @@ PrefabInstance:
     - target: {fileID: 6827742455281030231, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
       propertyPath: m_Center.x
-      value: -0.66
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6827742455281030231, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
       propertyPath: m_Center.z
-      value: -1.25
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827742455281030231, guid: e37ed5eb72e9c6b4093a09bae33350f4,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6827742455281030313, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
