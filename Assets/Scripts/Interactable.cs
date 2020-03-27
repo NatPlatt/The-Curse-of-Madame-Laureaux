@@ -41,7 +41,7 @@ public class Interactable : MonoBehaviour
     public void OnMouseDown()
     {
         gameObject.GetComponent<Renderer>().material.color = clickedColor;
-        //Debug.Log("I am clicked");
+        Debug.Log("I am clicked");
     }
 
     public void OnFocused(Transform playerTransform)

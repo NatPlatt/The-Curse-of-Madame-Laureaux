@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: db8491fb787b23a49baade69429dab51, type: 2}
+  - {fileID: 2100000, guid: 5e492267a9d041448b95f388259e5364, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109,7 +109,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 3
   clickedColor: {r: 0, g: 0, b: 0, a: 0}
-  playerObj: {fileID: 0}
-  hiddenObj: {fileID: 6827742455281030313}
-  hiddenObjBounds: 4
-  playerDistance: 0
