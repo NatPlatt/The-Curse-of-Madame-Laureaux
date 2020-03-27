@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class HiddenObjects : Interactable
 {
-    public GameObject hiddenObj; 
     public override void Interact()
     {
         base.Interact();
@@ -13,10 +12,4 @@ public class HiddenObjects : Interactable
         
     }
 
-    public override void OnMouseDown()
-    {
-        base.OnMouseDown();
-        gameObject.GetComponent<Renderer>().material.color = clickedColor;
-    }
-    
 }

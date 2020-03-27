@@ -5,15 +5,15 @@ using UnityEngine;
 
 public class EnableObjs : MonoBehaviour
 {
-   public GameObject hiddenObj;
+   public MeshRenderer hiddenObjRenderer;
 
    private void Start()
    {
-      hiddenObj.SetActive(false);
+      hiddenObjRenderer.enabled = false;
    }
 
    private void OnTriggerEnter(Collider other)
    {
-      hiddenObj.SetActive(true);
+      hiddenObjRenderer.enabled = false;
    }
 }

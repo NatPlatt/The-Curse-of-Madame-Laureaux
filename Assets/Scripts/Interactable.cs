@@ -38,7 +38,7 @@ public class Interactable : MonoBehaviour
         }
     }
 
-    public virtual void OnMouseDown()
+    public void OnMouseDown()
     {
         gameObject.GetComponent<Renderer>().material.color = clickedColor;
         Debug.Log("I am clicked");
