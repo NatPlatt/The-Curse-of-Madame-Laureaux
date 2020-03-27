@@ -89,7 +89,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6827742455281030313}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -109,3 +109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 3
   clickedColor: {r: 0, g: 0, b: 0, a: 0}
+  playerObj: {fileID: 0}
+  hiddenObj: {fileID: 6827742455281030313}
+  hiddenObjBounds: 4
+  playerDistance: 0

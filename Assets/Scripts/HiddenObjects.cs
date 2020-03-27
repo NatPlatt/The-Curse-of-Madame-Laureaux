@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class HiddenObjects : Interactable
 {
-    public GameObject player;
+    public GameObject playerObj;
     public GameObject hiddenObj;
     public float hiddenObjBounds = 4;
     public float playerDistance;
@@ -18,7 +18,7 @@ public class HiddenObjects : Interactable
 
     void Update()
     {
-        playerDistance = player.transform.position.x;
+        playerDistance = playerObj.transform.position.x;
 
         if (playerDistance <= hiddenObjBounds)
         {
@@ -29,10 +29,8 @@ public class HiddenObjects : Interactable
     
     public override void Interact()
     {
-        
         base.Interact();
         Debug.Log("You have found hidden clue 1");
-        
-        
     }
+    
 }
