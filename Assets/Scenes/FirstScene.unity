@@ -50120,6 +50120,18 @@ PrefabInstance:
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 465071173}
+    - target: {fileID: 2093714327, guid: e37ed5eb72e9c6b4093a09bae33350f4, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2093714327, guid: e37ed5eb72e9c6b4093a09bae33350f4, type: 3}
+      propertyPath: colliderObj
+      value: 
+      objectReference: {fileID: 1873241357}
+    - target: {fileID: 2093714327, guid: e37ed5eb72e9c6b4093a09bae33350f4, type: 3}
+      propertyPath: hiddenObj
+      value: 
+      objectReference: {fileID: 987105750}
     - target: {fileID: 6827742455281030228, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -50174,6 +50186,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827742455281030231, guid: e37ed5eb72e9c6b4093a09bae33350f4,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827742455281030231, guid: e37ed5eb72e9c6b4093a09bae33350f4,
+        type: 3}
+      propertyPath: m_Height
+      value: 3.04
       objectReference: {fileID: 0}
     - target: {fileID: 6827742455281030313, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
