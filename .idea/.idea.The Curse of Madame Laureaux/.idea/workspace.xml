@@ -63,6 +63,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinCollection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CrystalBallSwitches.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnableObjs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HiddenObjects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/TextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -208,7 +209,7 @@
       <workItem from="1583958671582" duration="3112000" />
       <workItem from="1584026274704" duration="17012000" />
       <workItem from="1584544262969" duration="971000" />
-      <workItem from="1585181620204" duration="3362000" />
+      <workItem from="1585181620204" duration="4362000" />
     </task>
     <servers />
   </component>

@@ -9,20 +9,13 @@ public class HiddenObjects : Interactable
     public GameObject hiddenObj;
     public float hiddenObjBounds = 4;
     public float playerDistance;
-
-
-    private void Start()
-    {
-        hiddenObj.SetActive(false);
-    }
-
+    
     void Update()
     {
         playerDistance = playerObj.transform.position.x;
 
         if (playerDistance <= hiddenObjBounds)
         {
-            hiddenObj.SetActive(true);
             Interact();
         }
     }
