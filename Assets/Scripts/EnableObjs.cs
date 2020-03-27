@@ -14,6 +14,6 @@ public class EnableObjs : MonoBehaviour
 
    private void OnTriggerEnter(Collider other)
    {
-      hiddenObjRenderer.enabled = false;
+      hiddenObjRenderer.enabled = true;
    }
 }
