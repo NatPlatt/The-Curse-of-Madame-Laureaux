@@ -1,25 +1,38 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class HiddenObjects : Interactable
 {
     public GameObject player;
+    public GameObject hiddenObj;
     public float hiddenObjBounds = 4;
     public float playerDistance;
+
+
+    private void Start()
+    {
+        hiddenObj.SetActive(false);
+    }
 
     void Update()
     {
         playerDistance = player.transform.position.x;
+
+        if (playerDistance <= hiddenObjBounds)
+        {
+            hiddenObj.SetActive(true);
+            Interact();
+        }
     }
     
     public override void Interact()
     {
-        if ( playerDistance <= hiddenObjBounds)
-        {
-             base.Interact();
-             Debug.Log("You have found hidden clue 1");
-        }
+        
+        base.Interact();
+        Debug.Log("You have found hidden clue 1");
+        
         
     }
 }
