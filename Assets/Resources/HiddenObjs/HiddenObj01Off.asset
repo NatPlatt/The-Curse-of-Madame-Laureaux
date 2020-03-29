@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bfc092c85babc3489339a704b9f760b, type: 3}
   m_Name: HiddenObj01Off
   m_EditorClassIdentifier: 
-  disableThisObj: {fileID: 6827742455281030313, guid: e37ed5eb72e9c6b4093a09bae33350f4,
+  hiddenObj: {fileID: 6827742455281030313, guid: e37ed5eb72e9c6b4093a09bae33350f4,
     type: 3}

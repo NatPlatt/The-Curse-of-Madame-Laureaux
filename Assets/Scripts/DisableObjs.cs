@@ -6,12 +6,10 @@ using UnityEngine.UI;
 [CreateAssetMenu]
 public class DisableObjs : ScriptableObject
 {
-    public Text text;
-    public Button button;
+    public GameObject hiddenObj;
     
     public void DisableIt()
     {
-        text.enabled = false;
-        button.enabled = false;
+        hiddenObj.SetActive(false);
     }
 }
