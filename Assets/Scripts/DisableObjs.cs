@@ -5,10 +5,10 @@ using UnityEngine;
 [CreateAssetMenu]
 public class DisableObjs : ScriptableObject
 {
-    public GameObject disableThisObj;
+    public Canvas disableThisCanvas;
     
     public void DisableIt()
     {
-        disableThisObj.SetActive(false);
+        disableThisCanvas.enabled = false;
     }
 }
