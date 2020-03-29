@@ -9,6 +9,6 @@ public class HiddenObjCollectable : Collectable
 
     public override void Use()
     {
-        
+        useEvent.Invoke();
     }
 }
