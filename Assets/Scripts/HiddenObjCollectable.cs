@@ -7,6 +7,7 @@ using UnityEngine.Events;
 public class HiddenObjCollectable : Collectable
 {
     public UnityEvent useEvent;
+    public float HPamount;
 
     public override void Use()
     {
