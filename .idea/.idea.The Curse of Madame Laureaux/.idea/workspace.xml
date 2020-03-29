@@ -46,6 +46,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HiddenObjCollectable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataStorage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" root0="FORCE_HIGHLIGHTING" />
@@ -70,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharCombat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
@@ -121,6 +121,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnableObjs.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObjects.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObjCollectable.cs" />
       </list>
     </option>
   </component>
@@ -209,7 +210,7 @@
       <workItem from="1583958671582" duration="3112000" />
       <workItem from="1584026274704" duration="17012000" />
       <workItem from="1584544262969" duration="971000" />
-      <workItem from="1585181620204" duration="9580000" />
+      <workItem from="1585181620204" duration="9833000" />
     </task>
     <servers />
   </component>
