@@ -5,15 +5,10 @@ using UnityEngine;
 [CreateAssetMenu]
 public class DisableObjs : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject disableThisObj;
+    
+    public void DisableIt()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        disableThisObj.SetActive(false);
     }
 }
