@@ -9,10 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca43995b6b33fc842901783247a7384b, type: 3}
-  m_Name: hiddenObj1
+  m_Script: {fileID: 11500000, guid: 9bfc092c85babc3489339a704b9f760b, type: 3}
+  m_Name: HiddenObj01Off
   m_EditorClassIdentifier: 
-  useEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  HPamount: 5
+  disableThisObj: {fileID: 6827742455281030313, guid: e37ed5eb72e9c6b4093a09bae33350f4,
+    type: 3}

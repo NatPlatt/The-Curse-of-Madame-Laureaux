@@ -15090,7 +15090,7 @@ PrefabInstance:
     - target: {fileID: 6827742455281030228, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6827742455281030228, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
@@ -22505,7 +22505,7 @@ PrefabInstance:
     - target: {fileID: 6827742455281030228, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6827742455281030228, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
@@ -35362,7 +35362,7 @@ PrefabInstance:
     - target: {fileID: 6827742455281030228, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6827742455281030228, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
@@ -35435,7 +35435,7 @@ PrefabInstance:
     - target: {fileID: 6827742455281030228, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6827742455281030228, guid: e37ed5eb72e9c6b4093a09bae33350f4,
         type: 3}
@@ -35827,6 +35827,17 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 11400000, guid: 9a3dc6e51986c494399e0b9f8624c2ba,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: Collectable, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 7b8783aaf98d72d47a4b28a750a673da, type: 2}
+        m_MethodName: DisableIt
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
