@@ -872,7 +872,7 @@ GameObject:
   - component: {fileID: 48225117}
   m_Layer: 0
   m_Name: enemy2
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21087,7 +21087,7 @@ GameObject:
   - component: {fileID: 344071780}
   m_Layer: 0
   m_Name: enemy1
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60404,7 +60404,7 @@ GameObject:
   - component: {fileID: 1518574315}
   m_Layer: 0
   m_Name: enemy3
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

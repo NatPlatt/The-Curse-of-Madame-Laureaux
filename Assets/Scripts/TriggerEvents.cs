@@ -8,6 +8,10 @@ public class TriggerEvents : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        triggerEnterEvent.Invoke();
+        if (other.tag == "enemy")
+        {
+           triggerEnterEvent.Invoke(); 
+        } 
+        
     }
 }
