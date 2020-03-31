@@ -9,10 +9,7 @@ public class TriggerEvents : MonoBehaviour
     public UnityEvent triggerExitEvent;
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "enemy")
-        {
-           triggerEnterEvent.Invoke(); 
-        }
+        triggerEnterEvent.Invoke();
     }
 
     private void OnTriggerExit(Collider other)
