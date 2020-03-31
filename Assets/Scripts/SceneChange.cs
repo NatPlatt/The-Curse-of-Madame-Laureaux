@@ -13,6 +13,7 @@ public class SceneChange : ScriptableObject
 
     public void OnTriggerEnter()
     {
+        Debug.Log("change the scene");
         LoadScene(scene);
     }
 }
