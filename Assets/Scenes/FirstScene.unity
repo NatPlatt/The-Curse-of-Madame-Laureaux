@@ -82106,11 +82106,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 168954799510451600, guid: aca42b654d7e2d048818e231ce082e10,
-        type: 3}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadScene
-      objectReference: {fileID: 0}
     - target: {fileID: 168954799510451613, guid: aca42b654d7e2d048818e231ce082e10,
         type: 3}
       propertyPath: m_Name
