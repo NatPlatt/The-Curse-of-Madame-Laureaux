@@ -5,18 +5,18 @@ using UnityEngine;
 
 public class HiddenObjects : Interactable
 {
-    public Canvas objText;
+    public Canvas canvasObj;
 
     private void Start()
     {
-        objText.enabled = false;
+        canvasObj.enabled = false;
     }
 
     public override void Interact()
     {
         base.Interact();
         Debug.Log("You have found hidden clue 1");
-        objText.enabled = true;
+        canvasObj.enabled = true;
     }
 
 }
