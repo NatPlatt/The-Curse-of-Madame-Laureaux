@@ -445,8 +445,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerObj: {fileID: 84764347}
-  minHeightForReset: 0.73
-  respawnPosition: {fileID: 769506440}
+  minHeightForReset: 1.3
+  respawnPosition: {fileID: 423273589}
 --- !u!1 &94403491
 GameObject:
   m_ObjectHideFlags: 0
