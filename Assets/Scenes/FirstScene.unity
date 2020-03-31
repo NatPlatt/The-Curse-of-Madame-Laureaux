@@ -62562,12 +62562,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1611316532}
   m_CullTransparentMesh: 0
---- !u!1 &1619813622 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9209605934643236523, guid: 5698549702daf5f409a702b3e88957c8,
-    type: 3}
-  m_PrefabInstance: {fileID: 9209605936244664925}
-  m_PrefabAsset: {fileID: 0}
 --- !u!223 &1619813626 stripped
 Canvas:
   m_CorrespondingSourceObject: {fileID: 9209605934643236519, guid: 5698549702daf5f409a702b3e88957c8,
@@ -82384,26 +82378,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CanvasHObj
-      objectReference: {fileID: 0}
-    - target: {fileID: 9209605934643236523, guid: 5698549702daf5f409a702b3e88957c8,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9209605935191821596, guid: 5698549702daf5f409a702b3e88957c8,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 1619813622}
-    - target: {fileID: 9209605935191821596, guid: 5698549702daf5f409a702b3e88957c8,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetActive
-      objectReference: {fileID: 0}
-    - target: {fileID: 9209605935191821596, guid: 5698549702daf5f409a702b3e88957c8,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5698549702daf5f409a702b3e88957c8, type: 3}

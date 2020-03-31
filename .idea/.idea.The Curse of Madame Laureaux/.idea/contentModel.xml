@@ -59,6 +59,7 @@
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerManager.cs" t="Include" />
           <e p="PlayerStats.cs" t="Include" />
+          <e p="Puzzle1Reset.cs" t="Include" />
           <e p="SceneChange.cs" t="Include" />
           <e p="Stats.cs" t="Include" />
           <e p="StringListData.cs" t="Include" />

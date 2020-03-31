@@ -29,6 +29,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/WorkSystemManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClickParticles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DisableObjs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle1Reset.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InstanceObject.cs" root0="FORCE_HIGHLIGHTING" />
@@ -72,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ImageController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Billboard.cs" />
@@ -123,6 +123,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObjCollectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisableObjs.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle1Reset.cs" />
       </list>
     </option>
   </component>
@@ -211,7 +212,7 @@
       <workItem from="1583958671582" duration="3112000" />
       <workItem from="1584026274704" duration="17012000" />
       <workItem from="1584544262969" duration="971000" />
-      <workItem from="1585181620204" duration="15961000" />
+      <workItem from="1585181620204" duration="16584000" />
     </task>
     <servers />
   </component>

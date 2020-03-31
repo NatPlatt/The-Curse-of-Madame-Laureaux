@@ -55001,7 +55001,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8531691923865985681}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.870001, y: 24.595312, z: -9.04}
+  m_LocalPosition: {x: -31.7, y: 24.595312, z: -1.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8531691924543967891}
@@ -55131,7 +55131,7 @@ GameObject:
   - component: {fileID: 8531691923865985680}
   - component: {fileID: 8531691923865985692}
   m_Layer: 0
-  m_Name: hiddenClue1
+  m_Name: hiddenClue3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
