@@ -27318,7 +27318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &611029617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27333,7 +27333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 4
   clickedColor: {r: 0, g: 0, b: 0, a: 0}
-  objText: {fileID: 39202821}
+  canvasObj: {fileID: 0}
 --- !u!136 &611029618
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -39735,7 +39735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 4
   clickedColor: {r: 0, g: 0, b: 0, a: 0}
-  objText: {fileID: 1619813626}
+  canvasObj: {fileID: 1619813626}
 --- !u!136 &987105752
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -53355,7 +53355,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1177275701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53370,7 +53370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 4
   clickedColor: {r: 0, g: 0, b: 0, a: 0}
-  objText: {fileID: 981828161}
+  canvasObj: {fileID: 0}
 --- !u!136 &1177275702
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -55283,7 +55283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1274738229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55298,7 +55298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 4
   clickedColor: {r: 0, g: 0, b: 0, a: 0}
-  objText: {fileID: 876326386}
+  canvasObj: {fileID: 0}
 --- !u!136 &1274738230
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -58984,7 +58984,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1464872482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58999,7 +58999,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 4
   clickedColor: {r: 0, g: 0, b: 0, a: 0}
-  objText: {fileID: 888008483}
+  canvasObj: {fileID: 0}
 --- !u!136 &1464872483
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -78830,7 +78830,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1945109363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78845,7 +78845,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 4
   clickedColor: {r: 0, g: 0, b: 0, a: 0}
-  objText: {fileID: 100385154}
+  canvasObj: {fileID: 0}
 --- !u!136 &1945109364
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -81715,7 +81715,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2121491100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81730,7 +81730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 4
   clickedColor: {r: 0, g: 0, b: 0, a: 0}
-  objText: {fileID: 179576712}
+  canvasObj: {fileID: 0}
 --- !u!136 &2121491101
 CapsuleCollider:
   m_ObjectHideFlags: 0
