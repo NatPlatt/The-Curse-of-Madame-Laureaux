@@ -9,6 +9,7 @@ public class CharController : CharBehavior
     public Vector3 rotateDirection;
     private float horizontalInput, verticalInput;
     Vector3 move = new Vector3(0,0,0);
+    public int speed02;
     
 
     void Update()
