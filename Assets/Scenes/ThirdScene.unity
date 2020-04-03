@@ -5172,7 +5172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 100
   damage:
-    baseValue: 15
+    baseValue: 20
   healthbar: {fileID: 829507721}
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   restColor: {r: 0, g: 0, b: 0, a: 0}
