@@ -7,11 +7,14 @@ public class InstantiateOnEnemy : MonoBehaviour
 {
     public GameObject coin;
     public int coinNum;
-    public GameObject[] coins;
+    public GameObject[] coinsList;
     
     public void GetYourCoins()
     {
-        coinNum = coins.Length;
-        foreach (i in coinNum Instantiate(coin, transform.position, Quaternion.identity)) 
+        coinNum = coinsList.Length;
+        foreach (GameObject coin in coinsList)
+        {
+            Instantiate(coin, transform.position, Quaternion.identity);
+        }
     }
 }
