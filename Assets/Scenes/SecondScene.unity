@@ -914,6 +914,8 @@ GameObject:
   - component: {fileID: 48225119}
   - component: {fileID: 48225118}
   - component: {fileID: 48225117}
+  - component: {fileID: 48225121}
+  - component: {fileID: 48225120}
   m_Layer: 0
   m_Name: enemy2
   m_TagString: Untagged
@@ -1071,7 +1073,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   restColor: {r: 1, g: 0.7960785, b: 0, a: 1}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
-  destroy: {fileID: 0}
+  destroy: {fileID: 48225121}
   coin: {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
 --- !u!114 &48225119
 MonoBehaviour:
@@ -1086,6 +1088,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookRadius: 5
+--- !u!114 &48225120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48225110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f732b3e76a1692840aa12026bd44ed64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coin: {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
+  coinNum: 0
+  coinsList:
+  - {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
+  - {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
+--- !u!114 &48225121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48225110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3422578197b6024f8682ba1e72f3d74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BeforeDestroyEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  AfterDestroyEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 48225120}
+        m_MethodName: GetYourCoins
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &48993155
 GameObject:
   m_ObjectHideFlags: 0
@@ -40459,6 +40507,8 @@ GameObject:
   - component: {fileID: 1518574317}
   - component: {fileID: 1518574316}
   - component: {fileID: 1518574315}
+  - component: {fileID: 1518574319}
+  - component: {fileID: 1518574314}
   m_Layer: 0
   m_Name: enemy3
   m_TagString: Untagged
@@ -40582,6 +40632,23 @@ MonoBehaviour:
   - {fileID: 1479090858}
   - {fileID: 1553780431}
   - {fileID: 795035900}
+--- !u!114 &1518574314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518574307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f732b3e76a1692840aa12026bd44ed64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coin: {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
+  coinNum: 0
+  coinsList:
+  - {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
+  - {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
 --- !u!114 &1518574315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40623,12 +40690,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 100
   damage:
-    baseValue: 0
+    baseValue: 15
   healthbar: {fileID: 293800020}
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   restColor: {r: 0, g: 0, b: 0, a: 0}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
-  destroy: {fileID: 0}
+  destroy: {fileID: 1518574319}
   coin: {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
 --- !u!114 &1518574318
 MonoBehaviour:
@@ -40645,6 +40712,35 @@ MonoBehaviour:
   radius: 4.5
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
   restingColor: {r: 1, g: 0.8101982, b: 0, a: 0}
+--- !u!114 &1518574319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518574307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3422578197b6024f8682ba1e72f3d74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BeforeDestroyEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  AfterDestroyEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1518574314}
+        m_MethodName: GetYourCoins
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1522164239
 GameObject:
   m_ObjectHideFlags: 0
@@ -51835,7 +51931,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 100
   damage:
-    baseValue: 0
+    baseValue: 15
   healthbar: {fileID: 1905414235}
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   restColor: {r: 0, g: 0, b: 0, a: 0}
