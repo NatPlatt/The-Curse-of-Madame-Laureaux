@@ -4449,6 +4449,7 @@ GameObject:
   - component: {fileID: 1546582033}
   - component: {fileID: 1546582034}
   - component: {fileID: 1546582035}
+  - component: {fileID: 1546582036}
   m_Layer: 0
   m_Name: leftBlockadeTrigger
   m_TagString: Untagged
@@ -4523,6 +4524,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &1546582036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546582032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f50c28d1198f4ee4b81c53d78317b645, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameIdObj: {fileID: 0}
+  workIdList: []
 --- !u!1 &1553372524
 GameObject:
   m_ObjectHideFlags: 0
@@ -5487,6 +5502,7 @@ GameObject:
   - component: {fileID: 1873577656}
   - component: {fileID: 1873577657}
   - component: {fileID: 1873577658}
+  - component: {fileID: 1873577659}
   m_Layer: 0
   m_Name: rightBlockadeTrigger
   m_TagString: Untagged
@@ -5561,6 +5577,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &1873577659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873577655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f50c28d1198f4ee4b81c53d78317b645, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameIdObj: {fileID: 0}
+  workIdList: []
 --- !u!1 &1875628071
 GameObject:
   m_ObjectHideFlags: 0
