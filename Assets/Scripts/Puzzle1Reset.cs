@@ -11,7 +11,7 @@ public class Puzzle1Reset : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //Debug.Log(playerObj.transform.position.y);
+        Debug.Log(playerObj.transform.position.y);
     }
 
     void Update()
