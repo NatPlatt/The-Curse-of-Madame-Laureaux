@@ -8,14 +8,10 @@ public class Puzzle1Reset : MonoBehaviour
     public GameObject playerObj;
     public float minHeightForReset;
     public Transform respawnPosition;
-    void Start()
-    {
-        
-    }
 
     private void FixedUpdate()
     {
-        Debug.Log(playerObj.transform.position.y);
+        //Debug.Log(playerObj.transform.position.y);
     }
 
     void Update()
