@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 235597056765574826}
   - component: {fileID: 235597056765574806}
   - component: {fileID: 235597056765574825}
+  - component: {fileID: 4920104957383781122}
   - component: {fileID: 235597056765574805}
   m_Layer: 0
   m_Name: player
@@ -279,6 +280,19 @@ MonoBehaviour:
   restColor: {r: 1, g: 1, b: 1, a: 1}
   enemyStat: {fileID: 0}
   deadColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!114 &4920104957383781122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235597056765574813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36813cd3ca236e5499dbb8cba87bba00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameIdObj: {fileID: 11400000, guid: 59d2d1006ce94a041964f0a6cdfe016c, type: 2}
 --- !u!95 &235597056765574805
 Animator:
   serializedVersion: 3

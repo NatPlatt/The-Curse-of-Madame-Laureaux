@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
-public class InstantiateOnEnemy : ScriptableObject
+
+public class InstantiateOnEnemy : MonoBehaviour
 {
     public GameObject coin;
-    public Transform transform;
-
+    public int coinNum;
+    public GameObject[] coins;
+    
     public void GetYourCoins()
     {
-        Instantiate(coin, transform.position, Quaternion.identity);
+        coinNum = coins.Length;
+        foreach (i in coinNum Instantiate(coin, transform.position, Quaternion.identity)) 
     }
 }
