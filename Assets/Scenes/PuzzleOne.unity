@@ -2957,6 +2957,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: sceneChangeArea
       objectReference: {fileID: 0}
+    - target: {fileID: 168954799510451613, guid: aca42b654d7e2d048818e231ce082e10,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 168954799510451615, guid: aca42b654d7e2d048818e231ce082e10,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2970,7 +2975,7 @@ PrefabInstance:
     - target: {fileID: 168954799510451615, guid: aca42b654d7e2d048818e231ce082e10,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.23
+      value: 5.84
       objectReference: {fileID: 0}
     - target: {fileID: 168954799510451615, guid: aca42b654d7e2d048818e231ce082e10,
         type: 3}
@@ -3541,7 +3546,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1244603910}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 1
@@ -3619,9 +3624,31 @@ MonoBehaviour:
           m_StringArgument: KeyWallDown
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 756522321}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   triggerExitEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 756522321}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1278836816
 GameObject:
   m_ObjectHideFlags: 0
