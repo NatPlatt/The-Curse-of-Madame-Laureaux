@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyStats : CharStats
 {
     public Color friendColor = Color.green;
-
+    public Destroy destroy;
     public GameObject coin;
     //public ClickParticles enemyParticles;
     
@@ -13,10 +13,11 @@ public class EnemyStats : CharStats
     {
         base.Die();
         
+        Debug.Log("the enemy is dead");
         gameObject.GetComponent<Renderer>().material.color = friendColor;
         
+        destroy.DestroyThis();
         
-        Destroy(gameObject);
        // enemyParticles.ghostPlasm.emissionRate = 0f;
        //Instantiate(coin);
 

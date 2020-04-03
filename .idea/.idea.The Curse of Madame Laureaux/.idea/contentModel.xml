@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\nzoll\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -22,6 +22,7 @@
           <e p="Collection.cs" t="Include" />
           <e p="CrystalBallSwitches.cs" t="Include" />
           <e p="DataStorage.cs" t="Include" />
+          <e p="Destroy.cs" t="Include" />
           <e p="DisableObjs.cs" t="Include" />
           <e p="EnableObjs.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
