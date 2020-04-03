@@ -51767,6 +51767,8 @@ GameObject:
   - component: {fileID: 1791384437}
   - component: {fileID: 1791384436}
   - component: {fileID: 1791384435}
+  - component: {fileID: 1791384439}
+  - component: {fileID: 1791384434}
   m_Layer: 0
   m_Name: enemy4
   m_TagString: Untagged
@@ -51890,6 +51892,23 @@ MonoBehaviour:
   - {fileID: 1998009555}
   - {fileID: 549457017}
   - {fileID: 1610433760}
+--- !u!114 &1791384434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791384427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f732b3e76a1692840aa12026bd44ed64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coin: {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
+  coinNum: 0
+  coinsList:
+  - {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
+  - {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
 --- !u!114 &1791384435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51936,7 +51955,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   restColor: {r: 0, g: 0, b: 0, a: 0}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
-  destroy: {fileID: 0}
+  destroy: {fileID: 1791384439}
   coin: {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
 --- !u!114 &1791384438
 MonoBehaviour:
@@ -51953,6 +51972,35 @@ MonoBehaviour:
   radius: 4.5
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
   restingColor: {r: 1, g: 0.7596457, b: 0, a: 0}
+--- !u!114 &1791384439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791384427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3422578197b6024f8682ba1e72f3d74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BeforeDestroyEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  AfterDestroyEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1791384434}
+        m_MethodName: GetYourCoins
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1793625437
 GameObject:
   m_ObjectHideFlags: 0
