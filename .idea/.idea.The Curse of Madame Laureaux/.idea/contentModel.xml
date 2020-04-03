@@ -37,6 +37,7 @@
           <e p="HiddenObjects.cs" t="Include" />
           <e p="ImageController.cs" t="Include" />
           <e p="InstanceObject.cs" t="Include" />
+          <e p="InstantiateOnEnemy.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
