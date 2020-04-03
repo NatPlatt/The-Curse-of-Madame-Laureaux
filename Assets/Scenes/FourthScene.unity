@@ -29320,6 +29320,8 @@ GameObject:
   - component: {fileID: 979727888}
   - component: {fileID: 979727887}
   - component: {fileID: 979727886}
+  - component: {fileID: 979727890}
+  - component: {fileID: 979727885}
   m_Layer: 0
   m_Name: enemy10
   m_TagString: Untagged
@@ -29442,6 +29444,22 @@ MonoBehaviour:
   moveSpots:
   - {fileID: 1443760113}
   - {fileID: 1544181616}
+--- !u!114 &979727885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979727878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f732b3e76a1692840aa12026bd44ed64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coin: {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
+  coinNum: 0
+  coinsList:
+  - {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
 --- !u!114 &979727886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29488,8 +29506,8 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   restColor: {r: 0, g: 0, b: 0, a: 0}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
-  destroy: {fileID: 0}
-  coin: {fileID: 0}
+  destroy: {fileID: 979727890}
+  coin: {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
 --- !u!114 &979727889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29505,6 +29523,35 @@ MonoBehaviour:
   radius: 4.5
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
   restingColor: {r: 1, g: 0.7469096, b: 0, a: 0}
+--- !u!114 &979727890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979727878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3422578197b6024f8682ba1e72f3d74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BeforeDestroyEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  AfterDestroyEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 979727885}
+        m_MethodName: GetYourCoins
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &981213500
 GameObject:
   m_ObjectHideFlags: 0
