@@ -64,6 +64,7 @@
           <e p="Puzzle1Reset.cs" t="Include" />
           <e p="Puzzle1WallTrigger.cs" t="Include" />
           <e p="SceneChange.cs" t="Include" />
+          <e p="SceneManagement.cs" t="Include" />
           <e p="Stats.cs" t="Include" />
           <e p="StringListData.cs" t="Include" />
           <e p="SwitchPlayerControl.cs" t="Include" />

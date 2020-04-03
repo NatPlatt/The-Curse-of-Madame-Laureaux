@@ -48569,12 +48569,11 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 0770daad979d441449de74e97168eed6, type: 2}
+      - m_Target: {fileID: 11400000, guid: e53c6f8db22b19946a39209bedf8d093, type: 2}
         m_MethodName: LoadScene
-        m_Mode: 2
+        m_Mode: 3
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 0d376dbb5fb29914e8f248bec2e43e12,
-            type: 3}
+          m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -51672,6 +51671,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 102900000, guid: 1b70b41d995633546b6854ad79244fff,
         type: 3}
+    - target: {fileID: 168954799510451600, guid: aca42b654d7e2d048818e231ce082e10,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 168954799510451613, guid: aca42b654d7e2d048818e231ce082e10,
         type: 3}
       propertyPath: m_Name

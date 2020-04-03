@@ -32211,8 +32211,8 @@ MonoBehaviour:
     EnterEvent:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2135568158}
-          m_MethodName: set_minMoveDistance
+        - m_Target: {fileID: 2135568150}
+          m_MethodName: 
           m_Mode: 4
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -71534,12 +71534,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 235597055746740619}
   m_PrefabAsset: {fileID: 0}
---- !u!143 &2135568158 stripped
-CharacterController:
-  m_CorrespondingSourceObject: {fileID: 235597056765574807, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-    type: 3}
-  m_PrefabInstance: {fileID: 235597055746740619}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2135568161 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 235597056765574801, guid: 59d14c2b51d84be4dad5b49a7992c36e,
@@ -71747,6 +71741,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 102900000, guid: d5d1b3048419ee94196d295afb59e469,
         type: 3}
+    - target: {fileID: 168954799510451600, guid: aca42b654d7e2d048818e231ce082e10,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 168954799510451613, guid: aca42b654d7e2d048818e231ce082e10,
         type: 3}
       propertyPath: m_Name
