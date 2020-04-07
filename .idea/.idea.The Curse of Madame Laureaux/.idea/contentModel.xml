@@ -16,6 +16,7 @@
           <e p="CharController.cs" t="Include" />
           <e p="CharStats.cs" t="Include" />
           <e p="ClickParticles.cs" t="Include" />
+          <e p="CoinCollectable.cs" t="Include" />
           <e p="CoinCollection.cs" t="Include" />
           <e p="Coins.cs" t="Include" />
           <e p="Collectable.cs" t="Include" />

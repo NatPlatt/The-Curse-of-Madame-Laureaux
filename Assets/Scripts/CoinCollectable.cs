@@ -1,18 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine.Events;
 
-public class CoinCollectable : MonoBehaviour
+public class CoinCollectable : Collectable
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public UnityEvent spendEvent;
 
-    // Update is called once per frame
-    void Update()
+    public override void Use()
     {
-        
+        spendEvent.Invoke();
     }
 }
