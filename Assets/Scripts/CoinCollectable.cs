@@ -1,5 +1,7 @@
-﻿using UnityEngine.Events;
+﻿using UnityEngine;
+using UnityEngine.Events;
 
+[CreateAssetMenu]
 public class CoinCollectable : Collectable
 {
     public UnityEvent spendEvent;
