@@ -1,4 +1,5 @@
 ﻿
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,12 +13,18 @@ public class InventoryUI : MonoBehaviour
 
     public int coinCount = 0;
     public IntData coinAmount;
+    public GameObject coinAmountSO;
     public Text coinUI;
 
     public PickUpObj.pickUpType pickUpType;
 
     public GameObject hiddenObjButtonPrefab;
     public GameObject inventoryUI;
+
+    private void Start()
+    {
+        coinUI.text = "$" + coinAmount.value.ToString();
+    }
 
     public void InventoryManager(GameObject pickUp)
     {

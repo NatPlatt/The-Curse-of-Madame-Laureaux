@@ -12,7 +12,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle1Reset.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickUpObj.cs" root0="FORCE_HIGHLIGHTING" />
@@ -114,7 +114,7 @@
       <workItem from="1585877418548" duration="8635000" />
       <workItem from="1586232155171" duration="597000" />
       <workItem from="1586304102332" duration="7527000" />
-      <workItem from="1586314945632" duration="9596000" />
+      <workItem from="1586314945632" duration="10756000" />
     </task>
     <servers />
   </component>
