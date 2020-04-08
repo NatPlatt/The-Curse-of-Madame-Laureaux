@@ -6,10 +6,18 @@ public class PickUpObj : MonoBehaviour
 {
 
     public GameObject inventory;
+    public pickUpType pickUps;
 
     public enum pickUpType
     {
         COINS, HIDDENOBJS
+    }
+
+    public void TalkToInventory()
+    {
+        inventory = GameObject.Find("Canvas");
+
+        //inventory.GetComponent<InventoryUI>().InventoryManager(gameObject);
     }
 
     /*public GameObject pickUpObj;
