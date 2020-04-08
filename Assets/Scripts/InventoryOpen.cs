@@ -22,4 +22,14 @@ public class InventoryOpen : MonoBehaviour
             }
         }
     }
+
+    void CloseInventory()
+    {
+        
+    }
+
+    void OpenInventory()
+    {
+        
+    }
 }
