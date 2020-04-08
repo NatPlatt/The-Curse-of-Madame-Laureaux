@@ -25,11 +25,15 @@ public class InventoryOpen : MonoBehaviour
 
     void CloseInventory()
     {
-        
+        inventoryIsOpen = false;
+        inventoryMenuUI.SetActive(false);
+        InventoryIsUp = false;
     }
 
     void OpenInventory()
     {
-        
+        inventoryIsOpen = true;
+        inventoryMenuUI.SetActive(true);
+        InventoryIsUp = true;
     }
 }
