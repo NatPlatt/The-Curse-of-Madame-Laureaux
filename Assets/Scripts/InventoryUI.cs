@@ -21,7 +21,7 @@ public class InventoryUI : MonoBehaviour
     public void InventoryManager(GameObject pickUp)
     {
         //what pickup object is it
-        pickUpType = pickUp.GetComponent<PickUpObj>.pickUps;
+        pickUpType = pickUp.GetComponent<PickUpObj>().pickUps;
         //turn on that image and value in the inventory 
         AddToInventory(pickUpType);
     }
