@@ -31,6 +31,7 @@ public class InventoryUI : MonoBehaviour
     {
         if (type == PickUpObj.pickUpType.COINS)
         {
+            coinAmount.UpdateValue(coinCount);
             coinCount = coinAmount.value;
             coinUI.text = coinCount.ToString() + "$";
             Debug.Log("You get" + coinCount + "coins");

@@ -69980,6 +69980,11 @@ PrefabInstance:
       propertyPath: hiddenObjButtonPrefab
       value: 
       objectReference: {fileID: 987105750}
+    - target: {fileID: 1660107514, guid: b73dee714028e0743b9de8428078175c, type: 3}
+      propertyPath: coinAmount
+      value: 
+      objectReference: {fileID: 11400000, guid: 010ed08b223ae724eb38cf8ce06774dc,
+        type: 2}
     - target: {fileID: 3705226667612181684, guid: b73dee714028e0743b9de8428078175c,
         type: 3}
       propertyPath: m_LocalPosition.x
