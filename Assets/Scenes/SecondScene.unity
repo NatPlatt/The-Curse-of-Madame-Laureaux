@@ -28978,6 +28978,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasHObj
       objectReference: {fileID: 0}
+    - target: {fileID: 9209605935191821596, guid: 5698549702daf5f409a702b3e88957c8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: 8fae0589197c06149bc15d6ba5f2dbb2,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5698549702daf5f409a702b3e88957c8, type: 3}
 --- !u!223 &940300033 stripped
@@ -56128,6 +56134,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasHObj (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9209605935191821596, guid: 5698549702daf5f409a702b3e88957c8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: 5317e3f8f6c065f44b2d5b724c458d02,
+        type: 2}
     - target: {fileID: 9209605936056218295, guid: 5698549702daf5f409a702b3e88957c8,
         type: 3}
       propertyPath: m_textInfo.characterCount

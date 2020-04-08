@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f2b1aac5485e246ba6b43e64c3ef9b, type: 3}
   m_Name: coinInstance
   m_EditorClassIdentifier: 
-  instanceAmount: 5
+  instanceAmount: 3
   instanceAtLocation: {x: 1, y: 1, z: 1}
   gameActionObj: {fileID: 11400000, guid: 4b014d443b387764bb5db334c49e5dc0, type: 2}
   instanceObj: {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785,
