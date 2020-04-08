@@ -10,7 +10,7 @@ public class InventoryUI : MonoBehaviour
 
     public GameObject hiddenObjectImage, coinImage;
 
-    public int coinCount = 1;
+    public int coinCount = 0;
     public IntData coinAmount;
     public Text coinUI;
 
@@ -32,7 +32,7 @@ public class InventoryUI : MonoBehaviour
         if (type == PickUpObj.pickUpType.COINS)
         {
             
-            coinCount *= coinAmount.value;
+            coinCount += coinAmount.value;
             coinUI.text = coinCount.ToString() + "$";
             Debug.Log("You get" + coinCount + "coins");
             return;
