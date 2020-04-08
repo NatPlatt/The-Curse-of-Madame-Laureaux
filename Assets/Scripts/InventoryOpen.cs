@@ -10,6 +10,16 @@ public class InventoryOpen : MonoBehaviour
     
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            if (InventoryIsUp)
+            {
+                CloseInventory();
+            }
+            else
+            {
+                OpenInventory();
+            }
+        }
     }
 }
