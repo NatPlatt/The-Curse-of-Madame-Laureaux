@@ -46,8 +46,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinCollectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PickUpObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" />
       </list>
     </option>
   </component>
@@ -105,7 +105,7 @@
       <workItem from="1585679489071" duration="1513000" />
       <workItem from="1585877418548" duration="8635000" />
       <workItem from="1586232155171" duration="597000" />
-      <workItem from="1586304102332" duration="1086000" />
+      <workItem from="1586304102332" duration="2539000" />
     </task>
     <servers />
   </component>

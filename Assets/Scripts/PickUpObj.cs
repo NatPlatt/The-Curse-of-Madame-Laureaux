@@ -17,7 +17,7 @@ public class PickUpObj : MonoBehaviour
     {
         inventory = GameObject.Find("Canvas");
 
-        //inventory.GetComponent<InventoryUI>().InventoryManager(gameObject);
+        inventory.GetComponent<InventoryUI>().InventoryManager(gameObject);
     }
 
     /*public GameObject pickUpObj;
