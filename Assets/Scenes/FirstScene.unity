@@ -64710,7 +64710,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ecef1efb90e0484e8e0c6f6940fe588, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventorySlots: []
+  inventorySlots:
+  - {fileID: 1479673313}
+  - {fileID: 1629579515}
+  - {fileID: 1740178794}
+  - {fileID: 1265200708}
+  - {fileID: 1975886437}
+  - {fileID: 499799655}
+  - {fileID: 1043309536}
+  - {fileID: 543531369}
+  - {fileID: 494716010}
   inventoryButtons: []
   hiddenObjectImage: {fileID: 123816844}
   coinImage: {fileID: 1955426381}
@@ -64718,7 +64727,7 @@ MonoBehaviour:
   coinUI: {fileID: 84889816}
   pickUpType: 0
   hiddenObjButtonPrefab: {fileID: 0}
-  inventoryUI: {fileID: 0}
+  inventoryUI: {fileID: 1306791446}
 --- !u!1 &1661350207
 GameObject:
   m_ObjectHideFlags: 0
