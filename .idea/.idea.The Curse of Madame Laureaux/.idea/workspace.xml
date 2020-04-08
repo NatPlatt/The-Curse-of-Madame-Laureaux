@@ -54,8 +54,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PickUpObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryOpen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataStorage1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateOnEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" />
       </list>
     </option>
   </component>
@@ -114,7 +114,7 @@
       <workItem from="1585877418548" duration="8635000" />
       <workItem from="1586232155171" duration="597000" />
       <workItem from="1586304102332" duration="7527000" />
-      <workItem from="1586314945632" duration="6211000" />
+      <workItem from="1586314945632" duration="6958000" />
     </task>
     <servers />
   </component>
