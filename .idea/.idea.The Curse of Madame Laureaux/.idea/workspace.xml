@@ -18,7 +18,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickUpObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataStorage1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataStorage1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPatrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinCollectable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" root0="FORCE_HIGHLIGHTING" />
@@ -51,6 +51,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PickUpObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryOpen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataStorage1.cs" />
       </list>
     </option>
   </component>
@@ -108,7 +109,7 @@
       <workItem from="1585679489071" duration="1513000" />
       <workItem from="1585877418548" duration="8635000" />
       <workItem from="1586232155171" duration="597000" />
-      <workItem from="1586304102332" duration="6387000" />
+      <workItem from="1586304102332" duration="6714000" />
     </task>
     <servers />
   </component>
