@@ -41,6 +41,7 @@
           <e p="InstantiateOnEnemy.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
+          <e p="InventoryUI.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="MatchingSystem" t="Include">
             <e p="ColorData.cs" t="Include" />
