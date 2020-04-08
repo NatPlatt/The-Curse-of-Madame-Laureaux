@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3548196022194742738}
   - component: {fileID: 7895732488121152509}
   - component: {fileID: 6543488854830940276}
+  - component: {fileID: -6921716018446341965}
   - component: {fileID: 2934423965109848800}
   m_Layer: 0
   m_Name: coin
@@ -158,6 +159,20 @@ MonoBehaviour:
     ExitEvent:
       m_PersistentCalls:
         m_Calls: []
+--- !u!114 &-6921716018446341965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2629091148272300071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d74e9c22356abe47b41da7681726520, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 0}
+  pickUps: 0
 --- !u!114 &2934423965109848800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,6 +195,17 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 11400000, guid: 0ecbd853a5d7334428c8e33f40edc32f,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: Collectable, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: -6921716018446341965}
+        m_MethodName: TalkToInventory
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
