@@ -32,9 +32,9 @@ public class InventoryUI : MonoBehaviour
         if (type == PickUpObj.pickUpType.COINS)
         {
             
-            coinCount = coinAmount.value;
-            coinUI.text = coinCount.ToString() + "$";
-            Debug.Log("You get" + coinCount + "coins");
+            //coinCount = coinAmount.value;
+            coinUI.text = "$" + coinAmount.value.ToString();
+            Debug.Log("You get" + coinAmount.value + "coins");
             return;
         }
         
