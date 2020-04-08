@@ -53118,7 +53118,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1306791447
 RectTransform:
   m_ObjectHideFlags: 0
@@ -64698,7 +64698,7 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 3705226667394897581}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1660107510
+--- !u!114 &1660107514
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -64728,6 +64728,20 @@ MonoBehaviour:
   pickUpType: 0
   hiddenObjButtonPrefab: {fileID: 0}
   inventoryUI: {fileID: 1306791446}
+--- !u!114 &1660107515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660107508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c58c7b43a08a8ff41bb6306f3ecafb7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryIsOpen: 0
+  inventoryMenuUI: {fileID: 1306791446}
 --- !u!1 &1661350207
 GameObject:
   m_ObjectHideFlags: 0
