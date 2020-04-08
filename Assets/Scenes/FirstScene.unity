@@ -74719,36 +74719,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 235597055746740619}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2135568151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2135568150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afc96606ae17ca24091d3916039c4a62, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerEnterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 875e1b7f7e67a384597f17d70ef9b56e, type: 2}
-        m_MethodName: AddToCollection
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 0ecbd853a5d7334428c8e33f40edc32f,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: Collectable, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  triggerExitEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!4 &2135568161 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 235597056765574801, guid: 59d14c2b51d84be4dad5b49a7992c36e,
