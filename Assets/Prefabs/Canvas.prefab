@@ -3265,7 +3265,8 @@ MonoBehaviour:
   - {fileID: 0}
   hiddenObjectImage: {fileID: 123816844}
   coinImage: {fileID: 1955426381}
-  coinCount: 0
+  coinCount: 1
+  coinAmount: {fileID: 11400000, guid: 010ed08b223ae724eb38cf8ce06774dc, type: 2}
   coinUI: {fileID: 84889816}
   pickUpType: 0
   hiddenObjButtonPrefab: {fileID: 0}
