@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: New Collection
   m_EditorClassIdentifier: 
   collectablesList:
-  - {fileID: 11400000, guid: 9a3dc6e51986c494399e0b9f8624c2ba, type: 2}
-  - {fileID: 11400000, guid: 8fae0589197c06149bc15d6ba5f2dbb2, type: 2}
-  - {fileID: 11400000, guid: 5317e3f8f6c065f44b2d5b724c458d02, type: 2}
+  - {fileID: 11400000, guid: 5c67e8cb1f43e8846aa2910f06f969f0, type: 2}
+  - {fileID: 11400000, guid: 83b401635edefa0498c69a6bede195b7, type: 2}
+  - {fileID: 11400000, guid: 0ecbd853a5d7334428c8e33f40edc32f, type: 2}
