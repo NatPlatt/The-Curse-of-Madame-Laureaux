@@ -23,6 +23,7 @@
           <e p="Collection.cs" t="Include" />
           <e p="CrystalBallSwitches.cs" t="Include" />
           <e p="DataStorage.cs" t="Include" />
+          <e p="DataStorage1.cs" t="Include" />
           <e p="Destroy.cs" t="Include" />
           <e p="DisableObjs.cs" t="Include" />
           <e p="EnableObjs.cs" t="Include" />
