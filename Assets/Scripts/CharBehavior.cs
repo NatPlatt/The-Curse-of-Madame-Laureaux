@@ -9,6 +9,7 @@ public class CharBehavior : MonoBehaviour
     private Vector3 movement;
 
     public float speed = 6.0f;
+    public float swampSpeed = 3.0f;
     public float rotateSpeed = 2.0f;
     public float gravity = 20.0f;
 
@@ -18,6 +19,16 @@ public class CharBehavior : MonoBehaviour
     private void Awake()
     {
         charController = GetComponent<CharacterController>();
+    }
+
+    public void SwampSlow()
+    {
+        speed = swampSpeed;
+    }
+
+    public void NormalSpeed()
+    {
+        speed = 6.0f;
     }
     
 }

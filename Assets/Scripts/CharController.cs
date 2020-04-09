@@ -9,7 +9,7 @@ public class CharController : CharBehavior
     public Vector3 rotateDirection;
     private float horizontalInput, verticalInput;
     Vector3 move = new Vector3(0,0,0);
-    public int swampSpeed;
+    
     
 
     void Update()
@@ -21,11 +21,7 @@ public class CharController : CharBehavior
         /*float horizontalNum = Input.GetAxis("Horizontal");
         float verticalNum = Input.GetAxis("Vertical");
         Vector3 move = new Vector3(0,0,0);*/
-        void Swamp()
-        {
-            speed = swampSpeed;
-        }
-        
+
         if (charController.isGrounded)
         {
             position.y = 0;

@@ -37013,9 +37013,9 @@ MonoBehaviour:
     EnterEvent:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2135568150}
-          m_MethodName: 
-          m_Mode: 4
+        - m_Target: {fileID: 2135568151}
+          m_MethodName: SwampSlow
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -81358,6 +81358,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 235597055746740619}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2135568151 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 235597056765574800, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+    type: 3}
+  m_PrefabInstance: {fileID: 235597055746740619}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135568150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7915f48f6e79e704cbaa64ec548f2a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2135568161 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 235597056765574801, guid: 59d14c2b51d84be4dad5b49a7992c36e,
@@ -81644,6 +81656,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 465071174}
     m_Modifications:
+    - target: {fileID: 235597056765574800, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+        type: 3}
+      propertyPath: swampSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 235597056765574801, guid: 59d14c2b51d84be4dad5b49a7992c36e,
         type: 3}
       propertyPath: m_LocalPosition.x
