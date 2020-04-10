@@ -13,18 +13,20 @@ public class Shop : MonoBehaviour
     public GameObject allGoneText;
     public GameObject HOsprite;
     public GameObject[] storePoints;
-    public int numToBuy;
+    public int numToBuy = 1;
     public Text purchaseAmountText;
+    
     
     
     private void Start()
     {
-        buyButton.SetActive(false);
-        allGoneText.SetActive(false);
-        numToBuy = HOAmount.value * 20;
+        //buyButton.SetActive(false);
+        //allGoneText.SetActive(false);
+        numToBuy = HOAmount.value + 1 * 20;
+        Debug.Log("collectibles list length"+ HOcollection.collectablesList.Count + "storePoints length" + storePoints.Length);
     }
 
-    void SeeIfBuyObjects()
+    public void SeeIfBuyObjects()
     {
         if (HOcollection.collectablesList.Count == storePoints.Length)
         {
@@ -37,17 +39,23 @@ public class Shop : MonoBehaviour
         {
             buyButton.SetActive(true);
             allGoneText.SetActive(false);
+            
+            purchaseAmountText.text = "$" + numToBuy.ToString();
             BuyObjects();
         }
     }
 
-    void BuyObjects()
+   public void BuyObjects()
     {
-        purchaseAmountText.text = "$" + numToBuy.ToString();
-        
+        //HOcollection.collectablesList.Count = storePoints.Length;
+        numToBuy *= (storePoints.Length - HOcollection.collectablesList.Count);
+        Debug.Log("numToBuy " + numToBuy);
+        HOAmount.value = storePoints.Length;
+        coinAmount.value -= numToBuy;
+        purchaseAmountText.text = "$" + coinAmount.value.ToString();
     }
 
-    void NoBuyObjects()
+    public void NoBuyObjects()
     {
         
     }

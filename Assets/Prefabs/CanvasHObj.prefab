@@ -252,8 +252,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 38990532115191479, guid: 0e338a6d14f226f46b6547e7919f7e3e,
-          type: 3}
+      - m_Target: {fileID: 0}
         m_MethodName: TalkToInventory
         m_Mode: 1
         m_Arguments:

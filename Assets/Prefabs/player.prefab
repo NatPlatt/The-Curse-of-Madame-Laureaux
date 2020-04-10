@@ -278,10 +278,8 @@ MonoBehaviour:
   damage:
     baseValue: 10
   healthbar: {fileID: 0}
-  mistDamage: 0
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   restColor: {r: 1, g: 1, b: 1, a: 1}
-  enemyStat: {fileID: 0}
   deadColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &4920104957383781122
 MonoBehaviour:

@@ -4784,7 +4784,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38990532115191484}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.870001, y: 24.595312, z: -9.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4893,8 +4893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d74e9c22356abe47b41da7681726520, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventory: {fileID: 3705226667612181688, guid: b73dee714028e0743b9de8428078175c,
-    type: 3}
+  inventory: {fileID: 0}
   pickUps: 1
 --- !u!1 &38990532244591275
 GameObject:
