@@ -6,7 +6,7 @@ public class MistDamage : CharStats
 {
     public HealthBar healthBar;
     public int currentHP { get; set; }
-    public override void MistDamageAttack()
+    /*public override void MistDamageAttack()
     {
         
         base.MistDamageAttack();
@@ -14,5 +14,5 @@ public class MistDamage : CharStats
         healthbar.SetHealth(currentHP);
         Debug.Log("the mist is attacking");
         
-    }
+    }*/
 }

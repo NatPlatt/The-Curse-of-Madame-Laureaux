@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 
 public class PlayerStats : CharStats
 {
-    public EnemyStats enemyStat;
     public Color deadColor = Color.black;
 
     public override void Die()

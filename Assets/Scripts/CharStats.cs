@@ -10,7 +10,7 @@ public class CharStats : MonoBehaviour
 
     public HealthBar healthbar;
 
-    public int mistDamage;
+    //public int mistDamage;
 
     //public FloatData damage;
     
@@ -54,10 +54,10 @@ public class CharStats : MonoBehaviour
         Debug.Log(transform.name + " died.");
     }
 
-    public virtual void MistDamageAttack()
+    /*public virtual void MistDamageAttack()
     {
         currentHP -= mistDamage;
         healthbar.SetHealth(currentHP);
         Debug.Log("the mist is attacking");
-    }
+    }*/
 }
