@@ -13,7 +13,9 @@ public class InventoryUI : MonoBehaviour
 
     public int coinCount = 0;
     public IntData coinAmount;
+    public IntData hiddenObjAmount;
     public Text coinUI;
+    public Text hiddenObjUI;
 
     public PickUpObj.pickUpType pickUpType;
 
@@ -23,7 +25,7 @@ public class InventoryUI : MonoBehaviour
     private void Start()
     {
         coinUI.text = "$" + coinAmount.value.ToString();
-        
+        hiddenObjUI.text = hiddenObjAmount.value.ToString();
     }
 
     public void InventoryManager(GameObject pickUp)
@@ -59,6 +61,7 @@ public class InventoryUI : MonoBehaviour
         GameObject buttonToAdd = null;
         if (type == PickUpObj.pickUpType.HIDDENOBJS)
         {
+            hiddenObjUI.text = hiddenObjAmount.value.ToString();
             buttonToAdd = hiddenObjButtonPrefab;
             //instantiate prefab and put it in the inventory
             inventoryButtons[index] =
