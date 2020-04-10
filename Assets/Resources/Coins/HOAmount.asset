@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c46c70e5d6e07414dbd40400a9d2081e, type: 3}
   m_Name: HOAmount
   m_EditorClassIdentifier: 
-  value: 1
+  value: 0
