@@ -22,7 +22,7 @@ public class Shop : MonoBehaviour
         }
         if (HOcollection.collectablesList.Count < HOAmount.value)
         {
-            Instantiate(HOsprite, storePoints, Quaternion.identity);
+            Instantiate(HOsprite, storePoints);
         }
     }
 }
