@@ -9,14 +9,10 @@ public class ClickItem : MonoBehaviour
     public void OnClick()
     {
         canvas = GameObject.Find("Canvas");
-        canvas.GetComponent<QuickSelectMenu>().quickSelectBox.SetActive(true);
+        canvas.GetComponent<QuickSelect>().quickSelectBox.SetActive(true);
     }
 }
 
-public class QuickSelectMenu : MonoBehaviour
-{
-    public GameObject quickSelectBox;
-    public GameObject hiddenObjButton;
-}
+
 
 

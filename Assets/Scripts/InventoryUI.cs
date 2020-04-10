@@ -23,6 +23,7 @@ public class InventoryUI : MonoBehaviour
     private void Start()
     {
         coinUI.text = "$" + coinAmount.value.ToString();
+        
     }
 
     public void InventoryManager(GameObject pickUp)

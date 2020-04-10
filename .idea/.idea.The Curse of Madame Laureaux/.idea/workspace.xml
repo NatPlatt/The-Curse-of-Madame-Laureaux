@@ -19,6 +19,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/QuickSelect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPatrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinCollectable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" root0="FORCE_HIGHLIGHTING" />
@@ -57,9 +58,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateOnEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PickUpObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/QuickSelect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/ClickItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" />
       </list>
     </option>
   </component>
@@ -119,7 +121,7 @@
       <workItem from="1586232155171" duration="597000" />
       <workItem from="1586304102332" duration="7527000" />
       <workItem from="1586314945632" duration="12292000" />
-      <workItem from="1586478041995" duration="1849000" />
+      <workItem from="1586478041995" duration="2835000" />
     </task>
     <servers />
   </component>

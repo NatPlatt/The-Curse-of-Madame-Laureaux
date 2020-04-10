@@ -2640,6 +2640,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3933489161292211530}
+  - component: {fileID: 1127902481}
   m_Layer: 5
   m_Name: QuickSelectMenu
   m_TagString: Untagged
@@ -2667,6 +2668,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -97.2}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1127902481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3618586838059935956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 291d5f4963038f54cbaf43123911faf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quickSelectBox: {fileID: 1317025426}
+  hiddenObjButton: {fileID: 4921972402798696500, guid: c2be4bdea21b8ac429197512a5136267,
+    type: 3}
 --- !u!1 &3705226666362504529
 GameObject:
   m_ObjectHideFlags: 0
