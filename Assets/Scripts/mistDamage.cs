@@ -2,16 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class mistDamage : MonoBehaviour
+public class MistDamage : CharStats
 {
-    public GameObject PlayerHealthBar;
-    public HealthBar playerHealthBar;
-    public Stats damage;
-    
-    public int mistDamageAmount = 1;
-
-    public void TakeMistDamage()
+    public HealthBar healthBar;
+    public int currentHP { get; set; }
+    public override void MistDamageAttack()
     {
-        //playerHealthBar.SetHealth(currentHP);
+        
+        base.MistDamageAttack();
+        currentHP -= mistDamage;
+        healthbar.SetHealth(currentHP);
+        Debug.Log("the mist is attacking");
+        
     }
 }

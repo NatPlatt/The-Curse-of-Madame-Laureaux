@@ -37,7 +37,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataStorage1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/mistDamage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MistDamage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/IdBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
@@ -67,9 +67,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateOnEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/mistDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/mistDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MistDamage.cs" />
       </list>
     </option>
   </component>
@@ -129,7 +130,7 @@
       <workItem from="1586232155171" duration="597000" />
       <workItem from="1586304102332" duration="7527000" />
       <workItem from="1586314945632" duration="12292000" />
-      <workItem from="1586478041995" duration="6060000" />
+      <workItem from="1586478041995" duration="6644000" />
     </task>
     <servers />
   </component>

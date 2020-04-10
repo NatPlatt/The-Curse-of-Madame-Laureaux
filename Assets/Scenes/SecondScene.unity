@@ -1070,6 +1070,7 @@ MonoBehaviour:
   damage:
     baseValue: 15
   healthbar: {fileID: 1032122806}
+  mistDamage: 0
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   restColor: {r: 1, g: 0.7960785, b: 0, a: 1}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
@@ -8232,9 +8233,6 @@ GameObject:
   - component: {fileID: 425109586}
   - component: {fileID: 425109585}
   - component: {fileID: 425109584}
-  - component: {fileID: 425109587}
-  - component: {fileID: 425109588}
-  - component: {fileID: 425109589}
   m_Layer: 0
   m_Name: greenParticle System
   m_TagString: Untagged
@@ -12971,86 +12969,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 425109583}
-  m_LocalRotation: {x: -0.6906026, y: -0.15188171, z: -0.15188171, w: 0.6906026}
-  m_LocalPosition: {x: 24.67, y: 2.22, z: 33.44}
-  m_LocalScale: {x: 0.3730886, y: 0.3185041, z: 0.22632155}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_Father: {fileID: 769978424}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -24.807001}
---- !u!114 &425109587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425109583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afc96606ae17ca24091d3916039c4a62, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerEnterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2135568151}
-        m_MethodName: TakeDamage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  triggerExitEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2135568151}
-        m_MethodName: TakeDamage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!65 &425109588
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425109583}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 12.25, y: 5.47, z: 4.16}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &425109589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425109583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78d85d9c38b85d84cba9a45c3a83d4e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHP: 100
-  damage:
-    baseValue: 0
-  healthbar: {fileID: 478417661}
-  hitColor: {r: 1, g: 0, b: 0, a: 1}
-  restColor: {r: 0, g: 0, b: 0, a: 0}
-  enemyStat: {fileID: 0}
-  deadColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &427157480
 GameObject:
   m_ObjectHideFlags: 0
@@ -14637,18 +14562,6 @@ Transform:
   m_Father: {fileID: 218031034}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 62.885002, z: 0}
---- !u!114 &478417661 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3705226667304138243, guid: b73dee714028e0743b9de8428078175c,
-    type: 3}
-  m_PrefabInstance: {fileID: 1349968154}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e41ee789dfea5994aac3fb71e8c6e31c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &481191161
 GameObject:
   m_ObjectHideFlags: 0
@@ -25527,6 +25440,121 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 767212553}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &769978423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 769978424}
+  - component: {fileID: 769978426}
+  - component: {fileID: 769978425}
+  - component: {fileID: 769978427}
+  m_Layer: 0
+  m_Name: poisonFog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &769978424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769978423}
+  m_LocalRotation: {x: -0.6906026, y: -0.15188171, z: -0.15188171, w: 0.6906026}
+  m_LocalPosition: {x: 24.67, y: 2.22, z: 33.44}
+  m_LocalScale: {x: 0.37308863, y: 0.31850412, z: 0.22632155}
+  m_Children:
+  - {fileID: 425109586}
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &769978425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769978423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afc96606ae17ca24091d3916039c4a62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2135568159}
+        m_MethodName: SwampSlow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!65 &769978426
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769978423}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13.76, y: 3.88, z: 5.32}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &769978427
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769978423}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &773231758
 GameObject:
   m_ObjectHideFlags: 0
@@ -39780,6 +39808,7 @@ MonoBehaviour:
   damage:
     baseValue: 15
   healthbar: {fileID: 293800020}
+  mistDamage: 0
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   restColor: {r: 1, g: 0.8117648, b: 0, a: 1}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
@@ -50842,6 +50871,7 @@ MonoBehaviour:
   damage:
     baseValue: 15
   healthbar: {fileID: 1905414235}
+  mistDamage: 0
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   restColor: {r: 1, g: 0.7607844, b: 0, a: 0}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
@@ -56765,16 +56795,16 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 235597055746740619}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2135568151 stripped
+--- !u!114 &2135568159 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+  m_CorrespondingSourceObject: {fileID: 235597056765574800, guid: 59d14c2b51d84be4dad5b49a7992c36e,
     type: 3}
   m_PrefabInstance: {fileID: 235597055746740619}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2135568150}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78d85d9c38b85d84cba9a45c3a83d4e6, type: 3}
+  m_Script: {fileID: 11500000, guid: 7915f48f6e79e704cbaa64ec548f2a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &2135568161 stripped
