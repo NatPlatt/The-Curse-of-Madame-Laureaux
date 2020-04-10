@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,8 +11,14 @@ public class Shop : MonoBehaviour
     public GameObject buyButton;
     public GameObject allGoneText;
     public GameObject HOsprite;
-    public Transform[] storePoints;
-    
+    public GameObject[] storePoints;
+
+    private void Start()
+    {
+        buyButton.SetActive(false);
+        allGoneText.SetActive(false);
+    }
+
     void BuyObjects()
     {
         if (HOcollection.collectablesList.Count == HOAmount.value)
@@ -22,7 +29,8 @@ public class Shop : MonoBehaviour
         }
         if (HOcollection.collectablesList.Count < HOAmount.value)
         {
-            Instantiate(HOsprite, storePoints);
+            buyButton.SetActive(true);
+            allGoneText.SetActive(false);
         }
     }
 }
