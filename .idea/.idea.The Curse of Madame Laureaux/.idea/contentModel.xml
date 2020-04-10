@@ -76,6 +76,7 @@
           <e p="ToggleEvent.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="UI" t="Include">
+            <e p="ClickItem.cs" t="Include" />
             <e p="TextBehavior.cs" t="Include" />
           </e>
           <e p="WeaponCollectable.cs" t="Include" />

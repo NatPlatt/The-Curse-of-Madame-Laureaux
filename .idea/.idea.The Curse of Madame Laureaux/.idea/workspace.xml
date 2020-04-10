@@ -13,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ClickItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickUpObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -51,13 +52,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinCollectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PickUpObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryOpen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataStorage1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateOnEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PickUpObj.cs" />
       </list>
     </option>
   </component>
@@ -117,7 +118,7 @@
       <workItem from="1586232155171" duration="597000" />
       <workItem from="1586304102332" duration="7527000" />
       <workItem from="1586314945632" duration="12292000" />
-      <workItem from="1586478041995" duration="324000" />
+      <workItem from="1586478041995" duration="1074000" />
     </task>
     <servers />
   </component>

@@ -3269,7 +3269,8 @@ MonoBehaviour:
   coinAmount: {fileID: 11400000, guid: 010ed08b223ae724eb38cf8ce06774dc, type: 2}
   coinUI: {fileID: 84889816}
   pickUpType: 0
-  hiddenObjButtonPrefab: {fileID: 0}
+  hiddenObjButtonPrefab: {fileID: 4921972402798696500, guid: c2be4bdea21b8ac429197512a5136267,
+    type: 3}
   inventoryUI: {fileID: 1306791446}
 --- !u!114 &1660107515
 MonoBehaviour:

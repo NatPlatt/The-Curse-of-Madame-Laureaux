@@ -31386,12 +31386,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984414254}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &987105750 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 38990532115191484, guid: 0e338a6d14f226f46b6547e7919f7e3e,
-    type: 3}
-  m_PrefabInstance: {fileID: 38990531480674154}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &988429902
 GameObject:
   m_ObjectHideFlags: 0
@@ -69976,10 +69970,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1660107514, guid: b73dee714028e0743b9de8428078175c, type: 3}
-      propertyPath: hiddenObjButtonPrefab
-      value: 
-      objectReference: {fileID: 987105750}
     - target: {fileID: 3705226667612181684, guid: b73dee714028e0743b9de8428078175c,
         type: 3}
       propertyPath: m_LocalPosition.x
