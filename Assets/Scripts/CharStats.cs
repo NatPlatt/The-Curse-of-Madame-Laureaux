@@ -10,6 +10,8 @@ public class CharStats : MonoBehaviour
 
     public HealthBar healthbar;
 
+    public int mistDamage;
+
     //public FloatData damage;
     
     public Color hitColor = Color.red;
@@ -50,5 +52,12 @@ public class CharStats : MonoBehaviour
         //die in some way, run animation, start back at starting position, etc.
         //this will later be changed depending on who is dying
         Debug.Log(transform.name + " died.");
+    }
+
+    public virtual void MistDamageAttack()
+    {
+        currentHP -= mistDamage;
+        healthbar.SetHealth(currentHP);
+        Debug.Log("the mist is attacking");
     }
 }

@@ -1101,7 +1101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
-  coinNum: 0
+  coinNum: 2
   coinsList:
   - {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
   - {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
@@ -8234,6 +8234,7 @@ GameObject:
   - component: {fileID: 425109584}
   - component: {fileID: 425109587}
   - component: {fileID: 425109588}
+  - component: {fileID: 425109589}
   m_Layer: 0
   m_Name: greenParticle System
   m_TagString: Untagged
@@ -12998,14 +12999,25 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
   triggerExitEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2135568151}
+        m_MethodName: TakeDamage
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!65 &425109588
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13019,6 +13031,26 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 12.25, y: 5.47, z: 4.16}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &425109589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425109583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78d85d9c38b85d84cba9a45c3a83d4e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHP: 100
+  damage:
+    baseValue: 0
+  healthbar: {fileID: 478417661}
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  restColor: {r: 0, g: 0, b: 0, a: 0}
+  enemyStat: {fileID: 0}
+  deadColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &427157480
 GameObject:
   m_ObjectHideFlags: 0
@@ -14605,6 +14637,18 @@ Transform:
   m_Father: {fileID: 218031034}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 62.885002, z: 0}
+--- !u!114 &478417661 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3705226667304138243, guid: b73dee714028e0743b9de8428078175c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1349968154}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e41ee789dfea5994aac3fb71e8c6e31c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &481191161
 GameObject:
   m_ObjectHideFlags: 0
@@ -39689,7 +39733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
-  coinNum: 0
+  coinNum: 2
   coinsList:
   - {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
   - {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
@@ -39737,7 +39781,7 @@ MonoBehaviour:
     baseValue: 15
   healthbar: {fileID: 293800020}
   hitColor: {r: 1, g: 0, b: 0, a: 1}
-  restColor: {r: 0, g: 0, b: 0, a: 0}
+  restColor: {r: 1, g: 0.8117648, b: 0, a: 1}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
   destroy: {fileID: 1518574319}
   coin: {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
@@ -50751,7 +50795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
-  coinNum: 0
+  coinNum: 2
   coinsList:
   - {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
   - {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}
@@ -50799,7 +50843,7 @@ MonoBehaviour:
     baseValue: 15
   healthbar: {fileID: 1905414235}
   hitColor: {r: 1, g: 0, b: 0, a: 1}
-  restColor: {r: 0, g: 0, b: 0, a: 0}
+  restColor: {r: 1, g: 0.7607844, b: 0, a: 0}
   friendColor: {r: 0, g: 1, b: 0, a: 1}
   destroy: {fileID: 1791384439}
   coin: {fileID: 2629091148272300071, guid: f849dfa3de37960489a34aa46c3d4785, type: 3}

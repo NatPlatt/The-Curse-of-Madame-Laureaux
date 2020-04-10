@@ -4770,7 +4770,6 @@ GameObject:
   - component: {fileID: 38990532115191485}
   - component: {fileID: 38990532115191473}
   - component: {fileID: 38990532115191479}
-  - component: {fileID: 38990532115191478}
   m_Layer: 0
   m_Name: hiddenClue1 1
   m_TagString: Untagged
@@ -4897,47 +4896,6 @@ MonoBehaviour:
   inventory: {fileID: 3705226667612181688, guid: b73dee714028e0743b9de8428078175c,
     type: 3}
   pickUps: 1
---- !u!114 &38990532115191478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38990532115191484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afc96606ae17ca24091d3916039c4a62, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerEnterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 38990532115191479}
-        m_MethodName: TalkToInventory
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 875e1b7f7e67a384597f17d70ef9b56e, type: 2}
-        m_MethodName: AddToCollection
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 9a3dc6e51986c494399e0b9f8624c2ba,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: Collectable, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  triggerExitEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &38990532244591275
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 235597056015441304}
   - component: {fileID: 235597056015441310}
   - component: {fileID: 235597056015441311}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 4920104957383781122}
   - component: {fileID: 235597056765574805}
   - component: {fileID: 1799189354522455066}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235597056765574813}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.5, y: 2.5, z: 2.5}
@@ -197,8 +197,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   swampSpeed: 3
-  rotateSpeed: 1
-  gravity: 20
+  rotateSpeed: 2
+  gravity: 1
   rotateDirection: {x: 0, y: 0, z: 0}
 --- !u!143 &235597056765574807
 CharacterController:
@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 235597056937172467}
   - component: {fileID: 235597056937172464}
   - component: {fileID: 235597056937172465}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}

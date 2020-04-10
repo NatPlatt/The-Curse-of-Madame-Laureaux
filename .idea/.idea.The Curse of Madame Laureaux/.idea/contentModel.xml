@@ -58,6 +58,7 @@
             <e p="WorkSystem.cs" t="Include" />
             <e p="WorkSystemManager.cs" t="Include" />
           </e>
+          <e p="mistDamage.cs" t="Include" />
           <e p="ParticleController.cs" t="Include" />
           <e p="PauseMenu.cs" t="Include" />
           <e p="PickUpObj.cs" t="Include" />
