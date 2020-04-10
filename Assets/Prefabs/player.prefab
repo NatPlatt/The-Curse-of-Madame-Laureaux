@@ -196,6 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
+  swampSpeed: 3
   rotateSpeed: 1
   gravity: 20
   rotateDirection: {x: 0, y: 0, z: 0}

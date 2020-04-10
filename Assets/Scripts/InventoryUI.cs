@@ -13,7 +13,6 @@ public class InventoryUI : MonoBehaviour
 
     public int coinCount = 0;
     public IntData coinAmount;
-    public GameObject coinAmountSO;
     public Text coinUI;
 
     public PickUpObj.pickUpType pickUpType;
