@@ -44,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/SceneLoader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WeaponCollectable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinCollection.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -64,7 +65,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PickUpObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/QuickSelect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/ClickItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateOnEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/mistDamage.cs" />
@@ -73,6 +73,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" />
       </list>
     </option>
   </component>
@@ -133,7 +134,7 @@
       <workItem from="1586304102332" duration="7527000" />
       <workItem from="1586314945632" duration="12292000" />
       <workItem from="1586478041995" duration="14732000" />
-      <workItem from="1586800528702" duration="2306000" />
+      <workItem from="1586800528702" duration="2678000" />
     </task>
     <servers />
   </component>

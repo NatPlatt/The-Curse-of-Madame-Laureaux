@@ -12,8 +12,10 @@ public class InventoryUI : MonoBehaviour
     public GameObject hiddenObjectImage, coinImage;
 
     public int coinCount = 0;
-    public IntData coinAmount;
+    //public IntData coinAmount;
     public IntData hiddenObjAmount;
+    public CoinCollection coinCollection;
+    
     public Text coinUI;
     public Text hiddenObjUI;
 
@@ -24,7 +26,7 @@ public class InventoryUI : MonoBehaviour
 
     private void Start()
     {
-        coinUI.text = "$" + coinAmount.value.ToString();
+        coinUI.text = "$" + coinCollection.coinList.Count.ToString();
         hiddenObjUI.text = hiddenObjAmount.value.ToString();
     }
 
@@ -42,8 +44,8 @@ public class InventoryUI : MonoBehaviour
         {
             
             //coinCount = coinAmount.value;
-            coinUI.text = "$" + coinAmount.value.ToString();
-            Debug.Log("You get" + coinAmount.value + "coins");
+            coinUI.text = "$" + coinCollection.coinList.Count.ToString();
+            Debug.Log("You get" + coinCollection.coinList.Count + "coins");
             return;
         }
         
