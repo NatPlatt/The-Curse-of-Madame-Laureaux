@@ -56,8 +56,10 @@ public class Shop : MonoBehaviour
         numToBuy *= (storePoints.Length - HOcollection.collectablesList.Count);
         Debug.Log("store points"+ storePoints.Length+ " minus collection length" + HOcollection.collectablesList.Count + " times equals numToBuy " + numToBuy);
         HOAmount.value = storePoints.Length;
-        coinAmount.value -= numToBuy;
-        purchaseAmountText.text = "$" + coinAmount.value.ToString();
+
+        int coinAmount = coinCollection.coinList.Count * coinValue.value ;
+        coinAmount -= numToBuy;
+        purchaseAmountText.text = "$" + coinAmount.ToString();
     }
 
     public void NoBuyObjects()
