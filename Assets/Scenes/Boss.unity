@@ -1086,7 +1086,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HOcollection: {fileID: 11400000, guid: 875e1b7f7e67a384597f17d70ef9b56e, type: 2}
-  coinAmount: {fileID: 11400000, guid: 010ed08b223ae724eb38cf8ce06774dc, type: 2}
+  coinCollection: {fileID: 11400000, guid: 2754545d4d6fcb343bf908310961e1d5, type: 2}
+  coinValue: {fileID: 11400000, guid: e35df4237733fca42854d3faf8afd0a5, type: 2}
   HOAmount: {fileID: 11400000, guid: e5be70d86a35ab64d80d9cd6144b9efd, type: 2}
   buyButton: {fileID: 1982646393}
   allGoneText: {fileID: 1922885981}
@@ -9774,8 +9775,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 250655516}
-        m_MethodName: BuyObjects
+      - m_Target: {fileID: 11400000, guid: 2754545d4d6fcb343bf908310961e1d5, type: 2}
+        m_MethodName: UseCoin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

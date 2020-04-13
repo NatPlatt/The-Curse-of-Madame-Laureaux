@@ -13,7 +13,8 @@ public class InventoryUI : MonoBehaviour
 
     public int coinCount = 0;
     //public IntData coinAmount;
-    public IntData hiddenObjAmount;
+    //public IntData hiddenObjAmount;
+    public Collection HOcollection;
     public CoinCollection coinCollection;
     public Coins coinValue;
     public int realCoinAmount;
@@ -30,13 +31,14 @@ public class InventoryUI : MonoBehaviour
     {
         realCoinAmount = coinValue.value * coinCollection.coinList.Count;
         coinUI.text = "$" + realCoinAmount.ToString();
-        hiddenObjUI.text = hiddenObjAmount.value.ToString();
+        hiddenObjUI.text = HOcollection.collectablesList.Count.ToString();
     }
 
     private void FixedUpdate()
     { 
         realCoinAmount = coinValue.value * coinCollection.coinList.Count;
        coinUI.text = "$" + realCoinAmount.ToString();
+       hiddenObjUI.text = HOcollection.collectablesList.Count.ToString();
     }
 
     public void InventoryManager(GameObject pickUp)
@@ -72,7 +74,7 @@ public class InventoryUI : MonoBehaviour
         GameObject buttonToAdd = null;
         if (type == PickUpObj.pickUpType.HIDDENOBJS)
         {
-            hiddenObjUI.text = hiddenObjAmount.value.ToString();
+            hiddenObjUI.text = HOcollection.collectablesList.Count.ToString();
             buttonToAdd = hiddenObjButtonPrefab;
             //instantiate prefab and put it in the inventory
             inventoryButtons[index] =
