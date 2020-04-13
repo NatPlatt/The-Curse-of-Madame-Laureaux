@@ -71,10 +71,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MistDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateOnEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinCollection.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
       </list>
     </option>
   </component>
@@ -135,7 +135,7 @@
       <workItem from="1586304102332" duration="7527000" />
       <workItem from="1586314945632" duration="12292000" />
       <workItem from="1586478041995" duration="14732000" />
-      <workItem from="1586800528702" duration="3957000" />
+      <workItem from="1586800528702" duration="4452000" />
     </task>
     <servers />
   </component>
