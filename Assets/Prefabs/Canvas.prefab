@@ -4024,6 +4024,8 @@ MonoBehaviour:
   coinCount: 1
   hiddenObjAmount: {fileID: 11400000, guid: e5be70d86a35ab64d80d9cd6144b9efd, type: 2}
   coinCollection: {fileID: 11400000, guid: 2754545d4d6fcb343bf908310961e1d5, type: 2}
+  coinValue: {fileID: 11400000, guid: e35df4237733fca42854d3faf8afd0a5, type: 2}
+  realCoinAmount: 0
   coinUI: {fileID: 84889816}
   hiddenObjUI: {fileID: 1009436446}
   pickUpType: 0
