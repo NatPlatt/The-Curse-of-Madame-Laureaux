@@ -11550,11 +11550,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2003711733539332616, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
-      propertyPath: moveSpots.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2003711733539332616, guid: ba30015aa8b50884d88886e444e99bfb,
-        type: 3}
       propertyPath: moveSpots.Array.data[0]
       value: 
       objectReference: {fileID: 669823262}
@@ -11627,11 +11622,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2003711733539332620, guid: ba30015aa8b50884d88886e444e99bfb,
-        type: 3}
-      propertyPath: damage.baseValue
-      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332630, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
@@ -36697,8 +36687,8 @@ PrefabInstance:
       objectReference: {fileID: 244785326}
     - target: {fileID: 235597056765574826, guid: 59d14c2b51d84be4dad5b49a7992c36e,
         type: 3}
-      propertyPath: attackDelay
-      value: 0
+      propertyPath: attackSpeed
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59d14c2b51d84be4dad5b49a7992c36e, type: 3}
