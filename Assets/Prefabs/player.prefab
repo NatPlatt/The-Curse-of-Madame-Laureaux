@@ -100,6 +100,7 @@ GameObject:
   - component: {fileID: 4920104957383781122}
   - component: {fileID: 235597056765574805}
   - component: {fileID: 1799189354522455066}
+  - component: {fileID: 616954091984364582}
   m_Layer: 10
   m_Name: player
   m_TagString: Untagged
@@ -328,6 +329,39 @@ MonoBehaviour:
   playerObj: {fileID: 235597056765574813}
   minHeightForReset: 0
   respawnPosition: {fileID: 0}
+--- !u!114 &616954091984364582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235597056765574813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f50c28d1198f4ee4b81c53d78317b645, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameIdObj: {fileID: 11400000, guid: 1f62c85942f3aed4495c55bec58df8ac, type: 2}
+  workIdList:
+  - nameIdObj: {fileID: 11400000, guid: 1f62c85942f3aed4495c55bec58df8ac, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 2754545d4d6fcb343bf908310961e1d5, type: 2}
+          m_MethodName: AddCoin
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: e35df4237733fca42854d3faf8afd0a5,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: Coins, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &235597056937172476
 GameObject:
   m_ObjectHideFlags: 0

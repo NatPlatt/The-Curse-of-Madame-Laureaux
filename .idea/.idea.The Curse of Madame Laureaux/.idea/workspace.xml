@@ -133,7 +133,7 @@
       <workItem from="1586304102332" duration="7527000" />
       <workItem from="1586314945632" duration="12292000" />
       <workItem from="1586478041995" duration="14732000" />
-      <workItem from="1586800528702" duration="1318000" />
+      <workItem from="1586800528702" duration="2306000" />
     </task>
     <servers />
   </component>
@@ -157,6 +157,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="621" y="185" width="672" height="678" key="search.everywhere.popup" />
+    <state x="621" y="185" width="672" height="678" key="search.everywhere.popup/1920.1080/1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

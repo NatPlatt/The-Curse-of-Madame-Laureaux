@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3548196022194742738}
   - component: {fileID: 7895732488121152509}
   - component: {fileID: -6921716018446341965}
-  - component: {fileID: -6708537267263201937}
+  - component: {fileID: 628277290350004754}
   m_Layer: 9
   m_Name: coin
   m_TagString: Untagged
@@ -141,7 +141,7 @@ MonoBehaviour:
   inventory: {fileID: 3705226667612181688, guid: b73dee714028e0743b9de8428078175c,
     type: 3}
   pickUps: 0
---- !u!114 &-6708537267263201937
+--- !u!114 &628277290350004754
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -153,45 +153,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f50c28d1198f4ee4b81c53d78317b645, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameIdObj: {fileID: 11400000, guid: 59d2d1006ce94a041964f0a6cdfe016c, type: 2}
-  workIdList:
-  - nameIdObj: {fileID: 11400000, guid: 59d2d1006ce94a041964f0a6cdfe016c, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2629091148272300071}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: -6921716018446341965}
-          m_MethodName: TalkToInventory
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 11400000, guid: 010ed08b223ae724eb38cf8ce06774dc, type: 2}
-          m_MethodName: UpdateValue
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 10
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls: []
+  nameIdObj: {fileID: 11400000, guid: 1f62c85942f3aed4495c55bec58df8ac, type: 2}
+  workIdList: []
