@@ -30,6 +30,11 @@ public class InventoryUI : MonoBehaviour
         hiddenObjUI.text = hiddenObjAmount.value.ToString();
     }
 
+    private void FixedUpdate()
+    {
+       coinUI.text = "$" + coinCollection.coinList.Count.ToString();
+    }
+
     public void InventoryManager(GameObject pickUp)
     {
         //what pickup object is it
