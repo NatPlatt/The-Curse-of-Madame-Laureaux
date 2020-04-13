@@ -25151,11 +25151,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2003711733539332620, guid: ba30015aa8b50884d88886e444e99bfb,
-        type: 3}
-      propertyPath: damage.baseValue
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332630, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_Name
@@ -32277,7 +32272,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 11400000, guid: 8fae0589197c06149bc15d6ba5f2dbb2,
+      objectReference: {fileID: 11400000, guid: 9a3dc6e51986c494399e0b9f8624c2ba,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5698549702daf5f409a702b3e88957c8, type: 3}
@@ -44995,11 +44990,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2003711733539332620, guid: ba30015aa8b50884d88886e444e99bfb,
-        type: 3}
-      propertyPath: damage.baseValue
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332630, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_Name
@@ -52874,11 +52864,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2003711733539332620, guid: ba30015aa8b50884d88886e444e99bfb,
-        type: 3}
-      propertyPath: damage.baseValue
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332630, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_Name
@@ -57644,21 +57629,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9209605934643236522, guid: 5698549702daf5f409a702b3e88957c8,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9209605934643236522, guid: 5698549702daf5f409a702b3e88957c8,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9209605934643236522, guid: 5698549702daf5f409a702b3e88957c8,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 9209605934643236523, guid: 5698549702daf5f409a702b3e88957c8,
         type: 3}
       propertyPath: m_Name
@@ -57668,33 +57638,8 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 11400000, guid: 5317e3f8f6c065f44b2d5b724c458d02,
+      objectReference: {fileID: 11400000, guid: 9a3dc6e51986c494399e0b9f8624c2ba,
         type: 2}
-    - target: {fileID: 9209605936056218295, guid: 5698549702daf5f409a702b3e88957c8,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9209605936056218295, guid: 5698549702daf5f409a702b3e88957c8,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9209605936056218295, guid: 5698549702daf5f409a702b3e88957c8,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9209605936056218295, guid: 5698549702daf5f409a702b3e88957c8,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9209605936056218295, guid: 5698549702daf5f409a702b3e88957c8,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5698549702daf5f409a702b3e88957c8, type: 3}
 --- !u!1 &2041264225

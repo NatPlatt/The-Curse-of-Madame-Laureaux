@@ -36685,11 +36685,6 @@ PrefabInstance:
       propertyPath: healthbar
       value: 
       objectReference: {fileID: 244785326}
-    - target: {fileID: 235597056765574826, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
-      propertyPath: attackSpeed
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59d14c2b51d84be4dad5b49a7992c36e, type: 3}
 --- !u!1001 &3705226667394897581
@@ -37014,8 +37009,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9209605935191821596, guid: 5698549702daf5f409a702b3e88957c8,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
-      objectReference: {fileID: 0}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: 9a3dc6e51986c494399e0b9f8624c2ba,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5698549702daf5f409a702b3e88957c8, type: 3}

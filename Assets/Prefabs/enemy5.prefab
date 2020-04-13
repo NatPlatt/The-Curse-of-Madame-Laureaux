@@ -231,7 +231,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &2003711733539332620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,7 +245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 100
   damage:
-    baseValue: 10
+    baseValue: 15
   healthbar: {fileID: 2003711733597332274}
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   restColor: {r: 0, g: 0, b: 0, a: 0}
