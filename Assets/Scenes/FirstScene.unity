@@ -36695,6 +36695,11 @@ PrefabInstance:
       propertyPath: healthbar
       value: 
       objectReference: {fileID: 244785326}
+    - target: {fileID: 235597056765574826, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+        type: 3}
+      propertyPath: attackDelay
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59d14c2b51d84be4dad5b49a7992c36e, type: 3}
 --- !u!1001 &3705226667394897581
