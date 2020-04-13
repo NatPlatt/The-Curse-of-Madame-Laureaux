@@ -7,7 +7,8 @@ using UnityEngine.UI;
 public class Shop : MonoBehaviour
 {
     public Collection HOcollection;
-    public IntData coinAmount;
+    public CoinCollection coinCollection;
+    public Coins coinValue;
     public IntData HOAmount;
     public GameObject buyButton;
     public GameObject allGoneText;
@@ -22,8 +23,8 @@ public class Shop : MonoBehaviour
     {
         //buyButton.SetActive(false);
         //allGoneText.SetActive(false);
-        numToBuy = (HOAmount.value + 1) * 20;
-        Debug.Log(  "On START: "+ HOAmount.value + "plus 1 times 20 equals num to buy: " + numToBuy);
+        numToBuy = HOAmount.value * coinValue.value;
+        Debug.Log(  "On START: "+ HOAmount.value + "times coin value  " + numToBuy);
         Debug.Log("collectibles list length"+ HOcollection.collectablesList.Count + "storePoints length" + storePoints.Length);
         
         
