@@ -184,6 +184,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: 2754545d4d6fcb343bf908310961e1d5, type: 2}
+          m_MethodName: AddCoin
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: e35df4237733fca42854d3faf8afd0a5,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: Coins, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     ExitEvent:
       m_PersistentCalls:
         m_Calls: []

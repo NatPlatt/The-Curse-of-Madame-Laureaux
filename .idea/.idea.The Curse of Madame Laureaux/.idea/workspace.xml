@@ -65,7 +65,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PickUpObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/QuickSelect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/ClickItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateOnEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/mistDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharStats.cs" />
@@ -74,6 +73,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateOnEnemy.cs" />
       </list>
     </option>
   </component>
@@ -134,7 +134,7 @@
       <workItem from="1586304102332" duration="7527000" />
       <workItem from="1586314945632" duration="12292000" />
       <workItem from="1586478041995" duration="14732000" />
-      <workItem from="1586800528702" duration="2678000" />
+      <workItem from="1586800528702" duration="3343000" />
     </task>
     <servers />
   </component>
