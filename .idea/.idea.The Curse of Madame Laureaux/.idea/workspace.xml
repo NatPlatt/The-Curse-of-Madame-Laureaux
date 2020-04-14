@@ -17,6 +17,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickUpObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/SimpleIDMatch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" root0="FORCE_HIGHLIGHTING" />
@@ -78,6 +79,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharCombat.cs" />
+        <option value="$USER_HOME$/Downloads/SimpleMatchID.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/SimpleIDMatch.cs" />
       </list>
     </option>
   </component>
@@ -138,7 +141,7 @@
       <workItem from="1586304102332" duration="7527000" />
       <workItem from="1586314945632" duration="12292000" />
       <workItem from="1586478041995" duration="14732000" />
-      <workItem from="1586800528702" duration="8616000" />
+      <workItem from="1586800528702" duration="9557000" />
     </task>
     <servers />
   </component>

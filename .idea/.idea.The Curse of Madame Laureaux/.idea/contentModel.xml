@@ -53,6 +53,7 @@
             <e p="MatchID.cs" t="Include" />
             <e p="MatchIDBehavior.cs" t="Include" />
             <e p="NameId.cs" t="Include" />
+            <e p="SimpleIDMatch.cs" t="Include" />
             <e p="SpriteRenderBehavior.cs" t="Include" />
             <e p="SpriteRendererController.cs" t="Include" />
             <e p="WorkSystem.cs" t="Include" />
