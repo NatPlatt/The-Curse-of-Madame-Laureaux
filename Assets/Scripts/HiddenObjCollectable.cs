@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -10,7 +11,7 @@ public class HiddenObjCollectable : Collectable
 {
     public UnityEvent useEvent;
     public float HPamount;
-    public TextAreaAttribute text;
+    public string text;
 
     public override void Use()
     {
