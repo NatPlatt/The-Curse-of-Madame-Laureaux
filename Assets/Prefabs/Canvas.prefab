@@ -4009,16 +4009,7 @@ MonoBehaviour:
   - {fileID: 1043309536}
   - {fileID: 543531369}
   - {fileID: 494716010}
-  inventoryButtons:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  inventoryButtons: []
   hiddenObjectImage: {fileID: 123816844}
   coinImage: {fileID: 1955426381}
   coinCount: 1
