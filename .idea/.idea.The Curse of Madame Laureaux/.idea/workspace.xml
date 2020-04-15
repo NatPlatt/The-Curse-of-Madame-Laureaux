@@ -20,6 +20,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/SimpleIDMatch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HiddenObjCollectable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/QuickSelect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPatrol.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,6 +49,7 @@
     <setting file="file://$USER_HOME$/Downloads/SceneLoader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WeaponCollectable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinCollection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collection.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -81,6 +83,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharCombat.cs" />
         <option value="$USER_HOME$/Downloads/SimpleMatchID.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/SimpleIDMatch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collection.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObjCollectable.cs" />
       </list>
     </option>
   </component>
@@ -142,6 +146,7 @@
       <workItem from="1586314945632" duration="12292000" />
       <workItem from="1586478041995" duration="14732000" />
       <workItem from="1586800528702" duration="10361000" />
+      <workItem from="1586922326495" duration="344000" />
     </task>
     <servers />
   </component>
