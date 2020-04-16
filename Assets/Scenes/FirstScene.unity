@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 1906d10e8e3399b429a18977459925c6,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -36738,6 +36739,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3705226666685233396, guid: b73dee714028e0743b9de8428078175c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3705226667612181684, guid: b73dee714028e0743b9de8428078175c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -37050,6 +37056,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CanvasHObj
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209605934643236523, guid: 5698549702daf5f409a702b3e88957c8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9209605935191821596, guid: 5698549702daf5f409a702b3e88957c8,
         type: 3}

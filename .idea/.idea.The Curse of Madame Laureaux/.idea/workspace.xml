@@ -50,6 +50,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WeaponCollectable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinCollection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/PauseMenu.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -61,7 +62,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle1Reset.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinCollectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryOpen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataStorage1.cs" />
@@ -85,6 +85,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/SimpleIDMatch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collection.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObjCollectable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
       </list>
     </option>
   </component>
@@ -148,7 +149,7 @@
       <workItem from="1586800528702" duration="10361000" />
       <workItem from="1586922326495" duration="1092000" />
       <workItem from="1586994787935" duration="3000" />
-      <workItem from="1586997287185" duration="633000" />
+      <workItem from="1586997287185" duration="912000" />
     </task>
     <servers />
   </component>
