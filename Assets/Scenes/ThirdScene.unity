@@ -24376,6 +24376,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8115845311806004050, guid: 5698549702daf5f409a702b3e88957c8,
+        type: 3}
+      propertyPath: m_Text
+      value: -20 HP from enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8996127955872573520, guid: 5698549702daf5f409a702b3e88957c8,
+        type: 3}
+      propertyPath: m_Text
+      value: '*Use this in the boss fight*'
+      objectReference: {fileID: 0}
     - target: {fileID: 9209605934643236522, guid: 5698549702daf5f409a702b3e88957c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -49503,6 +49513,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3705226667612181688, guid: b73dee714028e0743b9de8428078175c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3705226667767614648, guid: b73dee714028e0743b9de8428078175c,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -56833,6 +56848,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CanvasHObj (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209605934643236523, guid: 5698549702daf5f409a702b3e88957c8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9209605935191821596, guid: 5698549702daf5f409a702b3e88957c8,
         type: 3}
