@@ -1845,6 +1845,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3705226667612181688, guid: b73dee714028e0743b9de8428078175c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3705226667767614648, guid: b73dee714028e0743b9de8428078175c,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -1873,6 +1878,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: constructionSign
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759497463149533292, guid: efc9bad4601eec44c961e89d5b99c74a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1759497463149533295, guid: efc9bad4601eec44c961e89d5b99c74a,
         type: 3}
@@ -4389,7 +4399,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.5
+  orthographic size: 7.83
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
