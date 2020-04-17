@@ -9479,6 +9479,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2003711733539332620, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: damage.baseValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332630, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_Name
@@ -23910,6 +23915,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003711733539332620, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: damage.baseValue
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332630, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
@@ -56841,11 +56851,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2003711733539332616, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
-      propertyPath: moveSpots.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2003711733539332616, guid: ba30015aa8b50884d88886e444e99bfb,
-        type: 3}
       propertyPath: moveSpots.Array.data[0]
       value: 
       objectReference: {fileID: 1544181616}
@@ -56854,11 +56859,6 @@ PrefabInstance:
       propertyPath: moveSpots.Array.data[1]
       value: 
       objectReference: {fileID: 1443760113}
-    - target: {fileID: 2003711733539332616, guid: ba30015aa8b50884d88886e444e99bfb,
-        type: 3}
-      propertyPath: moveSpots.Array.data[2]
-      value: 
-      objectReference: {fileID: 1248332791}
     - target: {fileID: 2003711733539332618, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -65415,6 +65415,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758317834}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1762281553 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3705226667304138243, guid: b73dee714028e0743b9de8428078175c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1998648147}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e41ee789dfea5994aac3fb71e8c6e31c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1764313666
 GameObject:
   m_ObjectHideFlags: 0
@@ -77022,6 +77034,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2003711733539332620, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: damage.baseValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332630, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_Name
@@ -77790,5 +77807,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+        type: 3}
+      propertyPath: damage.baseValue
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+        type: 3}
+      propertyPath: healthbar
+      value: 
+      objectReference: {fileID: 1762281553}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59d14c2b51d84be4dad5b49a7992c36e, type: 3}

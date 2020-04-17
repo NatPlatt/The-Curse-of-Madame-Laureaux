@@ -230,7 +230,6 @@ MonoBehaviour:
   moveSpots:
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &2003711733539332620
 MonoBehaviour:
   m_ObjectHideFlags: 0
