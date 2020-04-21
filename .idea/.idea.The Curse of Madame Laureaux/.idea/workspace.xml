@@ -78,7 +78,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateOnEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinCollection.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharCombat.cs" />
         <option value="$USER_HOME$/Downloads/SimpleMatchID.cs" />
@@ -86,6 +85,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Collection.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObjCollectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
       </list>
     </option>
   </component>
@@ -150,6 +150,7 @@
       <workItem from="1586922326495" duration="1092000" />
       <workItem from="1586994787935" duration="3000" />
       <workItem from="1586997287185" duration="1601000" />
+      <workItem from="1587435196653" duration="254000" />
     </task>
     <servers />
   </component>
