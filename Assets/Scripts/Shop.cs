@@ -46,7 +46,7 @@ public class Shop : MonoBehaviour
             allGoneText.SetActive(false);
             
             purchaseAmountText.text = "$" + numToBuy.ToString();
-            Debug.Log("if the list is less than store then the purchase amount is: " + numToBuy);
+            //Debug.Log("if the list is less than store then the purchase amount is: " + numToBuy);
             BuyObjects();
         }
     }
@@ -55,7 +55,7 @@ public class Shop : MonoBehaviour
     {
         //HOcollection.collectablesList.Count = storePoints.Length;
         numToBuy *= (storePoints.Length - HOcollection.collectablesList.Count);
-        Debug.Log("store points"+ storePoints.Length+ " minus collection length" + HOcollection.collectablesList.Count + " times equals numToBuy " + numToBuy);
+        Debug.Log("store points length: "+ storePoints.Length+ " minus collection length: " + HOcollection.collectablesList.Count + " times equals numToBuy " + numToBuy);
         HOAmount.value = storePoints.Length;
 
         int coinAmount = coinCollection.coinList.Count * coinValue.value ;
