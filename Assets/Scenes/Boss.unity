@@ -9777,7 +9777,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 2754545d4d6fcb343bf908310961e1d5, type: 2}
-        m_MethodName: UseAllCoins
+        m_MethodName: UseCoin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
