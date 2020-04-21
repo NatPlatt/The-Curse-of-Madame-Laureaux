@@ -62,8 +62,15 @@ public class Shop : MonoBehaviour
         //int coinAmount = coinCollection.coinList.Count * coinValue.value ;
         //coinAmount -= numToBuy;
         purchaseAmountText.text = "$" + numToBuy.ToString();
+
+        
     }
 
+   public void PurchaseMade()
+   {
+       numToBuy -= coinValue.value;
+       purchaseAmountText.text = "$" + numToBuy.ToString();
+   }
     public void NoBuyObjects()
     {
         
