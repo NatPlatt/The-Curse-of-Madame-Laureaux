@@ -24,9 +24,9 @@ public class Shop : MonoBehaviour
         //buyButton.SetActive(false);
         //allGoneText.SetActive(false);
         numToBuy = HOAmount.value * coinValue.value;
-        Debug.Log(  "On START: "+ HOAmount.value + "times coin value is " + numToBuy);
+        Debug.Log(  "On START: "+ HOAmount.value + "times coin value" + coinValue.value + " is (numToBuy) " + numToBuy);
         //Debug.Log("collectibles list length"+ HOcollection.collectablesList.Count + "storePoints length" + storePoints.Length);
-        Debug.Log("Purchase Amount is " + purchaseAmountText);
+        
         
         
     }
@@ -59,9 +59,9 @@ public class Shop : MonoBehaviour
         Debug.Log("store points length: "+ storePoints.Length+ " minus collection length: " + HOcollection.collectablesList.Count + " times equals numToBuy " + numToBuy);
         HOAmount.value = storePoints.Length;
 
-        int coinAmount = coinCollection.coinList.Count * coinValue.value ;
-        coinAmount -= numToBuy;
-        purchaseAmountText.text = "$" + coinAmount.ToString();
+        //int coinAmount = coinCollection.coinList.Count * coinValue.value ;
+        //coinAmount -= numToBuy;
+        purchaseAmountText.text = "$" + numToBuy.ToString();
     }
 
     public void NoBuyObjects()
