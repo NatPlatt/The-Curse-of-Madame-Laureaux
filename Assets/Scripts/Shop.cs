@@ -44,6 +44,7 @@ public class Shop : MonoBehaviour
         {
             buyButton.SetActive(true);
             allGoneText.SetActive(false);
+            Debug.Log("SeeIfBuyObjects() numToBuy = " +numToBuy);
             
             purchaseAmountText.text = "$" + numToBuy.ToString();
             //Debug.Log("if the list is less than store then the purchase amount is: " + numToBuy);
