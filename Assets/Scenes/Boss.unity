@@ -1102,7 +1102,7 @@ GameObject:
   - component: {fileID: 230358865}
   - component: {fileID: 230358864}
   m_Layer: 5
-  m_Name: Image (6)
+  m_Name: Clue6Image (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
