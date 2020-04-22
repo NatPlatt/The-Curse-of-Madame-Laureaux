@@ -1490,7 +1490,7 @@ GameObject:
   - component: {fileID: 267989693}
   - component: {fileID: 267989692}
   m_Layer: 5
-  m_Name: Image (7)
+  m_Name: Clue7Image (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7932,7 +7932,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1505516245}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 875e1b7f7e67a384597f17d70ef9b56e, type: 2}
+        m_MethodName: RemoveFromCollection
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: c40d67b4dcf5dcb4b8088667ea1260c8,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: Collectable, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1505516245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8578,7 +8590,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1574150823}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 875e1b7f7e67a384597f17d70ef9b56e, type: 2}
+        m_MethodName: RemoveFromCollection
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: bbaeac696f3e64e4d946568071b2630e,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: Collectable, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1574150823
 MonoBehaviour:
   m_ObjectHideFlags: 0
