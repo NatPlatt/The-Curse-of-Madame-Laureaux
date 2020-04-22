@@ -449,7 +449,7 @@ GameObject:
   - component: {fileID: 112046360}
   - component: {fileID: 112046359}
   m_Layer: 5
-  m_Name: Image (5)
+  m_Name: Clue5Image (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3739,7 +3739,7 @@ GameObject:
   - component: {fileID: 733279984}
   - component: {fileID: 733279983}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: Clue2Image (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4044,7 +4044,7 @@ GameObject:
   - component: {fileID: 759981285}
   - component: {fileID: 759981284}
   m_Layer: 5
-  m_Name: Image (4)
+  m_Name: Clue4Image (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5995,7 +5995,7 @@ GameObject:
   - component: {fileID: 1039642300}
   - component: {fileID: 1039642299}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: Clue1Image (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11259,7 +11259,7 @@ GameObject:
   - component: {fileID: 2073072477}
   - component: {fileID: 2073072476}
   m_Layer: 5
-  m_Name: Image (3)
+  m_Name: Clue3Image (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
