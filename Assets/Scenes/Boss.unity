@@ -10296,13 +10296,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e052b824a334ebe4393e3ec098126fba, type: 2}
   - {fileID: 11400000, guid: 76c60e6e630f57743b2cefccd586202b, type: 2}
   buttons:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 16620801}
+  - {fileID: 1505516242}
+  - {fileID: 1574150820}
+  - {fileID: 354899262}
+  - {fileID: 1482884489}
+  - {fileID: 599828264}
+  - {fileID: 1767910428}
 --- !u!1 &1892129092
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,6 +18,7 @@ public class ShopHiddenObjs : MonoBehaviour
             foreach (var gameObject in buttons)
             {
                 gameObject.SetActive(hiddenObjButton);
+                Debug.Log("the buttons should be active");
             }
         }
     }
