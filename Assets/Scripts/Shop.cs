@@ -16,7 +16,8 @@ public class Shop : MonoBehaviour
     public GameObject[] storePoints;
     public int numToBuy = 1;
     public Text purchaseAmountText;
-    
+    public Collectable HObject;
+    public Button hiddenObjButton;
     
     
     private void Start()
@@ -74,5 +75,13 @@ public class Shop : MonoBehaviour
     public void NoBuyObjects()
     {
         
+    }
+
+    public void IsActive()
+    {
+        if (HOcollection.collectablesList.Contains(HObject))
+        {
+            gameObject.SetActive(hiddenObjButton);
+        }
     }
 }
