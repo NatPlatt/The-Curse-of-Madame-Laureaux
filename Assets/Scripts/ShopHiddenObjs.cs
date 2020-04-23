@@ -13,9 +13,9 @@ public class ShopHiddenObjs : MonoBehaviour
     
     public void IsActive()
     {
-        if (HOcollection.collectablesList.Count == hiddenObjSOs.Count)
+        if (HOcollection.collectablesList.Count <= hiddenObjSOs.Count)
         {
-            foreach (var gameObject in buttons)
+            for (int i = 0; i < HOcollection.collectablesList.Count; i ++ )
             {
                 gameObject.SetActive(hiddenObjButton);
                 Debug.Log("the buttons should be active");
