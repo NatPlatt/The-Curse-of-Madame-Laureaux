@@ -8,12 +8,12 @@ public class ShopHiddenObjs : MonoBehaviour
     public Collection HOcollection;
     public Collectable HObject;
     public Button hiddenObjButton;
-    public GameObject[] hiddenObjSOs;
+    public List<Collectable> hiddenObjSOs;
     public GameObject[] buttons;
     
     public void IsActive()
     {
-        if (HOcollection.collectablesList.Count == hiddenObjSOs.Length)
+        if (HOcollection.collectablesList.Count == hiddenObjSOs.Count)
         {
             foreach (var gameObject in buttons)
             {

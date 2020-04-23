@@ -10288,13 +10288,13 @@ MonoBehaviour:
   HObject: {fileID: 11400000, guid: 9a3dc6e51986c494399e0b9f8624c2ba, type: 2}
   hiddenObjButton: {fileID: 16620803}
   hiddenObjSOs:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 9a3dc6e51986c494399e0b9f8624c2ba, type: 2}
+  - {fileID: 11400000, guid: c40d67b4dcf5dcb4b8088667ea1260c8, type: 2}
+  - {fileID: 11400000, guid: bbaeac696f3e64e4d946568071b2630e, type: 2}
+  - {fileID: 11400000, guid: 67a4d2885215b134794bdc35869fa708, type: 2}
+  - {fileID: 11400000, guid: e4114ec50c230ea4790a369737269499, type: 2}
+  - {fileID: 11400000, guid: e052b824a334ebe4393e3ec098126fba, type: 2}
+  - {fileID: 11400000, guid: 76c60e6e630f57743b2cefccd586202b, type: 2}
   buttons:
   - {fileID: 0}
   - {fileID: 0}
