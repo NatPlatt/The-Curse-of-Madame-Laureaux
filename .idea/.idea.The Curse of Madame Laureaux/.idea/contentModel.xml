@@ -72,6 +72,7 @@
           <e p="SceneChange.cs" t="Include" />
           <e p="SceneManagement.cs" t="Include" />
           <e p="Shop.cs" t="Include" />
+          <e p="ShopHiddenObjs.cs" t="Include" />
           <e p="Stats.cs" t="Include" />
           <e p="StringListData.cs" t="Include" />
           <e p="SwitchPlayerControl.cs" t="Include" />

@@ -34,6 +34,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShopHiddenObjs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle1Reset.cs" root0="SKIP_HIGHLIGHTING" />
@@ -86,6 +87,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObjCollectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ShopHiddenObjs.cs" />
       </list>
     </option>
   </component>
@@ -152,7 +154,7 @@
       <workItem from="1586997287185" duration="1601000" />
       <workItem from="1587435196653" duration="2499000" />
       <workItem from="1587523524514" duration="1230000" />
-      <workItem from="1587619911645" duration="251000" />
+      <workItem from="1587619911645" duration="1221000" />
     </task>
     <servers />
   </component>
