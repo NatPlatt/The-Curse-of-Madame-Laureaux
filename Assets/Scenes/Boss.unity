@@ -2051,7 +2051,7 @@ GameObject:
   - component: {fileID: 354899265}
   - component: {fileID: 354899264}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Clue4Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8593,7 +8593,7 @@ GameObject:
   - component: {fileID: 1574150823}
   - component: {fileID: 1574150822}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Clue3Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
