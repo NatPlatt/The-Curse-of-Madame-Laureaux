@@ -459,6 +459,7 @@ GameObject:
   - component: {fileID: 112046358}
   - component: {fileID: 112046360}
   - component: {fileID: 112046359}
+  - component: {fileID: 112046361}
   m_Layer: 5
   m_Name: Clue5Image (5)
   m_TagString: Untagged
@@ -522,6 +523,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112046357}
   m_CullTransparentMesh: 0
+--- !u!114 &112046361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112046357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4abb7cc4157aedf48a2a2f16f8c20897, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HOcollection: {fileID: 0}
+  HObject: {fileID: 0}
+  hiddenObjButton: {fileID: 0}
 --- !u!1 &125284518
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,6 +1128,7 @@ GameObject:
   - component: {fileID: 230358863}
   - component: {fileID: 230358865}
   - component: {fileID: 230358864}
+  - component: {fileID: 230358866}
   m_Layer: 5
   m_Name: Clue6Image (6)
   m_TagString: Untagged
@@ -1175,6 +1192,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 230358862}
   m_CullTransparentMesh: 0
+--- !u!114 &230358866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230358862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4abb7cc4157aedf48a2a2f16f8c20897, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HOcollection: {fileID: 0}
+  HObject: {fileID: 0}
+  hiddenObjButton: {fileID: 0}
 --- !u!1 &242120417
 GameObject:
   m_ObjectHideFlags: 0
@@ -1502,6 +1534,7 @@ GameObject:
   - component: {fileID: 267989691}
   - component: {fileID: 267989693}
   - component: {fileID: 267989692}
+  - component: {fileID: 267989694}
   m_Layer: 5
   m_Name: Clue7Image (7)
   m_TagString: Untagged
@@ -1565,6 +1598,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267989690}
   m_CullTransparentMesh: 0
+--- !u!114 &267989694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267989690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4abb7cc4157aedf48a2a2f16f8c20897, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HOcollection: {fileID: 0}
+  HObject: {fileID: 0}
+  hiddenObjButton: {fileID: 0}
 --- !u!1 &274547044
 GameObject:
   m_ObjectHideFlags: 0
@@ -4107,6 +4155,7 @@ GameObject:
   - component: {fileID: 759981283}
   - component: {fileID: 759981285}
   - component: {fileID: 759981284}
+  - component: {fileID: 759981286}
   m_Layer: 5
   m_Name: Clue4Image (4)
   m_TagString: Untagged
@@ -4170,6 +4219,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759981282}
   m_CullTransparentMesh: 0
+--- !u!114 &759981286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759981282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4abb7cc4157aedf48a2a2f16f8c20897, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HOcollection: {fileID: 0}
+  HObject: {fileID: 0}
+  hiddenObjButton: {fileID: 0}
 --- !u!1 &798841384
 GameObject:
   m_ObjectHideFlags: 0
@@ -11424,6 +11488,7 @@ GameObject:
   - component: {fileID: 2073072475}
   - component: {fileID: 2073072477}
   - component: {fileID: 2073072476}
+  - component: {fileID: 2073072478}
   m_Layer: 5
   m_Name: Clue3Image (3)
   m_TagString: Untagged
@@ -11487,6 +11552,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073072474}
   m_CullTransparentMesh: 0
+--- !u!114 &2073072478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073072474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4abb7cc4157aedf48a2a2f16f8c20897, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HOcollection: {fileID: 0}
+  HObject: {fileID: 0}
+  hiddenObjButton: {fileID: 0}
 --- !u!1 &2081329909
 GameObject:
   m_ObjectHideFlags: 0
