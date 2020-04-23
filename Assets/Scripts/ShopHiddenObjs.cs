@@ -14,7 +14,9 @@ public class ShopHiddenObjs : MonoBehaviour
     {
         if (HOcollection.collectablesList.Contains(HObject))
         {
-            gameObject.SetActive(hiddenObjButton);
+            //gameObject.SetActive(hiddenObjButton);
+            //hiddenObjButton.gameObject.SetActive(false);
+            
         }
     }
 }
