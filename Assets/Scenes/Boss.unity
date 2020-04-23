@@ -2948,7 +2948,7 @@ GameObject:
   - component: {fileID: 599828267}
   - component: {fileID: 599828266}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Clue6Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7720,7 +7720,7 @@ GameObject:
   - component: {fileID: 1482884492}
   - component: {fileID: 1482884491}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Clue5Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9559,7 +9559,7 @@ GameObject:
   - component: {fileID: 1767910431}
   - component: {fileID: 1767910430}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Clue7Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
