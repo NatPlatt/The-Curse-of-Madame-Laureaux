@@ -14,6 +14,8 @@ public class PlayerStats : CharStats
     public override void Die()
     {
         base.Die();
+        
+        deathEvent.Invoke();
 
         gameObject.GetComponent<Renderer>().material.color = deadColor;
         

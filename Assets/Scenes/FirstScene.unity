@@ -2598,7 +2598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59b560fe1c3aece45a7c7227562fd72f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &201921255
+--- !u!114 &201921256
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2641,17 +2641,6 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 201921254}
         m_MethodName: DisplayHearts
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 201921255}
-        m_MethodName: LoseHeart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -37020,6 +37009,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
         type: 3}
+      propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+        type: 3}
       propertyPath: healthbar
       value: 
       objectReference: {fileID: 244785326}
@@ -37032,6 +37026,31 @@ PrefabInstance:
         type: 3}
       propertyPath: heartData
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+        type: 3}
+      propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+        type: 3}
+      propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+        type: 3}
+      propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 201921256}
+    - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+        type: 3}
+      propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoseHeart
+      objectReference: {fileID: 0}
+    - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+        type: 3}
+      propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5353014417986971592, guid: 59d14c2b51d84be4dad5b49a7992c36e,
         type: 3}
@@ -37129,7 +37148,7 @@ PrefabInstance:
         type: 3}
       propertyPath: heartData
       value: 
-      objectReference: {fileID: 201921255}
+      objectReference: {fileID: 201921256}
     - target: {fileID: 3705226667612181684, guid: b73dee714028e0743b9de8428078175c,
         type: 3}
       propertyPath: m_LocalPosition.x
