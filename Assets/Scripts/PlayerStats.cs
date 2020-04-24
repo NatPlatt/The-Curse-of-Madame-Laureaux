@@ -1,5 +1,6 @@
 ﻿
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 public class PlayerStats : CharStats
@@ -8,12 +9,12 @@ public class PlayerStats : CharStats
     
     public HeartData heartData;
 
+    public UnityEvent deathEvent;
+
     public override void Die()
     {
         base.Die();
-        
-        heartData.LoseHeart();
-        
+
         gameObject.GetComponent<Renderer>().material.color = deadColor;
         
         PlayerManager.instance.KillPlayer();
