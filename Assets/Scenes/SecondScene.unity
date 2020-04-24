@@ -45803,7 +45803,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerEnterEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 235597055746740620}
+        m_MethodName: ChangeRespawnPoint
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1179187146}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   triggerExitEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -45818,7 +45829,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 2, y: 1, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1642560090
 Transform:
@@ -45828,7 +45839,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1642560087}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5531945, y: -2.0195312, z: -10.40332}
+  m_LocalPosition: {x: 30.09, y: 1.89, z: 29.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1179187147}
@@ -59575,8 +59586,25 @@ PrefabInstance:
       propertyPath: healthbar
       value: 
       objectReference: {fileID: 478417661}
+    - target: {fileID: 5353014417986971592, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+        type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 1179187146}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59d14c2b51d84be4dad5b49a7992c36e, type: 3}
+--- !u!114 &235597055746740620 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5353014417986971592, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+    type: 3}
+  m_PrefabInstance: {fileID: 235597055746740619}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135568150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c920d751720a9e44925cc80a0bacbdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &8531691923748263735
 Transform:
   m_ObjectHideFlags: 0
