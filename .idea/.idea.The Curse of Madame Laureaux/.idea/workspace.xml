@@ -88,7 +88,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Collection.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObjCollectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShopHiddenObjs.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KillScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HeartData.cs" />
@@ -96,6 +95,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ResetPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
       </list>
     </option>
   </component>
@@ -166,6 +166,7 @@
       <workItem from="1587650510875" duration="1401000" />
       <workItem from="1587691424002" duration="1497000" />
       <workItem from="1587749115574" duration="11679000" />
+      <workItem from="1587766591620" duration="502000" />
     </task>
     <servers />
   </component>
