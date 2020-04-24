@@ -8080,6 +8080,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+        type: 3}
+      propertyPath: healthbar
+      value: 
+      objectReference: {fileID: 1673005457}
     - target: {fileID: 5353014417986971592, guid: 59d14c2b51d84be4dad5b49a7992c36e,
         type: 3}
       propertyPath: respawnPoint
@@ -9632,6 +9637,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b73dee714028e0743b9de8428078175c, type: 3}
+--- !u!114 &1673005457 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3705226667304138243, guid: b73dee714028e0743b9de8428078175c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1673005456}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e41ee789dfea5994aac3fb71e8c6e31c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1736587775
 GameObject:
   m_ObjectHideFlags: 0
