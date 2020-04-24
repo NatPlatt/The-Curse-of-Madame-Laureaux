@@ -67132,7 +67132,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1998648147}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1998648148}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e41ee789dfea5994aac3fb71e8c6e31c, type: 3}
@@ -76391,6 +76391,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 201921256, guid: b73dee714028e0743b9de8428078175c, type: 3}
+      propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 235597055746740621}
+    - target: {fileID: 201921256, guid: b73dee714028e0743b9de8428078175c, type: 3}
+      propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DieForReal
+      objectReference: {fileID: 0}
+    - target: {fileID: 201921256, guid: b73dee714028e0743b9de8428078175c, type: 3}
+      propertyPath: onLoseHeartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 235597055746740620}
+    - target: {fileID: 201921256, guid: b73dee714028e0743b9de8428078175c, type: 3}
+      propertyPath: onLoseHeartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnReset
+      objectReference: {fileID: 0}
+    - target: {fileID: 201921256, guid: b73dee714028e0743b9de8428078175c, type: 3}
+      propertyPath: onLoseHeartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 201921256, guid: b73dee714028e0743b9de8428078175c, type: 3}
+      propertyPath: onLoseHeartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3705226667612181684, guid: b73dee714028e0743b9de8428078175c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -76513,6 +76537,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b73dee714028e0743b9de8428078175c, type: 3}
+--- !u!1 &1998648148 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3705226667304138246, guid: b73dee714028e0743b9de8428078175c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1998648147}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2002891677
 GameObject:
   m_ObjectHideFlags: 0
@@ -79982,6 +80012,11 @@ PrefabInstance:
       propertyPath: respawnPoint
       value: 
       objectReference: {fileID: 1757495603}
+    - target: {fileID: 5353014417986971592, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+        type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1998648148}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59d14c2b51d84be4dad5b49a7992c36e, type: 3}
 --- !u!114 &235597055746740620 stripped
@@ -79994,5 +80029,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c920d751720a9e44925cc80a0bacbdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &235597055746740621 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+    type: 3}
+  m_PrefabInstance: {fileID: 235597055746740619}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135568150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78d85d9c38b85d84cba9a45c3a83d4e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
