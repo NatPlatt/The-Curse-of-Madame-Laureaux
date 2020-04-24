@@ -46,6 +46,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataStorage1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResetPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HOButtons.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KillScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MistDamage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharStats.cs" root0="FORCE_HIGHLIGHTING" />
@@ -86,7 +87,6 @@
         <option value="$USER_HOME$/Downloads/SimpleMatchID.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/SimpleIDMatch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collection.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObjCollectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShopHiddenObjs.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KillScreen.cs" />
@@ -96,6 +96,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ResetPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObjCollectable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HOButtons.cs" />
       </list>
     </option>
   </component>
@@ -166,7 +168,7 @@
       <workItem from="1587650510875" duration="1401000" />
       <workItem from="1587691424002" duration="1497000" />
       <workItem from="1587749115574" duration="11679000" />
-      <workItem from="1587766591620" duration="748000" />
+      <workItem from="1587766591620" duration="1609000" />
     </task>
     <servers />
   </component>

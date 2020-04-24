@@ -10,7 +10,8 @@ using UnityEngine.UIElements;
 public class HiddenObjCollectable : Collectable
 {
     public UnityEvent useEvent;
-    public float HPamount;
+    public int playerHPamount;
+    public int enemyHPamount;
     public string text;
 
     public override void Use()
