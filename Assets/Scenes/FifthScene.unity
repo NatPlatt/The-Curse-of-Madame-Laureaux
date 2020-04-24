@@ -60046,6 +60046,11 @@ PrefabInstance:
       propertyPath: focus
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5353014417986971592, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+        type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 532190995}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59d14c2b51d84be4dad5b49a7992c36e, type: 3}
 --- !u!114 &235597055746740620 stripped
