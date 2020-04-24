@@ -8090,6 +8090,11 @@ PrefabInstance:
       propertyPath: respawnPoint
       value: 
       objectReference: {fileID: 2080597473}
+    - target: {fileID: 5353014417986971592, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+        type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1673005458}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59d14c2b51d84be4dad5b49a7992c36e, type: 3}
 --- !u!114 &1497816503 stripped
@@ -8102,6 +8107,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c920d751720a9e44925cc80a0bacbdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1497816504 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1497816502}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600246241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78d85d9c38b85d84cba9a45c3a83d4e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1505516242
@@ -9485,6 +9502,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 201921256, guid: b73dee714028e0743b9de8428078175c, type: 3}
+      propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1497816504}
+    - target: {fileID: 201921256, guid: b73dee714028e0743b9de8428078175c, type: 3}
+      propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DieForReal
+      objectReference: {fileID: 0}
+    - target: {fileID: 201921256, guid: b73dee714028e0743b9de8428078175c, type: 3}
+      propertyPath: onLoseHeartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1497816503}
+    - target: {fileID: 201921256, guid: b73dee714028e0743b9de8428078175c, type: 3}
+      propertyPath: onLoseHeartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnReset
+      objectReference: {fileID: 0}
     - target: {fileID: 3705226666685233396, guid: b73dee714028e0743b9de8428078175c,
         type: 3}
       propertyPath: m_IsActive
@@ -9643,12 +9676,18 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1673005456}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1673005458}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e41ee789dfea5994aac3fb71e8c6e31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1673005458 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3705226667304138246, guid: b73dee714028e0743b9de8428078175c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1673005456}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1736587775
 GameObject:
   m_ObjectHideFlags: 0
@@ -10396,7 +10435,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1887939228
 RectTransform:
   m_ObjectHideFlags: 0
