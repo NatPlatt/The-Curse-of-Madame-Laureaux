@@ -77,7 +77,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/ClickItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/mistDamage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MistDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateOnEnemy.cs" />
@@ -95,6 +94,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/KillScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HeartData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HeartsUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
       </list>
     </option>
@@ -165,7 +165,7 @@
       <workItem from="1587619911645" duration="2245000" />
       <workItem from="1587650510875" duration="1401000" />
       <workItem from="1587691424002" duration="1497000" />
-      <workItem from="1587749115574" duration="7455000" />
+      <workItem from="1587749115574" duration="8152000" />
     </task>
     <servers />
   </component>

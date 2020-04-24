@@ -12,6 +12,7 @@ public class PlayerStats : CharStats
     {
         base.Die();
         //killScreen.SetActive(true);
+        heartData.currentHearts--;
         
         gameObject.GetComponent<Renderer>().material.color = deadColor;
         if (heartData.currentHearts <= 0)

@@ -43,6 +43,7 @@ public class CharStats : MonoBehaviour
         if (currentHP <= 0)
         {
             Die();
+            
         }
         healthbar.SetHealth(currentHP);
     }
