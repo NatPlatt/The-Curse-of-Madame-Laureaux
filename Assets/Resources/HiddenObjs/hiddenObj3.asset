@@ -15,5 +15,6 @@ MonoBehaviour:
   useEvent:
     m_PersistentCalls:
       m_Calls: []
-  HPamount: 5
-  text: You get 5 HP to use later!
+  playerHPamount: 5
+  enemyHPamount: 0
+  text: +5 HP for you!
