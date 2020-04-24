@@ -18,6 +18,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickUpObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/SimpleIDMatch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HeartsUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HiddenObjCollectable.cs" root0="FORCE_HIGHLIGHTING" />
@@ -33,6 +34,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InstantiateOnEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HeartData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShopHiddenObjs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyStats.cs" root0="FORCE_HIGHLIGHTING" />
@@ -90,8 +92,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShopHiddenObjs.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ResetPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KillScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HeartData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HeartsUI.cs" />
       </list>
     </option>
   </component>
@@ -161,7 +165,7 @@
       <workItem from="1587619911645" duration="2245000" />
       <workItem from="1587650510875" duration="1401000" />
       <workItem from="1587691424002" duration="1497000" />
-      <workItem from="1587749115574" duration="2697000" />
+      <workItem from="1587749115574" duration="5904000" />
     </task>
     <servers />
   </component>
