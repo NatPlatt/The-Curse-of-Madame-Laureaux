@@ -39,6 +39,7 @@
           <e p="HeartsUI.cs" t="Include" />
           <e p="HiddenObjCollectable.cs" t="Include" />
           <e p="HiddenObjects.cs" t="Include" />
+          <e p="HOButtons.cs" t="Include" />
           <e p="ImageController.cs" t="Include" />
           <e p="InstanceObject.cs" t="Include" />
           <e p="InstantiateOnEnemy.cs" t="Include" />
