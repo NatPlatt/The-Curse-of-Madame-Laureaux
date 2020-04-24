@@ -43,6 +43,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataStorage1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResetPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MistDamage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/IdBehavior.cs" root0="FORCE_HIGHLIGHTING" />
@@ -88,6 +89,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShopHiddenObjs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResetPlayer.cs" />
       </list>
     </option>
   </component>
@@ -156,6 +158,7 @@
       <workItem from="1587523524514" duration="1230000" />
       <workItem from="1587619911645" duration="2245000" />
       <workItem from="1587650510875" duration="1401000" />
+      <workItem from="1587691424002" duration="674000" />
     </task>
     <servers />
   </component>
