@@ -44,6 +44,7 @@
           <e p="Interactable.cs" t="Include" />
           <e p="InventoryOpen.cs" t="Include" />
           <e p="InventoryUI.cs" t="Include" />
+          <e p="KillScreen.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="MatchingSystem" t="Include">
             <e p="ColorData.cs" t="Include" />
