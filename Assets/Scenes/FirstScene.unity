@@ -2580,76 +2580,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 198244045}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &201921253 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3653530306378918295, guid: b73dee714028e0743b9de8428078175c,
+--- !u!114 &201921256 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 201921256, guid: b73dee714028e0743b9de8428078175c,
     type: 3}
   m_PrefabInstance: {fileID: 3705226667394897581}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &201921254 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1170054975233419435, guid: b73dee714028e0743b9de8428078175c,
-    type: 3}
-  m_PrefabInstance: {fileID: 3705226667394897581}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201921253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59b560fe1c3aece45a7c7227562fd72f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &201921256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201921253}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 076cf4f2e4bdc204db1a748641b8f7ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHearts: 5
-  deathEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2135568154}
-        m_MethodName: DieForReal
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onLoseHeartEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 235597055746740620}
-        m_MethodName: OnReset
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 201921254}
-        m_MethodName: DisplayHearts
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &208121737
 GameObject:
   m_ObjectHideFlags: 0
@@ -3458,7 +3400,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 3705226667394897581}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 688802077}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e41ee789dfea5994aac3fb71e8c6e31c, type: 3}
@@ -11331,6 +11273,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687903211}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &688802077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3705226667304138246, guid: b73dee714028e0743b9de8428078175c,
+    type: 3}
+  m_PrefabInstance: {fileID: 3705226667394897581}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &701449458
 GameObject:
   m_ObjectHideFlags: 0
@@ -37009,121 +36957,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
         type: 3}
-      propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
       propertyPath: healthbar
       value: 
       objectReference: {fileID: 244785326}
     - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
         type: 3}
-      propertyPath: killScreen
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
-      propertyPath: heartData
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
-      propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
-      propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
       propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 201921256}
-    - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
-      propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoseHeart
-      objectReference: {fileID: 0}
-    - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
-      propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 5353014417986971592, guid: 59d14c2b51d84be4dad5b49a7992c36e,
         type: 3}
       propertyPath: respawnPoint
       value: 
       objectReference: {fileID: 1974051370}
-    - target: {fileID: 5592237156571608031, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+    - target: {fileID: 5353014417986971592, guid: 59d14c2b51d84be4dad5b49a7992c36e,
         type: 3}
-      propertyPath: onLoseHeartEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5592237156571608031, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
-      propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: healthBar
       value: 
-      objectReference: {fileID: 2135568154}
-    - target: {fileID: 5592237156571608031, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
-      propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DieForReal
-      objectReference: {fileID: 0}
-    - target: {fileID: 5592237156571608031, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
-      propertyPath: onLoseHeartEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5592237156571608031, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
-      propertyPath: onLoseHeartEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5592237156571608031, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
-      propertyPath: onLoseHeartEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 201921254}
-    - target: {fileID: 5592237156571608031, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
-      propertyPath: onLoseHeartEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: DisplayHearts
-      objectReference: {fileID: 0}
-    - target: {fileID: 5592237156571608031, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
-      propertyPath: onLoseHeartEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 5592237156571608031, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
-      propertyPath: onLoseHeartEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5592237156571608031, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
-      propertyPath: onLoseHeartEvent.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5592237156571608031, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
-      propertyPath: onLoseHeartEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5592237156571608031, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
-      propertyPath: onLoseHeartEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: LoseHeart
-      objectReference: {fileID: 0}
-    - target: {fileID: 5592237156571608031, guid: 59d14c2b51d84be4dad5b49a7992c36e,
-        type: 3}
-      propertyPath: onLoseHeartEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5592237156571608031, guid: 59d14c2b51d84be4dad5b49a7992c36e, type: 3}
+      objectReference: {fileID: 688802077}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59d14c2b51d84be4dad5b49a7992c36e, type: 3}
 --- !u!114 &235597055746740620 stripped
 MonoBehaviour:
@@ -37144,11 +36996,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1170054975233419435, guid: b73dee714028e0743b9de8428078175c,
-        type: 3}
-      propertyPath: heartData
+    - target: {fileID: 201921256, guid: b73dee714028e0743b9de8428078175c, type: 3}
+      propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 201921256}
+      objectReference: {fileID: 2135568154}
+    - target: {fileID: 201921256, guid: b73dee714028e0743b9de8428078175c, type: 3}
+      propertyPath: onLoseHeartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 235597055746740620}
     - target: {fileID: 3705226667612181684, guid: b73dee714028e0743b9de8428078175c,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -2999,6 +2999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6891606517482963557}
   - component: {fileID: 1170054975233419435}
+  - component: {fileID: 201921256}
   m_Layer: 5
   m_Name: Hearts
   m_TagString: Untagged
@@ -3047,7 +3048,59 @@ MonoBehaviour:
   heartThree: {fileID: 3978302628557170509}
   heartFour: {fileID: 6173883974401848675}
   heartFive: {fileID: 9218932855452901762}
-  heartData: {fileID: 0}
+  heartData: {fileID: 201921256}
+--- !u!114 &201921256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3653530306378918295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076cf4f2e4bdc204db1a748641b8f7ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHearts: 5
+  deathEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: DieForReal
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onLoseHeartEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: OnReset
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1170054975233419435}
+        m_MethodName: DisplayHearts
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3705226666362504529
 GameObject:
   m_ObjectHideFlags: 0
