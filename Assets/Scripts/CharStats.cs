@@ -4,7 +4,7 @@ using UnityEngine;
 public class CharStats : MonoBehaviour
 {
     public int maxHP = 100;
-    private int currentHP { get; set; }
+    public int currentHP { get; set; }
     
     public Stats damage;
 

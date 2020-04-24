@@ -90,12 +90,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShopHiddenObjs.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ResetPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KillScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HeartData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HeartsUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResetPlayer.cs" />
       </list>
     </option>
   </component>
@@ -165,7 +165,7 @@
       <workItem from="1587619911645" duration="2245000" />
       <workItem from="1587650510875" duration="1401000" />
       <workItem from="1587691424002" duration="1497000" />
-      <workItem from="1587749115574" duration="10438000" />
+      <workItem from="1587749115574" duration="11104000" />
     </task>
     <servers />
   </component>
