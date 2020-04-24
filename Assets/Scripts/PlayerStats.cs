@@ -12,7 +12,7 @@ public class PlayerStats : CharStats
     {
         base.Die();
         
-        heartData.onLoseHeartEvent.Invoke();
+        heartData.LoseHeart();
         
         gameObject.GetComponent<Renderer>().material.color = deadColor;
         
