@@ -56,6 +56,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WeaponCollectable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinCollection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/PauseMenu.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -96,8 +97,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ResetPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HiddenObjCollectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HOButtons.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HOButtons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AudioController.cs" />
       </list>
     </option>
   </component>
@@ -168,7 +170,7 @@
       <workItem from="1587650510875" duration="1401000" />
       <workItem from="1587691424002" duration="1497000" />
       <workItem from="1587749115574" duration="11679000" />
-      <workItem from="1587766591620" duration="8358000" />
+      <workItem from="1587766591620" duration="9694000" />
     </task>
     <servers />
   </component>
