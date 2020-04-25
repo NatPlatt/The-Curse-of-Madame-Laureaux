@@ -25151,6 +25151,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2003711733539332620, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: damage.baseValue
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332623, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: coinNum
@@ -45089,6 +45094,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2003711733539332620, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: damage.baseValue
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332623, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: coinNum
@@ -53042,6 +53052,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003711733539332620, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: damage.baseValue
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332623, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
