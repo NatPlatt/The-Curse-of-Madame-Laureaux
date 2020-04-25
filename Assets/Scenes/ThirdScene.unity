@@ -48277,6 +48277,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2003711733539332620, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: damage.baseValue
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332630, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_Name
@@ -59524,6 +59529,11 @@ PrefabInstance:
       propertyPath: moveSpots.Array.data[2]
       value: 
       objectReference: {fileID: 1081878132}
+    - target: {fileID: 2003711733539332617, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: m_Speed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332618, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -59578,6 +59588,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003711733539332620, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: damage.baseValue
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332623, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
