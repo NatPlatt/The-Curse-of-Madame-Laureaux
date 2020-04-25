@@ -89,7 +89,7 @@ public class Shop : MonoBehaviour
     {
         if (HOcollection.collectablesList.Contains(HObject))
         {
-            gameObject.SetActive(hiddenObjButton);
+            gameObject.SetActive(false);
         }
     }
 }
