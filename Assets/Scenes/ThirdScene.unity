@@ -59461,6 +59461,11 @@ PrefabInstance:
       propertyPath: deathEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LoseHeart
       objectReference: {fileID: 0}
+    - target: {fileID: 235597056765574825, guid: 59d14c2b51d84be4dad5b49a7992c36e,
+        type: 3}
+      propertyPath: heartData
+      value: 
+      objectReference: {fileID: 1821305715}
     - target: {fileID: 5353014417986971592, guid: 59d14c2b51d84be4dad5b49a7992c36e,
         type: 3}
       propertyPath: respawnPoint

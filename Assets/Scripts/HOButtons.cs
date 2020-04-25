@@ -5,14 +5,18 @@ using UnityEngine;
 public class HOButtons : MonoBehaviour
 {
     public HiddenObjCollectable hiddenObj;
+    public PlayerStats playerStats;
+    public EnemyStats enemyStats;
     
     public void AddHealthToPlayer()
     {
-        GetComponent<PlayerStats>().maxHP += hiddenObj.playerHPamount;
+        playerStats = GetComponent<PlayerStats>();
+        playerStats.maxHP += hiddenObj.playerHPamount;
     }
 
     public void TakeAwayEnemyHealth()
     {
-        GetComponent<EnemyStats>().maxHP -= hiddenObj.enemyHPamount;
+        enemyStats = GetComponent<EnemyStats>();
+        enemyStats.maxHP -= hiddenObj.enemyHPamount;
     }
 }

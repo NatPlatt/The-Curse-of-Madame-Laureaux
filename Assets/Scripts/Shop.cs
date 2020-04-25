@@ -38,6 +38,17 @@ public class Shop : MonoBehaviour
     {
         IsActive();
         
+        if (coins.coinList.Count > 0)
+        {
+            noMoney.SetActive(false);
+            shopCanvas.SetActive(true);
+        }
+        if (coins.coinList.Count <= 0)
+        {
+            shopCanvas.SetActive(false);
+            noMoney.SetActive(true);
+        }
+        
         if (HOcollection.collectablesList.Count == 7)
         {
             shopCanvas.SetActive(false);
@@ -67,14 +78,6 @@ public class Shop : MonoBehaviour
         //int coinAmount = coinCollection.coinList.Count * coinValue.value ;
         //coinAmount -= numToBuy;
         purchaseAmountText.text = "$" + numToBuy.ToString();*/
-        
-        
-        if (coins.coinList.Count <= 0)
-        {
-            shopCanvas.SetActive(false);
-            noMoney.SetActive(true);
-        }
-
         
     }
 
