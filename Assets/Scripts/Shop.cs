@@ -36,6 +36,8 @@ public class Shop : MonoBehaviour
 
     public void SeeIfBuyObjects()
     {
+        IsActive();
+        
         if (HOcollection.collectablesList.Count == 7)
         {
             shopCanvas.SetActive(false);
@@ -65,6 +67,7 @@ public class Shop : MonoBehaviour
         //int coinAmount = coinCollection.coinList.Count * coinValue.value ;
         //coinAmount -= numToBuy;
         purchaseAmountText.text = "$" + numToBuy.ToString();*/
+        
         
         if (coins.coinList.Count <= 0)
         {
