@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ad720132fec1654fb9950b107143cf9, type: 3}
   m_Name: collectionCoin
   m_EditorClassIdentifier: 
-  coinList: []
+  coinList:
+  - {fileID: 11400000, guid: e35df4237733fca42854d3faf8afd0a5, type: 2}
+  - {fileID: 11400000, guid: e35df4237733fca42854d3faf8afd0a5, type: 2}
+  - {fileID: 11400000, guid: e35df4237733fca42854d3faf8afd0a5, type: 2}
+  - {fileID: 11400000, guid: e35df4237733fca42854d3faf8afd0a5, type: 2}

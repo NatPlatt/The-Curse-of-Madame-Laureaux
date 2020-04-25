@@ -9,11 +9,11 @@ public class Shop : MonoBehaviour
     public Collection HOcollection;
     public CoinCollection coinCollection;
     public Coins coinValue;
+    public CoinCollection coins;
     public IntData HOAmount;
-    public GameObject buyButton;
     public GameObject allGoneText;
-    public GameObject HOsprite;
-    public GameObject[] storePoints;
+    public GameObject shopCanvas;
+    public GameObject noMoney;
     public int numToBuy = 1;
     public Text purchaseAmountText;
     public Collectable HObject;
@@ -27,23 +27,25 @@ public class Shop : MonoBehaviour
         numToBuy = HOAmount.value * coinValue.value;
         Debug.Log(  "On START: "+ HOAmount.value + "times coin value" + coinValue.value + " is (numToBuy) " + numToBuy);
         //Debug.Log("collectibles list length"+ HOcollection.collectablesList.Count + "storePoints length" + storePoints.Length);
-        
-        
+    }
+
+    private void Update()
+    {
         
     }
 
     public void SeeIfBuyObjects()
     {
-        if (HOcollection.collectablesList.Count == storePoints.Length)
+        if (HOcollection.collectablesList.Count == 7)
         {
-            buyButton.SetActive(false);
+            shopCanvas.SetActive(false);
             allGoneText.SetActive(true);
             NoBuyObjects();
             return;
         }
-        if (HOcollection.collectablesList.Count < storePoints.Length)
+        if (HOcollection.collectablesList.Count < 7)
         {
-            buyButton.SetActive(true);
+            shopCanvas.SetActive(true);
             allGoneText.SetActive(false);
             Debug.Log("SeeIfBuyObjects() numToBuy = " +numToBuy);
             
@@ -55,14 +57,20 @@ public class Shop : MonoBehaviour
 
    public void BuyObjects()
     {
-        //HOcollection.collectablesList.Count = storePoints.Length;
+        /*HOcollection.collectablesList.Count = storePoints.Length;
         numToBuy *= (storePoints.Length - HOcollection.collectablesList.Count);
         Debug.Log("store points length: "+ storePoints.Length+ " minus collection length: " + HOcollection.collectablesList.Count + " times equals numToBuy " + numToBuy);
         HOAmount.value = storePoints.Length;
 
         //int coinAmount = coinCollection.coinList.Count * coinValue.value ;
         //coinAmount -= numToBuy;
-        purchaseAmountText.text = "$" + numToBuy.ToString();
+        purchaseAmountText.text = "$" + numToBuy.ToString();*/
+        
+        if (coins.coinList.Count <= 0)
+        {
+            shopCanvas.SetActive(false);
+            noMoney.SetActive(true);
+        }
 
         
     }
