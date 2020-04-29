@@ -9521,7 +9521,7 @@ PrefabInstance:
     - target: {fileID: 2003711733539332617, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_Speed
-      value: 5.5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332618, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
@@ -24247,6 +24247,11 @@ PrefabInstance:
       propertyPath: moveSpots.Array.data[2]
       value: 
       objectReference: {fileID: 1793625438}
+    - target: {fileID: 2003711733539332617, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: m_Speed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332618, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -58335,6 +58340,11 @@ PrefabInstance:
       propertyPath: moveSpots.Array.data[1]
       value: 
       objectReference: {fileID: 1443760113}
+    - target: {fileID: 2003711733539332617, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: m_AutoBraking
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332618, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_LocalPosition.x
