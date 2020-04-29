@@ -7993,17 +7993,17 @@ PrefabInstance:
     - target: {fileID: 2003711733539332617, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_Speed
-      value: 30
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332617, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_Acceleration
-      value: 10
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332617, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_AngularSpeed
-      value: 300
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332617, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
