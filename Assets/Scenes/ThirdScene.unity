@@ -48222,6 +48222,21 @@ PrefabInstance:
       propertyPath: moveSpots.Array.data[3]
       value: 
       objectReference: {fileID: 319951132}
+    - target: {fileID: 2003711733539332616, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003711733539332617, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: m_AutoBraking
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003711733539332617, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: m_Speed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332618, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -59529,10 +59544,25 @@ PrefabInstance:
       propertyPath: moveSpots.Array.data[2]
       value: 
       objectReference: {fileID: 1081878132}
+    - target: {fileID: 2003711733539332616, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332617, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_Speed
-      value: 6
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003711733539332617, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: m_AutoBraking
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003711733539332617, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: m_Acceleration
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332618, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
