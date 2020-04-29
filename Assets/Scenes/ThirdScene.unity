@@ -48235,7 +48235,12 @@ PrefabInstance:
     - target: {fileID: 2003711733539332617, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_Speed
-      value: 6
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003711733539332617, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332618, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
@@ -59563,6 +59568,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Acceleration
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003711733539332617, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332618, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
