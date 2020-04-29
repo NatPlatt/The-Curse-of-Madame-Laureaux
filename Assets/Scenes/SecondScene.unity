@@ -25096,6 +25096,11 @@ PrefabInstance:
       propertyPath: moveSpots.Array.data[2]
       value: 
       objectReference: {fileID: 1610433760}
+    - target: {fileID: 2003711733539332617, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: m_Speed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332618, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -45039,6 +45044,11 @@ PrefabInstance:
       propertyPath: moveSpots.Array.data[2]
       value: 
       objectReference: {fileID: 795035900}
+    - target: {fileID: 2003711733539332616, guid: ba30015aa8b50884d88886e444e99bfb,
+        type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2003711733539332618, guid: ba30015aa8b50884d88886e444e99bfb,
         type: 3}
       propertyPath: m_LocalPosition.x
